@@ -1,0 +1,8368 @@
+@keyframes appearFromBottom {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.letrasConEfecto {
+    opacity: 0;
+}
+
+#navbar {
+    font-size: .7vw;
+    padding: 0% 19%;
+}
+
+#miImagen {
+    width: 20%;
+}
+
+
+
+.btn-prev {
+    position: absolute;
+    top: 41%;
+    left: 13%;
+    color: black;
+}
+
+.btn-next {
+    position: absolute;
+    top: 41%;
+    right: 18%;
+    color: black;
+}
+
+#carrucel-desktop {
+    height: 100vh;
+    display: block;
+}
+
+#carrucel-mobile {
+    display: none;
+}
+
+#conocenos-desktop {
+    display: block;
+}
+
+#conocenos-mobile {
+    display: none;
+}
+
+#partners-mobile {
+    display: none;
+}
+
+#partners-desktop {
+    display: block;
+}
+
+#footer-mobile {
+    display: none;
+}
+
+#footer-desktop {
+    display: block;
+}
+
+.btn-view-all div:first-child {
+    transition: background-color 0.3s ease;
+}
+
+.btn-view-all:hover div:first-child {
+    background-color: #9377ab;
+}
+
+.title:hover {
+    color: #7B8080;
+}
+
+.conocenos_1 {
+    transition: transform 0.3s ease;
+    /* Efecto de transición en 0.3 segundos */
+
+}
+
+.conocenos_1:hover {
+    transform: scale(1.2);
+    /* Escala la imagen al 120% cuando esté en estado hover */
+}
+
+.title-conocenos:hover {
+    color: #BCC8D1;
+}
+
+#image_1 {
+    display: none;
+}
+
+#aruba:hover {
+    #image_1 {
+        display: block;
+    }
+
+    #image_2 {
+        display: none;
+    }
+}
+
+#image_3 {
+    display: none;
+}
+
+#assac:hover {
+    #image_3 {
+        display: block;
+    }
+
+    #image_4 {
+        display: none;
+    }
+}
+
+#image_5 {
+    display: none;
+}
+
+#automotion:hover {
+    #image_5 {
+        display: block;
+    }
+
+    #image_6 {
+        display: none;
+    }
+}
+
+#image_7 {
+    display: none;
+}
+
+#aws:hover {
+    #image_7 {
+        display: block;
+    }
+
+    #image_8 {
+        display: none;
+    }
+}
+
+#image_9 {
+    display: none;
+}
+
+#azure:hover {
+    #image_9 {
+        display: block;
+    }
+
+    #image_10 {
+        display: none;
+    }
+}
+
+#image_11 {
+    display: none;
+}
+
+#blanco:hover {
+    #image_11 {
+        display: block;
+    }
+
+    #image_12 {
+        display: none;
+    }
+}
+
+#image_13 {
+    display: none;
+}
+
+#hitachi:hover {
+    #image_13 {
+        display: block;
+    }
+
+    #image_14 {
+        display: none;
+    }
+}
+
+#image_15 {
+    display: none;
+}
+
+#intel:hover {
+    #image_15 {
+        display: block;
+    }
+
+    #image_16 {
+        display: none;
+    }
+}
+
+#image_17 {
+    display: none;
+}
+
+#jamf:hover {
+    #image_17 {
+        display: block;
+    }
+
+    #image_18 {
+        display: none;
+    }
+}
+
+#image_19 {
+    display: none;
+}
+
+#qlink:hover {
+    #image_19 {
+        display: block;
+    }
+
+    #image_20 {
+        display: none;
+    }
+}
+
+#image_21 {
+    display: none;
+}
+
+#net:hover {
+    #image_21 {
+        display: block;
+    }
+
+    #image_22 {
+        display: none;
+    }
+}
+
+#image_23 {
+    display: none;
+}
+
+#nut:hover {
+    #image_23 {
+        display: block;
+    }
+
+    #image_24 {
+        display: none;
+    }
+}
+
+#image_25 {
+    display: none;
+}
+
+#power:hover {
+    #image_25 {
+        display: block;
+    }
+
+    #image_26 {
+        display: none;
+    }
+}
+
+#image_27 {
+    display: none;
+}
+
+#red:hover {
+    #image_27 {
+        display: block;
+    }
+
+    #image_28 {
+        display: none;
+    }
+}
+
+#image_29 {
+    display: none;
+}
+
+#service:hover {
+    #image_29 {
+        display: block;
+    }
+
+    #image_30 {
+        display: none;
+    }
+}
+
+#image_31 {
+    display: none;
+}
+
+#cye:hover {
+    #image_31 {
+        display: block;
+    }
+
+    #image_32 {
+        display: none;
+    }
+}
+
+#image_33 {
+    display: none;
+}
+
+#hp:hover {
+    #image_33 {
+        display: block;
+    }
+
+    #image_34 {
+        display: none;
+    }
+}
+
+#image_35 {
+    display: none;
+}
+
+#hpe:hover {
+    #image_35 {
+        display: block;
+    }
+
+    #image_36 {
+        display: none;
+    }
+}
+
+#image_37 {
+    display: none;
+}
+
+#micro:hover {
+    #image_37 {
+        display: block;
+    }
+
+    #image_38 {
+        display: none;
+    }
+}
+
+#image_39 {
+    display: none;
+}
+
+#vm:hover {
+    #image_39 {
+        display: block;
+    }
+
+    #image_40 {
+        display: none;
+    }
+}
+
+#image_41 {
+    display: none;
+}
+
+#ivanti:hover {
+    #image_41 {
+        display: block;
+    }
+
+    #image_42 {
+        display: none;
+    }
+}
+
+#image_43 {
+    display: none;
+}
+
+#veem:hover {
+    #image_43 {
+        display: block;
+    }
+
+    #image_44 {
+        display: none;
+    }
+}
+
+#image_45 {
+    display: none;
+}
+
+#dell:hover {
+    #image_45 {
+        display: block;
+    }
+
+    #image_46 {
+        display: none;
+    }
+}
+
+#image_47 {
+    display: none;
+}
+
+#naudi:hover {
+    #image_47 {
+        display: block;
+    }
+
+    #image_48 {
+        display: none;
+    }
+}
+
+#image_49 {
+    display: none;
+}
+
+#ssl:hover {
+    #image_49 {
+        display: block;
+    }
+
+    #image_50 {
+        display: none;
+    }
+}
+
+.container-img {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    will-change: transform;
+    transition: transform 0.5s linear;
+}
+
+.image-container_zoom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    will-change: transform;
+    transition: transform  ease-out;
+    /* Transición más larga para el zoom */
+}
+
+.image1 {
+    z-index: 1;
+}
+
+.image2 {
+    background-image: url("../3.png");
+    z-index: 2;
+    transform-origin: center center;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@keyframes appearFromBottom {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.letrasConEfectoVideo h1 {
+    overflow: hidden;
+    position: relative;
+    font-size: 3vw !important;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.letrasConEfectoVideo h1 span {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(10%);
+
+}
+
+.letrasConEfectoVideo {
+    overflow: hidden;
+    position: relative;
+    font-size: 3vw;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.letrasConEfectoVideo {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(10%);
+}
+
+.letrasConEfectoVideo-sub {
+    font-size: 2vw
+}
+
+
+.contenedor {
+    position: relative;
+    overflow: hidden;
+}
+
+.imagen {
+    width: 100%;
+    /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto;
+    opacity: 0;
+    /* Inicialmente oculta la imagen */
+    transition: opacity 0.2s linear;
+    /* Efecto de transición en la opacidad */
+}
+
+.contenedor:hover .imagen {
+    opacity: 1;
+    cursor: pointer;
+
+}
+
+.parrafo_1 {
+    opacity: 0;
+}
+
+.parrafo {
+    position: absolute;
+    top: 40%;
+    right: 25%;
+}
+
+.contenedor:hover .parrafo {
+    top: 0%;
+    font-weight: 500;
+
+}
+
+.modal-verticales {
+    width: 71%;
+}
+
+.title-modal {
+    font-size: 1.5vw
+}
+
+.number {
+    font-size: 1vw;
+}
+
+@media (max-width: 500px) {
+    .title-modal {
+        font-size: 4vw
+    }
+
+    .number {
+        font-size: 3vw;
+    }
+
+    .modal-verticales {
+        width: auto;
+    }
+
+    #navbar {
+        font-size: 1.2vw;
+        padding: 0 5%;
+    }
+
+    #miImagen {
+        width: 10px;
+    }
+
+    #partners-mobile {
+        display: block;
+    }
+
+    #partners-desktop {
+        display: none;
+    }
+
+    #conocenos-desktop {
+        display: none;
+    }
+
+    #conocenos-mobile {
+        display: block;
+    }
+
+    #carrucel-desktop {
+
+        display: none;
+    }
+
+    #carrucel-mobile {
+        display: block;
+        height: 80vh;
+    }
+
+
+    .letrasConEfectoVideo {
+        overflow: hidden;
+        position: relative;
+        font-size: 7vw;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .letrasConEfectoVideo {
+        display: inline-block;
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    .letrasConEfectoVideo-sub {
+        font-size: 6vw
+    }
+
+    #footer-mobile {
+        display: block;
+    }
+
+    #footer-desktop {
+        display: none;
+    }
+}
+
+/*NEW BOTON ENCIMA BANNER*/
+  .btn-banner {
+   position: absolute;
+    top: 35%;
+    left: 45%;
+    
+    left: 45%;
+    font-size: 14px;
+    padding: 5px 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+    color: black;
+    background-color: #e3e3e4;
+}
+
+.btn-banner {
+  
+    transition: transform 0.3s ease-out; 
+  }
+
+
+.btn-banner:hover {
+    transform: scale(1.3); 
+  }
+
+@media screen and (max-width:768px) {
+    .btn-banner {
+      font-size: 11px;
+      padding: 5px 16px;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    .btn-banner {
+        font-size: 6.5px;
+        padding: 0px 8px;
+        height: 22px;
+    }
+}
+
+
+
+
+  
+
+#hpeImage{
+    width:62%;
+}
+
+#ivantiImage{
+    width:60%;
+}
+
+#appleImage{
+    width:65%;
+}
+
+#anywhereImage{
+    width:63%;
+}
+
+#azureImage{
+    width:63%;
+}
+
+#cybercImage{
+    width: 63%;
+}
+
+#hitachiImage{
+    width: 65%;
+}
+
+#assacImage{
+    width:40%;
+}
+
+#awsImage{
+    width:40%;
+}
+
+#cyeImage{
+    width:50%;
+}
+
+#dellImage{
+    width:69%;
+}
+
+#hpImage{
+    width:35%;
+}
+
+#intelImage{
+    width:42%;
+}
+
+#jamfImage{
+    width:60%;
+}
+
+#qlikImage{
+    width: 60%;
+}
+
+#netappImage{
+    width: 63%;
+}
+
+#nutanixImage{
+    width: 65%;
+}
+
+#nauditImage{
+    width:70%;
+}
+
+#powerbiImage{
+    width:27%;
+}
+
+#redhatImage{
+    width: 63%;
+}
+
+#servicenowImage{
+    width: 67%;
+}
+
+#veeamImage{
+    width:60%;
+}
+
+#arubaImage{
+    width: 60%;
+}
+
+#blanccoImage{
+    width: 60%;
+}
+
+#hpeeImage{
+    width:60%;
+}
+
+#sslImage{
+    width: 65%;
+}
+
+#vmwareImage{
+    width: 60%;
+}
+
+#microfocusImage{
+    width: 60%;
+}
+
+#arubaImage:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/Marcas/15c.png');
+    display: block;
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+
+#assacImage:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/Marcas/16c.png');
+    display: block;
+    width: 40%;
+    height: auto;
+    margin: auto;
+}
+
+#awsImage:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/Marcas/17c.png');
+    display: block;
+    width: 40%;
+    height: auto;
+    margin: auto;
+}
+
+#blanccoImage:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/Marcas/18c.png');
+    display: block;
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+
+#cyeImage:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/Marcas/19c.png');
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+#dellImage:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/Marcas/20c.png');
+    display: block;
+    width:69%;
+    height: auto;
+    margin: auto;
+}
+
+#hpImage:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/Marcas/21c.png');
+    display: block;
+    width: 35%;
+    height: auto;
+    margin: auto;
+}
+
+#hpeeImage:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/Marcas/22c.png');
+    display: block;
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+
+#nauditImage:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/Marcas/23c.png');
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: auto;
+}
+
+#sslImage:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/Marcas/24c.png');
+    display: block;
+    width: 65%;
+    height: auto;
+    margin: auto;
+}
+
+#hpeImage:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/Marcas/hpe_BCO_C.png');
+    display: block;
+    width: 62%;
+    height: auto;
+    margin: auto;
+}
+
+#ivantiImage:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/Marcas/1c.png');
+    display: block;
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+
+#appleImage:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/Marcas/2c.png');
+    display: block;
+    width: 65%;
+    height: auto;
+    margin: auto;
+}
+
+#anywhereImage:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/Marcas/3c.png');
+    display: block;
+    width: 63%;
+    height: auto;
+    margin: auto;
+}
+
+#azureImage:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/Marcas/4c.png');
+    display: block;
+    width: 63%;
+    height: auto;
+    margin: auto;
+}
+
+#cybercImage:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/Marcas/cyber\ c_C.png');
+    display: block;
+    width: 63%;
+    height: auto;
+    margin: auto;
+}
+
+#hitachiImage:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/Marcas/5c.png');
+    display: block;
+    width: 65%;
+    height: auto;
+    margin: auto;
+}
+
+#intelImage:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/Marcas/6c.png');
+    display: block;
+    width:42%;
+    height: auto;
+    margin: auto;
+}
+
+#jamfImage:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/Marcas/7c.png');
+    display: block;
+    width:60%;
+    height: auto;
+    margin: auto;
+}
+
+#qlikImage:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/Marcas/8c.png');
+    display: block;
+    width:60%;
+    height: auto;
+    margin: auto;
+}
+
+#netappImage:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/Marcas/9c.png');
+    display: block;
+    width:63%;
+    height: auto;
+    margin: auto;
+}
+
+#nutanixImage:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/Marcas/10c.png');
+    display: block;
+    width:65%;
+    height: auto;
+    margin: auto;
+}
+
+#powerbiImage:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/Marcas/11c.png');
+    display: block;
+    width:27%;
+    height: auto;
+    margin: auto;
+}
+
+#redhatImage:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/Marcas/12c.png');
+    display: block;
+    width:63%;
+    height: auto;
+    margin: auto;
+}
+
+#servicenowImage:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/Marcas/13c.png');
+    display: block;
+    width:67%;
+    height: auto;
+    margin: auto;
+}
+
+#veeamImage:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/Marcas/14c.png');
+    display: block;
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+
+#vmwareImage:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/Marcas/vmware\ BCO_C.png');
+    display: block;
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+
+#microfocusImage:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/Marcas/25c.png');
+    display: block;
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+
+/*#Library {
+    display: block;
+    width: 80%;
+    height: auto
+}
+#Library:hover {
+    content: url('/Assets/Images/Home/Marcas/\ Ivanti.png');
+    display: block;
+    width: 80%;
+    height: auto;
+}*/
+
+/*.pulse {
+    animation: pulse 3s infinite;
+    margin: 0 auto;
+    display: table;
+    margin-top: 50px;
+    animation-direction: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+  }
+      
+  @-webkit-keyframes pulse {
+    0% {
+      -webkit-transform: scale(1);
+    }
+    50% {
+      -webkit-transform: scale(1.1);
+    }
+    100% {
+      -webkit-transform: scale(1);
+    }
+  }
+      
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+}*/
+  
+/*.zoom:hover {
+    transform: scale(1.1);
+}*/
+
+/*.image-marcas {
+    width: 100%;
+    height: 184px;
+    overflow: hidden
+}
+
+.image-marcas img {
+    width: 100%;
+    height: 300;
+    transition: all 2s ease-in-out
+}
+
+.image-marcas:hover img {
+    transform: scale(2, 2);
+    cursor: pointer
+}*/
+
+/****Sellcom, Contactanos y Premios****/
+
+@media screen and (max-width: 375px) {
+    .about-card-wrapper-vertical {
+        position: absolute;
+        left: 0;
+        top: auto;
+        right: auto;
+        bottom: 0;
+        width: 50%; 
+    }
+    
+    .about-card-wrapper-vertical.about-card-1-vertical {
+        left: 35%;
+        top: 0%;
+        right: auto;
+        bottom: auto;
+    }
+    
+    .about-card-wrapper-vertical.about-card-2-vertical {
+        left: 46%;
+        top: 10%;
+        right: 0%;
+        bottom: auto;
+    }
+    
+    .about-card-wrapper-vertical.about-card-3-vertical {
+        left: 25%;
+        top: 20%;
+        right: 0;
+        bottom: auto;
+    }
+    
+    .ratio-120-vertical {
+        position: relative;
+        width: 50%;
+        height: 50%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .about-card-wrapper-vertical {
+        position: absolute;
+        left: 0;
+        top: auto;
+        right: auto;
+        bottom: 0;
+        width: 50%; 
+    }
+    
+    .about-card-wrapper-vertical.about-card-1-vertical {
+        left: 35%;
+        top: 0%;
+        right: auto;
+        bottom: auto;
+    }
+    
+    .about-card-wrapper-vertical.about-card-2-vertical {
+        left: 46%;
+        top: 10%;
+        right: 0%;
+        bottom: auto;
+    }
+    
+    .about-card-wrapper-vertical.about-card-3-vertical {
+        left: 25%;
+        top: 20%;
+        right: 0;
+        bottom: auto;
+    }
+    
+    .ratio-120-vertical {
+        position: relative;
+        width: 50%;
+        height: 50%;
+    }
+}
+
+#Indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color:lightgrey;
+    background-clip: padding-box;
+    border-top: 4px transparent;
+    border-bottom: 4px transparent;
+    opacity: 0.1;
+    transition: opacity .6s ease;
+}
+
+#Indicators .active {
+    opacity: .4;
+}
+
+@media screen and (max-width:1440px) {
+    .paddingTopCarouselHorizontal{
+        padding-top: 10%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .paddingTopCarouselHorizontal{
+        padding-top: 10%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .paddingTopCarouselHorizontal{
+        padding-top: 5%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .paddingTopCarouselVertical{
+        padding-top: 0%;
+    }
+}
+
+.title-sliders-vertical{
+    color: white;
+    font-size: 60px;
+}
+
+/**** Fin Carrusel Vertical****/
+
+/******* Inicio CARDS*******/
+#cards {
+    border:0px !important;
+    width: 80%; 
+    max-width: 1560px; 
+    margin-right: auto; 
+    margin-left: auto;
+}
+
+.w__3-col-grid {
+    display: -ms-grid;
+    display: grid;
+    margin-top: 120px;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 100px;
+    grid-row-gap: 48px;
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+}
+.w-layout-grid {
+    display: -ms-grid;
+    /*display: grid;
+    grid-auto-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+    grid-row-gap: 16px;
+    grid-column-gap: 16px;*/
+}
+
+.titulo-cards {
+    font-size: 1.875em;
+    font-weight: 700;
+    color: #000000;
+    line-height: 1.6em;
+    letter-spacing: -.16px;  
+    text-decoration:none; 
+    background-image: none;  
+}
+
+.titulo-cards a{
+    color: #000000;
+    text-decoration:none; 
+    background-image: none;  
+}
+
+.titulo-cards a:hover{
+    color: #000000;
+    text-decoration:none; 
+    background-image: none;  
+}
+
+.descripcion-cards {
+    font-size: 1.175em;
+    color: #000000;
+    text-align: left;
+    line-height: 1.5em;
+    letter-spacing: -.16px;
+}
+
+@media screen and (max-width:2560px) {
+    #cards {
+        width: 85%; 
+        max-width: 2560px; 
+        margin-right: 0px; 
+        margin-left: 0px;
+        padding-left: 10%;
+    }
+
+    .imagen-cards {
+        border-radius: 2%; 
+        box-shadow: 0 0 80px 0 rgba(0,0,0,.2);
+        width: 120%;
+    }
+
+    .w__3-col-grid {
+        display: -ms-grid;
+        display: grid;
+        margin-top: 120px;
+        grid-auto-columns: 1fr;
+        grid-column-gap: 220px;
+        grid-row-gap: 48px;
+        -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        -ms-grid-rows: auto;
+        grid-template-rows: auto;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    #cards {
+        width: 90%; 
+        max-width: 1440px; 
+        margin-right: 0px; 
+        margin-left: 0px;
+        padding-left: 10%;
+    }
+
+    .imagen-cards {
+        border-radius: 2%; 
+        box-shadow: 0 0 80px 0 rgba(0,0,0,.2);
+        width: 120%;
+    }
+
+    .w__3-col-grid {
+        display: -ms-grid;
+        display: grid;
+        margin-top: 120px;
+        grid-auto-columns: 1fr;
+        grid-column-gap: 100px;
+        grid-row-gap: 48px;
+        -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        -ms-grid-rows: auto;
+        grid-template-rows: auto;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    #cards {
+        width: 90%; 
+        max-width: 1024px; 
+        margin-right: 0px; 
+        margin-left: 0px;
+        padding-left: 10%;
+    }
+
+    .imagen-cards {
+        border-radius: 2%; 
+        box-shadow: 0 0 80px 0 rgba(0,0,0,.2);
+        width: 120%;
+    }
+
+    .w__3-col-grid {
+        display: -ms-grid;
+        display: grid;
+        margin-top: 120px;
+        grid-auto-columns: 1fr;
+        grid-column-gap: 100px;
+        grid-row-gap: 48px;
+        -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        -ms-grid-rows: auto;
+        grid-template-rows: auto;
+    }
+}
+
+@media screen and (max-width:991px) {
+    #cards-vertical {
+        width: 80%; 
+        max-width: 991px; 
+        margin-right: 10%; 
+        padding-left: 28%;
+    }
+
+    .imagen-cards {
+        border-radius: 2%; 
+        box-shadow: 0 0 80px 0 rgba(0,0,0,.2);
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #cards-vertical {
+        width: 80%; 
+        max-width: 768px; 
+        margin-right: 10%; 
+        padding-left: 20%;
+    }
+
+    .imagen-cards {
+        border-radius: 2%; 
+        box-shadow: 0 0 80px 0 rgba(0,0,0,.2);
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    #cards-vertical {
+        width: 80%; 
+        max-width: 425px; 
+        padding-right: 10%; 
+        padding-left: 10%;
+    }
+
+    .imagen-cards {
+        border-radius: 2%; 
+        box-shadow: 0 0 80px 0 rgba(0,0,0,.2);
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:375px) {
+    #cards-vertical {
+        width: 80%; 
+        max-width: 375px; 
+        padding-right: 10%; 
+        padding-left: 10%;
+    }
+
+    .imagen-cards {
+        border-radius: 2%; 
+        box-shadow: 0 0 80px 0 rgba(0,0,0,.2);
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    #cards-vertical {
+        width: 80%; 
+        max-width: 320px; 
+        padding-right: 10%; 
+        padding-left: 10%;
+    }
+
+    .imagen-cards {
+        border-radius: 2%; 
+        box-shadow: 0 0 80px 0 rgba(0,0,0,.2);
+        width: 100%;
+    }
+}
+
+/******* Fin Cards*******/
+
+
+/******* NEW SOCIOS LIST *******/
+
+.div-socios{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.lista-socios {
+    display:-webkit-box; 
+    display: -ms-flexbox;
+    /*display: flex;*/
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    /*-webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;*/
+
+    /*overflow-x: hidden;*/
+}
+
+.socios_logo {
+    display: flex;
+    width: 21%;
+    min-height: 160px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width:991px) {
+    .div-socios{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .lista-socios{
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .socios_logo{
+        width: 25%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .socios_logo{
+        width: 33%;
+        min-height: 130px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .socios_logo{
+        width: 50%;
+        min-height: 105px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .socios_logo{
+        width: 100%;
+    }
+}
+
+/******* Fin SOCIOS LIST*******/
+
+/****** ENCABEZADO VERTICALES *********/
+.padding-row{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.verticalLineTitle {
+    border-left: thick solid #0F3B88;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.h1-principal-vertical{
+    font-weight: bold;
+    font-size: 4.0rem;
+    color: #161616;
+}
+
+.p-principal-vertical{
+    text-align: justify;
+    color: #161616;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.title-vertical-soluciones{
+    /*background: white;*/
+    height: 80px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.title-vertical-soluciones h2{
+    margin: auto;
+    font-weight:500;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+    color: #262626 ;
+}
+
+.title-vertical-soluciones h2:after{
+    content: '';
+    background: #0F3B88;
+    width: 100%;
+    height: 3px;
+    display: block;
+}
+
+.fondo-soluciones{
+    background-image: url('../PaginaSellcom/Assets/Images/Verticales/Fondo\ gris.png');
+    background-size: 100% 95%;
+    background-repeat: no-repeat;
+    top: 0;
+    padding:20px 30px;
+}
+
+.subtitulo-solutiones{
+    color: #262626;
+    font-weight: 400;
+    font-size: 1.75rem;
+}
+
+.texto-soluciones{
+    color: #343435 ;
+    text-align: justify;
+}
+
+.fondo-title-azul{
+    background-color: #0F3B88;
+    padding: 10px;
+}
+
+.vertical-text-uno {
+    writing-mode: vertical-lr; 
+    -webkit-transform: rotate(180deg);   
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    margin:auto;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 200;
+}
+
+.span-title-vertical-azul{
+    font-weight: 300;
+    font-size: 2.4rem;
+}
+
+.movil-vertical-text-uno{
+    margin:auto;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 200;
+}
+
+.movil-span-title-vertical-azul{
+    font-weight: 300;
+    font-size: 2.3rem;
+    color: white;
+}
+
+@media screen and (max-width: 768px){
+    .subtitulo-solutiones{
+        color: #262626;
+        font-weight: 400;
+        font-size: 1.30rem;
+    }
+    .texto-soluciones{
+        color: #343435 ;
+        text-align: justify;
+        font-size: 0.75rem;
+    }
+}
+
+.fondo-soluciones-invertido{
+    background-image: url('../PaginaSellcom/Assets/Images/Verticales/Fondo\ gris\ invertido.png');
+    background-size: 100% 95%;
+    background-repeat: no-repeat;
+    top: 0;
+    padding:20px 30px;
+}
+
+.vertical-text-dos {
+    writing-mode: vertical-lr; 
+    -webkit-transform: rotate(360deg);   
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    margin:auto;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 200;
+}
+
+
+.socios_logo_verticales {
+    display: flex;
+    width: 36%;
+    min-height: 160px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+@media screen and (max-width:991px) {
+    .socios_logo_verticales{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .socios_logo_verticales{
+        width: 33%;
+        min-height: 130px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .socios_logo_verticales{
+        width: 50%;
+        min-height: 105px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .socios_logo_verticales{
+        width: 100%;
+    }
+}
+
+.h5-soluciones-vertical{
+    color: #161616;
+}
+
+.p-soluciones-vertical{
+    text-align: justify;
+    color: #161616;
+    font-weight: 300;
+}
+
+.padding-texto{
+    padding: 20px 30px;
+}
+
+.cuadro-azul{
+    background-color: #0F3B88;
+    padding: 15px;
+}
+
+.p-cuadros-azules{
+    color: white;
+    text-align: justify;
+    font-weight: 300;
+}
+
+/******************************/
+
+/****** Inicia Beneficios ********/
+@media screen and (max-width: 2560px){
+    .beneficios {
+        background-color: #0F3B88;        
+        margin-left: 30px;
+        padding-left: 10px;
+    }
+
+    .beneficios-titulo {         
+        color:#ffffff;
+        text-align: left;
+        padding-top:10px;
+    }
+
+    .beneficios-texto {
+        text-align: justify;
+        color:#ffffff;
+        padding-top:10px;
+    }    
+}
+
+@media screen and (max-width: 768px){
+    .beneficios {
+        background-color: #0F3B88;        
+        margin-left: 5px;
+        padding-left: 10px;
+    }
+
+    .beneficios-titulo {
+        background-color: #0F3B88; 
+        color:#ffffff;
+        padding-top:10px;
+        margin-left: 0px;
+        padding-left: 10px;
+        font-size: 1.2em;
+    }
+
+    .beneficios-texto {
+        background-color: #0F3B88; 
+        color:#ffffff;
+        padding-top:10px;
+        margin-left: 0px;
+        padding-left: 10px;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .beneficios {
+        background-color: #0F3B88;        
+        margin-left: 30px;
+        padding-left: 10px;
+    }
+
+    .beneficios-titulo {
+        background-color: #0F3B88; 
+        color:#ffffff;
+        padding-top:10px;
+        margin-left: 0px;
+        padding-left: 10px;
+        font-size: 1.2em;
+    }
+
+    .beneficios-texto {
+        background-color: #0F3B88; 
+        color:#ffffff;
+        padding-top:10px;
+        margin-left: 0px;
+        padding-left: 10px;
+        text-align: justify;
+    }
+}
+/****** Finaliza Beneficios ********/
+
+/****** Inicia SDDC ********/
+@media screen and (max-width: 2560px){
+    .sddc {        
+        background-color: #0F3B88;
+        padding-top: 60px;
+        padding-left: 100px;
+    }
+
+    .sddc-titulo-izquierda {
+        color: #ffffff;
+        font-size: 60px; 
+        line-height: 1.8em;
+    }
+
+    .sddc-titulo-derecha {
+        padding-top: 20px;
+        color: #262626;
+        font-size: 60px;
+        padding-left: 0px;
+    }
+
+    .sddc-texto {        
+        color: #343435;
+        text-align: justify;
+        padding-top:10px;
+        padding-left:10px;
+    }
+
+    .sddc-ul {        
+        color: #343435;
+        text-align: justify;
+        padding-top:10px;
+        padding-left:25px;
+    }
+}
+
+@media screen and (max-width: 930px){
+    .sddc {        
+        background-color: #0F3B88;
+        padding-top: 80px;
+        padding-left: 8%;
+    }
+
+    .sddc-titulo-izquierda {
+        color: #ffffff;
+        font-size: 60px; 
+        line-height: 1.8em;
+    }
+
+    .sddc-titulo-derecha {
+        padding-top: 20px;
+        color: #262626;
+        font-size: 60px;
+        padding-left: 0px;
+    }
+
+    .sddc-texto {        
+        color: #343435;
+        text-align: justify;
+        padding-top:10px;
+        padding-left:5px;
+    }
+
+    .sddc-ul {
+        color: #343435;
+        text-align: justify;
+        list-style-type: disc;         
+        padding-top:10px;
+        padding-left:25px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .sddc {        
+        background-color: #0F3B88;
+        padding-top: 10px;
+        padding-left: 5%;
+    }
+
+    .sddc-titulo-izquierda {
+        color: #ffffff;
+        font-size: 2.8em; 
+        line-height: 1.3em;
+    }
+
+    .sddc-titulo-derecha {
+        padding-top: 20px;
+        color: #262626;
+        font-size: 2.8em; 
+        padding-left: 5px;
+    }
+
+    .sddc-texto {        
+        color: #343435;
+        text-align: justify;
+        padding-top:10px;
+        padding-left:5px;
+    }
+
+    .sddc-ul {
+        color: #343435;
+        text-align: justify;
+        list-style-type: disc;         
+        padding-top:10px;
+        padding-left:25px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .sddc {        
+        background-color: #0F3B88;
+        padding-top: 10px;
+        padding-left: 5%;
+    }
+
+    .sddc-titulo-izquierda {
+        color: #ffffff;
+        font-size: 2.6em; 
+        line-height: 1.3em;
+    }
+
+    .sddc-titulo-derecha {
+        padding-top: 20px;
+        color: #262626;
+        font-size: 2.8em; 
+        padding-left: 0px;
+    }
+
+    .sddc-texto {        
+        color: #343435;
+        text-align: justify;
+        padding-top:10px;
+        padding-left:5px;
+    }
+
+    .sddc-ul {
+        color: #343435;
+        text-align: justify;
+        list-style-type: disc;         
+        padding-top:10px;
+        padding-left:25px;
+    }
+}
+/****** Finaliza SDDC ********/
+
+
+/****** Inicia Valor Agregado ********/
+.bloque-valoragregado{
+    background-color: #0F3B88;; 
+    color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.titulo-valoragregado{    
+    text-align: center;
+}
+
+.texto-valoragregado{    
+    text-align: justify;
+}
+
+.imagen-valoragregado{
+    text-align: right;
+}
+
+.imagen-valoragregado img{    
+    width: 30px;
+}
+
+@media screen and (max-width: 2560px){
+    .valoragregado{
+        width:100%; 
+        background-color: #0F3B88;; 
+        color: #ffffff;
+        padding-top: 10px;
+    }
+    
+    .title-vertical-valoragregado h2{
+        margin: auto;
+        font-weight:500;
+        font-size: 2.5rem;
+        text-align: center;
+        padding: 10px;
+        position: relative;
+        display: inline-block;
+        color: #ffffff;
+    }
+    
+    .title-vertical-valoragregado h2:after{
+        content: '';
+        background: #ffffff;
+        width: 100%;
+        height: 3px;
+        display: block;    
+    }
+    .row-va{
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        /*margin-right: -15px;*/
+        margin-left: -52px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .valoragregado{
+        width:100%; 
+        background-color: #0F3B88;; 
+        color: #ffffff;
+        padding-top: 10px;
+    }
+    
+    .title-vertical-valoragregado h2{
+        margin: auto;
+        font-weight:500;
+        font-size: 2.0rem;
+        text-align: center;
+        padding: 10px;
+        position: relative;
+        display: inline-block;
+        color: #ffffff;
+    }
+
+    .title-vertical-valoragregado h2:after{
+        content: '';
+        background: #ffffff;
+        width: 100%;
+        height: 3px;
+        display: block;    
+    }
+
+    .row-va{
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .col-texto{
+        padding-left: 25px;
+    }
+}
+
+/****** Finaliza Valor Agregado ********/
+
+/****** Inicia Certificaciones ********/
+
+@media screen and (max-width: 2560px){
+    .bloque-certificacion{
+        background-color: #0F3B88;; 
+        color: #ffffff;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .titulo-certificacion{    
+        text-align: center;
+    }
+
+    .title-vertical-certificacion h2{
+        margin: auto;
+        font-weight:500;
+        font-size: 2.0rem;
+        text-align: center;
+        padding: 10px;
+        position: relative;
+        display: inline-block;
+        color: #ffffff;
+    }
+
+    .title-vertical-certificacion h2:after{
+        content: '';
+        background: #ffffff;
+        width: 100%;
+        height: 3px;
+        display: block;    
+    }
+
+    .texto-certificacion{    
+        text-align: justify;
+        font-size: 1.5em;
+    }
+    
+    .imagen-certificacion{
+        text-align: right;
+    }
+    
+    .imagen-certificacion img{    
+        width: 30px;
+    }
+
+    .logo-certificacion{
+        width:80%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container, .container-md, .container-sm {
+        max-width: 725px;    
+        /*margin-right: 0px; PEGABA EN TAB CHECAR*/
+    }
+}
+
+@media screen and (max-width: 425px){
+
+    .row-certificacion{
+        margin:0px; 
+        padding-left: 40px;
+    }
+
+    .title-vertical-certificacion h2{
+        margin: auto;
+        font-weight:500;
+        font-size: 2.0rem;
+        text-align: center;
+        padding: 10px;
+        padding-left: 40px;
+        position: relative;
+        display: inline-block;
+        color: #ffffff;
+    }
+
+    .title-vertical-certificacion h2:after{
+        content: '';
+        background: #ffffff;
+        width: 100%;
+        height: 3px;
+        display: block;    
+    }
+    .texto-certificacion{    
+        text-align: justify;
+        font-size: 1.0em;
+    }
+    
+    .imagen-certificacion{
+        text-align: right;
+    }
+    
+    .imagen-certificacion img{    
+        width: 20px;
+    }
+
+    .logo-certificacion{
+        width:80%;
+    }    
+}
+
+@media screen and (max-width: 375px){
+    .row-certificacion{
+        margin:0px; 
+        padding-left: 40px;
+    }
+
+    .title-vertical-certificacion h2{
+        margin: auto;
+        font-weight:500;
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 10px;
+        padding-left: 50px;
+        position: relative;
+        display: inline-block;
+        color: #ffffff;
+    }
+
+    .title-vertical-certificacion h2:after{
+        content: '';
+        background: #ffffff;
+        width: 100%;
+        height: 3px;
+        display: block;    
+    }
+    .texto-certificacion{    
+        text-align: justify;
+        font-size: 1.0em;
+    }
+    
+    .imagen-certificacion{
+        text-align: right;
+    }
+    
+    .imagen-certificacion img{    
+        width: 20px;
+    }
+
+    .logo-certificacion{
+        width:80%;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .row-certificacion{
+        margin:0px; 
+        padding-left: 40px;
+    }
+    
+    .title-vertical-certificacion h2{
+        margin: auto;
+        font-weight:500;
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 10px;
+        padding-left: 20px;
+        position: relative;
+        display: inline-block;
+        color: #ffffff;
+    }
+
+    .title-vertical-certificacion h2:after{
+        content: '';
+        background: #ffffff;
+        width: 100%;
+        height: 3px;
+        display: block;    
+    }
+    .texto-certificacion{    
+        text-align: justify;
+        font-size: 1.0em;
+    }
+    
+    .imagen-certificacion{
+        text-align: right;
+    }
+    
+    .imagen-certificacion img{    
+        width: 20px;
+    }
+
+    .logo-certificacion{
+        width:80%;
+    }
+}
+
+/****** Finaliza Certificaciones ********/
+
+/****** Inicia Redes ********/
+@media screen and (max-width: 2560px){
+    .redes {        
+        background-color: #e9e9e9;
+        padding-top: 10px;
+        padding-left: 100px;
+    }
+
+    .redes-titulo {
+        color: #000000;
+        font-size: 50px; 
+        line-height: 1.8em;
+    }
+
+    .redes-subtitulo {
+        padding-top: 20px;
+        color: #262626;
+        font-size: 20px;
+        padding-left: 10px;
+    }
+
+    .redes-texto {        
+        color: #343435;
+        text-align: justify;
+        padding-top:10px;
+        padding-left:10px;
+    }
+
+    .redes-ul {        
+        color: #343435;
+        text-align: justify;
+        padding-top:10px;
+        padding-left:25px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .redes {        
+        background-color: #e9e9e9;
+        padding-top: 10px;
+        padding-left: 80px;
+    }
+
+    .redes-titulo {
+        color: #000000;
+        font-size: 40px; 
+        line-height: 2.4em;
+    }
+
+    .redes-subtitulo {
+        padding-top: 20px;
+        color: #262626;
+        font-size: 20px;
+        padding-left: 10px;
+    }
+
+    .redes-texto {        
+        color: #343435;
+        text-align: justify;
+        padding-top:10px;
+        padding-left:10px;
+    }
+
+    .redes-ul {        
+        color: #343435;
+        text-align: justify;
+        padding-top:10px;
+        padding-left:25px;
+    }
+}
+
+@media screen and (max-width: 930px){
+    .redes {        
+        background-color: #e9e9e9;
+        padding-top: 10px;
+        padding-left: 60px;
+    }
+
+    .redes-titulo {
+        color: #000000;
+        font-size: 30px; 
+        line-height: 3.8em;
+    }
+
+    .redes-subtitulo {
+        padding-top: 20px;
+        color: #262626;
+        font-size: 20px;
+        padding-left: 10px;
+    }
+
+    .redes-texto {        
+        color: #343435;
+        text-align: justify;
+        padding-top:10px;
+        padding-left:10px;
+    }
+
+    .redes-ul {        
+        color: #343435;
+        text-align: justify;
+        padding-top:10px;
+        padding-left:25px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .redes {        
+        background-color: #e9e9e9;
+        padding-top: 10px;        
+        padding-left: 15px;
+    }
+
+    .redes-titulo {
+        color: #000000;
+        font-size: 30px; 
+        line-height: 1.3em;
+    }
+
+    .redes-subtitulo {
+        padding-top: 20px;
+        color: #262626;
+        font-size: 20px;
+        padding-left: 2px;
+    }
+
+    .redes-texto {        
+        color: #343435;
+        text-align: justify;
+        padding-top:10px;
+        padding-left:5px;
+    }
+
+    .redes-ul {
+        color: #343435;
+        text-align: justify;
+        list-style-type: disc;         
+        padding-top:10px;
+        padding-left:25px;
+    }
+}
+
+@media screen and (max-width: 452px){
+    .redes {        
+        background-color: #e9e9e9;
+        padding-top: 10px;
+        padding-left: 3%;
+    }
+
+    .redes-titulo {
+        color: #000000;
+        font-size: 28px; 
+        line-height: 1.3em;
+    }
+
+    .redes-subtitulo {
+        padding-top: 20px;
+        color: #262626;
+        font-size: 20px;
+        padding-left: 0px;
+    }
+
+    .redes-texto {        
+        color: #343435;
+        text-align: justify;
+        padding-top:10px;
+        padding-left:5px;
+    }
+
+    .redes-ul {
+        color: #343435;
+        text-align: justify;
+        list-style-type: disc;         
+        padding-top:10px;
+        padding-left:25px;
+    }
+}
+
+@media screen and (max-width: 421px){
+    .redes {        
+        background-color: #e9e9e9;
+        padding-top: 10px;
+        padding-left: 3%;
+    }
+
+    .redes-titulo {
+        color: #000000;
+        font-size: 23px; 
+        line-height: 1.3em;
+    }
+
+    .redes-subtitulo {
+        padding-top: 20px;
+        color: #262626;
+        font-size: 18px;
+        padding-left: 0px;
+    }
+
+    .redes-texto {        
+        color: #343435;
+        text-align: justify;
+        padding-top:10px;
+        padding-left:0px;
+    }
+
+    .redes-ul {
+        color: #343435;
+        text-align: justify;
+        list-style-type: disc;         
+        padding-top:10px;
+        padding-left:25px;
+    }
+}
+
+@media screen and (max-width: 349px){
+    .redes {        
+        background-color: #e9e9e9;
+        padding-top: 10px;
+        padding-left: 3%;
+    }
+
+    .redes-titulo {
+        color: #000000;
+        font-size: 20px; 
+        line-height: 1.3em;
+    }
+
+    .redes-subtitulo {
+        padding-top: 20px;
+        color: #262626;
+        font-size: 16px;
+        padding-left: 0px;
+    }
+
+    .redes-texto {        
+        color: #343435;
+        text-align: justify;
+        padding-top:10px;
+        font-size: 15px;
+        padding-left:0px;
+    }
+
+    .redes-ul {
+        color: #343435;
+        text-align: justify;
+        list-style-type: disc;         
+        font-size: 15px;
+        padding-top:10px;
+        padding-left:25px;
+    }
+}
+/****** Finaliza Redes ********/
+
+/****** Inicia Movilidad ********/
+@media screen and (max-width: 2560px){
+    .movilidad {        
+        background-color: #e9e9e9;
+        padding-top: 120px;
+        padding-left: 100px;
+    }
+
+    .movilidad-titulo {
+        color: #000000;
+        font-size: 60px; 
+        line-height: 1.8em;
+    }
+
+    .movilidad-subtitulo {
+        padding-top: 20px;
+        color: #262626;
+        font-size: 20px;
+        padding-left: 10px;
+    }
+
+    .movilidad-texto {        
+        color: #343435;
+        text-align: justify;
+        padding-top:10px;
+        padding-left:10px;
+    }
+
+    .movilidad-ul {        
+        color: #343435;
+        text-align: justify;
+        padding-top:10px;
+        padding-left:25px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .movilidad {        
+        background-color: #e9e9e9;
+        padding-top: 160px;
+        padding-left: 25px;
+    }
+
+    .movilidad-titulo {
+        color: #000000;
+        font-size: 60px; 
+        line-height: 2.4em;
+    }
+
+    .movilidad-subtitulo {
+        padding-top: 20px;
+        color: #262626;
+        font-size: 20px;
+        padding-left: 10px;
+    }
+
+    .movilidad-texto {        
+        color: #343435;
+        text-align: justify;
+        padding-top:10px;
+        padding-left:10px;
+    }
+
+    .movilidad-ul {        
+        color: #343435;
+        text-align: justify;
+        padding-top:10px;
+        padding-left:25px;
+    }
+}
+
+@media screen and (max-width: 930px){
+    .movilidad {        
+        background-color: #e9e9e9;
+        padding-top: 200px;
+        padding-left: 30px;
+    }
+
+    .movilidad-titulo {
+        color: #000000;
+        font-size: 40px; 
+        line-height: 3.8em;
+    }
+
+    .movilidad-subtitulo {
+        padding-top: 20px;
+        color: #262626;
+        font-size: 20px;
+        padding-left: 10px;
+    }
+
+    .movilidad-texto {        
+        color: #343435;
+        text-align: justify;
+        padding-top:10px;
+        padding-left:10px;
+    }
+
+    .movilidad-ul {        
+        color: #343435;
+        text-align: justify;
+        padding-top:10px;
+        padding-left:25px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .movilidad {        
+        background-color: #e9e9e9;
+        padding-top: 10px;        
+        padding-left: 15px;
+    }
+
+    .movilidad-titulo {
+        color: #000000;
+        font-size: 30px; 
+        line-height: 1.3em;
+    }
+
+    .movilidad-subtitulo {
+        padding-top: 20px;
+        color: #262626;
+        font-size: 20px;
+        padding-left: 2px;
+    }
+
+    .movilidad-texto {        
+        color: #343435;
+        text-align: justify;
+        padding-top:10px;
+        padding-left:5px;
+    }
+
+    .movilidad-ul {
+        color: #343435;
+        text-align: justify;
+        list-style-type: disc;         
+        padding-top:10px;
+        padding-left:25px;
+    }
+}
+
+@media screen and (max-width: 452px){
+    .movilidad {        
+        background-color: #e9e9e9;
+        padding-top: 10px;
+        padding-left: 3%;
+    }
+
+    .movilidad-titulo {
+        color: #000000;
+        font-size: 28px; 
+        line-height: 1.3em;
+    }
+
+    .movilidad-subtitulo {
+        padding-top: 20px;
+        color: #262626;
+        font-size: 20px;
+        padding-left: 0px;
+    }
+
+    .movilidad-texto {        
+        color: #343435;
+        text-align: justify;
+        padding-top:10px;
+        padding-left:5px;
+    }
+
+    .movilidad-ul {
+        color: #343435;
+        text-align: justify;
+        list-style-type: disc;         
+        padding-top:10px;
+        padding-left:25px;
+    }
+}
+
+@media screen and (max-width: 421px){
+    .movilidad {        
+        background-color: #e9e9e9;
+        padding-top: 10px;
+        padding-left: 3%;
+    }
+
+    .movilidad-titulo {
+        color: #000000;
+        font-size: 23px; 
+        line-height: 1.3em;
+    }
+
+    .movilidad-subtitulo {
+        padding-top: 20px;
+        color: #262626;
+        font-size: 18px;
+        padding-left: 0px;
+    }
+
+    .movilidad-texto {        
+        color: #343435;
+        text-align: justify;
+        padding-top:10px;
+        padding-left:0px;
+    }
+
+    .movilidad-ul {
+        color: #343435;
+        text-align: justify;
+        list-style-type: disc;         
+        padding-top:10px;
+        padding-left:25px;
+    }
+}
+
+@media screen and (max-width: 349px){
+    .movilidad {        
+        background-color: #e9e9e9;
+        padding-top: 10px;
+        padding-left: 3%;
+    }
+
+    .movilidad-titulo {
+        color: #000000;
+        font-size: 20px; 
+        line-height: 1.3em;
+    }
+
+    .movilidad-subtitulo {
+        padding-top: 20px;
+        color: #262626;
+        font-size: 16px;
+        padding-left: 0px;
+    }
+
+    .movilidad-texto {        
+        color: #343435;
+        text-align: justify;
+        padding-top:10px;
+        font-size: 15px;
+        padding-left:0px;
+    }
+
+    .movilidad-ul {
+        color: #343435;
+        text-align: justify;
+        list-style-type: disc;         
+        font-size: 15px;
+        padding-top:10px;
+        padding-left:25px;
+    }
+}
+/****** Finaliza Movilidad ********/
+
+/****** SVG TITLES ***********/
+
+#svgTitleAnimado svg {
+    stroke: #161616;
+    -ms-transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    transform: translateX(0%);
+}
+
+#svgTitleAnimado .text-line {
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    animation: dash 5s linear forwards, filling 3s ease-in forwards;
+    font-size: 4.0rem;
+}
+  
+#svgTitleAnimado .text-line text {
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+#svgSubtitleAnimado svg {
+    stroke: #161616;
+    -ms-transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    transform: translateX(0%);
+}
+
+#svgSubtitleAnimado .text-line-sub {
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    animation: dash 5s linear forwards, filling 3s ease-in forwards;
+    font-size: 2.5rem;
+}
+
+#svgSubtitleAnimado .text-line-sub text {
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+  
+@keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+}
+  
+@keyframes filling {
+    0%, 90% { fill: #161616; fill-opacity: 0; }
+    100% { fill: #161616; fill-opacity: 1; }
+}
+
+/*****************/
+
+/****** medias SVG TITLES ***********/
+@media screen and (max-width: 575px){
+    #svgTitleAnimado .text-line-seguridad  {
+        stroke-dasharray: 500;
+        stroke-dashoffset: 500;
+        animation: dash 5s linear forwards, filling 3s ease-in forwards;
+        font-size: 2.50rem;
+        font-weight: 500;
+    }
+    #svgTitleAnimado .text-line-hci  {
+        stroke-dasharray: 500;
+        stroke-dashoffset: 500;
+        animation: dash 5s linear forwards, filling 3s ease-in forwards;
+        font-size: 2.55rem;
+        font-weight: 500;
+    }
+    #svgTitleAnimado .text-line-procesos {
+        stroke-dasharray: 500;
+        stroke-dashoffset: 500;
+        animation: dash 5s linear forwards, filling 3s ease-in forwards;
+        font-size: 3.55rem;
+        font-weight: 500;
+    }
+    #svgTitleAnimado .text-line-monitoreo  {
+        stroke-dasharray: 500;
+        stroke-dashoffset: 500;
+        animation: dash 5s linear forwards, filling 3s ease-in forwards;
+        font-size: 2.50rem;
+        font-weight: 500;
+    }
+    #svgTitleAnimado .text-line-sobre-sellcom  {
+        stroke-dasharray: 500;
+        stroke-dashoffset: 500;
+        animation: dash 5s linear forwards, filling 3s ease-in forwards;
+        font-size: 2.75rem;
+        font-weight: 500;
+    }
+    #svgTitleAnimado .text-line-premios  {
+        stroke-dasharray: 500;
+        stroke-dashoffset: 500;
+        animation: dash 5s linear forwards, filling 3s ease-in forwards;
+        font-size: 2.70rem;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 320px){
+    #svgTitleAnimado .text-line-hci  {
+        stroke-dasharray: 500;
+        stroke-dashoffset: 500;
+        animation: dash 5s linear forwards, filling 3s ease-in forwards;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    #svgTitleAnimado .text-line-procesos {
+        stroke-dasharray: 500;
+        stroke-dashoffset: 500;
+        animation: dash 5s linear forwards, filling 3s ease-in forwards;
+        font-size: 3.3rem;
+        font-weight: 500;
+    }
+}
+
+/**********************************************/
+
+/******** vertical usuario final *************/
+.span-vertical-usuario-mov{
+    font-weight: 300;
+    font-size: 2.2rem;
+}
+
+.gestion-dispo-background{
+    background-color: #e9e9e9;
+    margin: 5px auto;
+    text-align: left;
+    vertical-align: middle;
+    padding: 15px;
+}
+
+.gestion-dispo-title{
+    color: #000000;
+    font-weight: 300;
+    font-size: 2.8rem;
+    line-height: 1.8em;
+}
+
+@media screen and (max-width: 1000px){
+    .gestion-dispo-title{
+        color: #000000;
+        font-weight: 300;
+        font-size: 2.1rem;
+        line-height: 1.8em;
+    }
+}
+
+/******************************************/
+/********** Inicio Contactanos*************/
+
+@media screen and (max-width:2560px){
+    .titulo-contactanos{
+        font-size:3.3em;
+        color:#343435;
+        line-height: 1em;
+    }
+}
+
+@media screen and (max-width:1199px){
+    .titulo-contactanos{
+        font-size:2.8em;
+        color:#343435;
+    }
+}
+
+@media screen and (max-width:991px){
+    .titulo-contactanos{
+        font-size:2.0em;
+        color:#343435;
+        line-height: 1.4em;
+    }
+}
+
+@media screen and (max-width:704px){
+    .titulo-contactanos{
+        font-size:1.6em;
+        color:#343435;
+    }
+}
+
+@media screen and (max-width:573px){
+    .titulo-contactanos{
+        font-size:1.2em;
+        color:#343435;
+    }
+}
+
+@media screen and (max-width:442px){
+    .titulo-contactanos{
+        font-size:1.8em;
+        color:#343435;
+    }
+}
+
+
+
+.espacio{    
+    height: 0.2rem;
+}
+
+.caja-texto{
+    width:100% !important;
+    background-color: #e9e9e9;
+    border:0px;
+    height: 2.5rem;
+    padding-left: 10px;
+    align-items: top;
+}
+
+.caja-comentario{
+    width:100%;
+    background-color: #e9e9e9;
+    border:0px;
+    height: 13.6rem;
+    padding-left: 10px;
+    resize: none; 
+}
+
+.campos-obligatorios{
+    color: #343435;
+    font-size:0.8em;
+    padding-left: 10px;       
+}
+
+.check-privacidad{
+    background-color: #e9e9e9;
+    border:0px;
+}
+
+.aviso-privacidad{
+    width:100%;    
+    color: #000000;
+    font-size:0.9em;
+}
+
+.aviso-privacidad a{
+    text-decoration: underline !important;
+    color: #000000;
+    cursor:pointer;   
+}
+
+.boton-enviar{
+    background-color: #000000;
+    border:0px;
+    color: #ffffff;
+    font-size:1.2em;
+    width: 120px;
+}
+/********** Fin Contactanos*************/
+/******************************************/
+
+/******** sobre sellcom *************/
+
+.background-numeros-sobresellcom{
+    margin: 0px; 
+    background-color: #F4F4F4; 
+    padding: 20px;
+}
+
+.div-numeros-sobresellcom{
+    text-align: center;
+    padding-left: 120px;
+}
+
+.h1-numeros-sobresellcom{
+    color: #0F3B88;
+    font-size: 4.0rem;
+    font-weight: 600;
+}
+
+.div-numeros-text-sobresellcom{
+    display: flex;
+    align-items: center;
+    top: 5px;
+}
+
+.background-MiVi-sobresellcom{
+    margin: 0px; 
+    background-image: linear-gradient(rgba(234,234,234,1), rgba(244,244,244,1));
+    padding: 20px;
+}
+
+.div-MiVi-sobresellcom{
+    text-align: center;
+    padding-left: 100px;
+}
+
+.h1-MiViVa-sobresellcom{
+    color: #000000;
+    font-size: 4.0rem;
+    font-weight: 600;
+}
+
+.p-center-sobresellcom{
+    text-align: justify;
+    color: #000000;
+    font-weight: 300;
+}
+
+.background-Va-sobresellcom{ 
+    margin: 0px; 
+    background-color: rgba(209,209,209,0.7); 
+    padding: 20px;
+}
+
+.div-Va-sobresellcom{
+    text-align: center;
+    padding-left: 100px;
+    top: 30px;
+   /* padding-left: 215px;
+    display: flex;
+    align-items: center;*/
+}
+
+@media screen and (min-width: 1439px){
+    .div-MiVi-sobresellcom{
+        text-align: center;
+        padding-left: 120px;
+    }
+}
+
+@media screen and (max-width: 930px){
+    .div-Va-sobresellcom{
+        text-align: center;
+        padding-left: 65px;
+    }
+}
+
+@media screen and (max-width: 930px){
+    .div-Va-sobresellcom{
+        text-align: center;
+        padding-left: 55px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .div-MiVi-sobresellcom{
+        text-align: center;
+        padding-left: 90px;
+    }
+    .div-Va-sobresellcom{
+        text-align: center;
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .p-center-sobresellcom{
+        text-align: center;
+        color: #000000;
+        font-weight: 300;
+    }
+    .div-numeros-sobresellcom{
+        text-align: center;
+        padding-left: 15px;
+    }
+    .div-numeros-text-sobresellcom{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 5px;
+    }
+    .div-MiVi-sobresellcom{
+        text-align: center;
+        padding-left: 15px;
+    }
+    .div-Va-sobresellcom{
+        text-align: center;
+        padding-left: 15px;
+        top: 0px;
+    }
+}
+/*********************************/
+
+/** timeline premios **/
+
+.timeline {
+    border-left: 8px solid #93B1D0;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    /*background: rgba(114, 124, 245, 0.09);*/
+    margin: 0 auto;
+    letter-spacing: 0.2px;
+    position: relative;
+    line-height: 1.4em;
+    font-size: 1.03em;
+    padding: 50px;
+    list-style: none;
+    text-align: left;
+    max-width: 55%;
+}
+
+@media (max-width: 767px) {
+    .timeline {
+        max-width: 98%;
+        padding: 25px;
+    }
+}
+
+.timeline h1 {
+    font-weight: 300;
+    font-size: 1.4em;
+}
+
+.timeline h2,
+.timeline h3 {
+    font-weight: 600;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+@media (max-width: 768px) {
+    .timelineh3op{
+        font-size: 1.62rem !important;
+    }
+}
+
+@media (max-width: 386px) {
+    .timelineh3op{
+        font-size: 1.53rem !important;
+    }
+}
+
+@media (max-width: 374px) {
+    .timelineh3op{
+        font-size: 1.45rem !important;
+    }
+}
+
+@media (max-width: 360px) {
+    .timelineh3op{
+        font-size: 1.15rem !important;
+    }
+}
+
+.timeline h4{
+    color: #000000;
+    margin-left: 15px;
+}
+
+.timeline p {
+    color: #000000;
+    text-align: justify;
+    margin-left: 15px;
+}
+
+.timeline .event {
+    /*border-bottom: 1px dashed #e8ebf1;*/
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.timeline .event-without-dot{
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+@media (max-width: 767px) {
+    .timeline .event {
+        padding-top: 40px;
+    }
+}
+
+.timeline .event:last-of-type {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: none;
+}
+
+.timeline .event:before,
+.timeline .event:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+.timeline .event:before {
+    left: -275px;
+    content: attr(data-date);
+    text-align: right;
+    font-weight: 600;
+    font-size:  4.5rem;
+    color: #000000;
+    min-width: 120px;
+    top: 5px;
+}
+
+@media (max-width: 767px) {
+    .timeline .event:before {
+        left: 0px;
+        text-align: left;
+        font-size:  2.5rem;
+    }
+}
+
+.timeline .event:after {
+    /*-webkit-box-shadow: inset 0 0 0 6px #fff;
+    box-shadow: inset 0 0 0 6px #fff;*/
+    left: -73.5px;
+    background: #93B1D0;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    content: "";
+    border: 1px solid #93B1D0;
+    /*top: 5px;*/
+}
+
+@media (max-width: 767px) {
+    .timeline .event:after {
+        left: -49.5px;
+    }
+}
+
+.rtl .timeline {
+    border-left: 0;
+    text-align: right;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border-right: 3px solid #727cf5;
+}
+
+.rtl .timeline .event::before {
+    left: 0;
+    right: -170px;
+}
+
+.rtl .timeline .event::after {
+    left: 0;
+    right: -55.8px;
+}
+
+.card-timeline{
+    border: none;
+}
+
+
+/***** Inicio Boton subir *****/
+@media (max-width: 2560px) {
+    .ir-arriba {
+        display:none;
+        padding:15px;
+        background:#93B1D0;
+        font-size:30px;
+        color:#fff;
+        cursor:pointer;
+        position: fixed;
+        bottom:100px;
+        right:20px;
+        z-index:3;
+    }
+}
+
+@media (max-width: 777px) {
+    .ir-arriba {
+        display:none;
+        padding:12px;
+        background:#93B1D0;
+        font-size:20px;
+        color:#fff;
+        cursor:pointer;
+        position: fixed;
+        bottom:120px;
+        right:20px;
+        z-index:3;
+    }
+}
+
+@media (max-width: 710px) {
+    .ir-arriba {
+        display:none;
+        padding:12px;
+        background:#93B1D0;
+        font-size:20px;
+        color:#fff;
+        cursor:pointer;
+        position: fixed;
+        bottom:150px;
+        right:20px;
+        z-index:3;
+    }
+}
+
+@media (max-width: 575px) {
+    .ir-arriba {
+        display:none;
+        padding:8px;
+        background:#93B1D0;
+        font-size:20px;
+        color:#fff;
+        cursor:pointer;
+        position: fixed;
+        bottom:245px;
+        right:20px;
+        z-index:3;
+    }
+}
+
+/***** Fin Boton subir *****/
+
+/** MARCAS DELL TECHNOLOGIES ***/
+.background-conteiner{
+    background-color: #f9f9f9;
+}
+
+.background-color-marcas{
+    background-color: white;
+    margin: 0 auto;
+    text-align: left;
+    vertical-align: middle;
+    padding: 10px 70px;
+}
+
+@media (max-width: 500px) {
+    .background-color-marcas{
+        padding: 20px 30px;
+    }
+}
+
+.marca-dell-background{
+    background-color: #2e73b8;
+    padding: 85px 15px;
+}
+
+.h1-principal-marcas {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #161616;
+}
+
+.marcas-principal-texto {
+    color: white;
+    text-align: justify;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.vertical-align-dell{
+    padding: 100px 0;
+}
+
+@media (max-width: 375px) {
+    .h1-principal-marcas {
+        font-weight: bold;
+        font-size: 1.9rem;
+        color: #161616;
+    }
+    .title-marcas h2{
+        margin: auto;
+        font-weight:400;
+        font-size: 1.7rem;
+        text-align: center;
+        padding: 10px;
+        position: relative;
+        display: inline-block;
+        color: #A4A4A4 ;
+    }
+}
+
+@media (min-width: 376px) {
+    .title-marcas h2{
+        margin: auto;
+        font-weight:400;
+        font-size: 2.3rem;
+        text-align: center;
+        padding: 0 30px;
+        position: relative;
+        display: inline-block;
+        color: #A4A4A4 ;
+    }
+}
+
+.verticalLineContainer{
+    border-left: 35px solid #2e73b8;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #f9f9f9;
+}
+
+.title-marcas{
+    /*height: 80px;*/
+    vertical-align: middle;
+    text-align: left;
+    padding: 5px;
+}
+
+/*.title-marcas h2:after{
+    content: '';
+    background: #0F3B88;
+    width: 100%;
+    height: 3px;
+    display: block;
+}*/
+
+.h4-marcas-opor{
+    margin: auto;
+    text-align: right;
+    vertical-align: middle;
+    padding: 18px ​20px;
+    color: #262626;
+}
+
+.p-marcas-opor{
+    color: #262626;
+    text-align: justify;
+    padding-top: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media (max-width: 767px) {
+    .h4-marcas-opor h4{
+        font-size: 1.4rem;
+    }
+    .h4-marcas-opor{
+        margin: auto;
+        text-align: center;
+        vertical-align: middle;
+        padding: 20px;
+        color: #262626;
+    }
+}
+
+.cuadro-azulF-padding-dell{
+    padding: 40px;
+}
+
+.cuadro-azulF-marca-dell{
+    background-color: #0e447c;
+    padding: 20px;
+    box-shadow: -18px -18px 0 4px #2e73b8;
+    -moz-box-shadow: -18px -18px 0 4px #2e73b8;
+    -webkit-box-shadow: -18px -18px 0 4px #2e73b8;
+}
+
+.p-marcas-benefi{
+    color: white;
+    text-align: justify;
+    padding-top: 14px;
+}
+
+.p-marcas-solu{
+    text-align: justify;
+    color: #161616;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+/** Float Button **/
+
+#floating-buttons .float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:60px;
+    right:40px;
+    background-color:black;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    /*box-shadow: 2px 2px 3px #999;*/
+    z-index:100;
+    animation: bot-to-top 2s ease-out;
+    padding-top: 11px;
+}
+
+#floating-buttons ul{
+    position:fixed;
+    right:40px;
+    padding-bottom:20px;
+    bottom:80px;
+    z-index:100;
+}
+
+#floating-buttons ul li{
+    list-style:none;
+    margin-bottom:10px;
+}
+
+#floating-buttons ul#dell li#dell-claro a{
+    background-color:#2e73b8;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    /*box-shadow: 2px 2px 3px #999;*/
+    width:60px;
+    height:60px;
+    display:block;
+}
+
+#floating-buttons ul#dell li#dell-oscuro a{
+    background-color: #0e447c;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    width:60px;
+    height:60px;
+    display:block;
+}
+
+#floating-buttons ul:hover{
+    visibility:visible!important;
+    opacity:1!important;
+}
+
+.my-float{
+    font-size:36px;
+    margin-top:18px;
+}
+
+#floating-buttons a#menu-share + ul{
+  visibility: hidden;
+}
+
+#floating-buttons a#menu-share:hover + ul{
+  visibility: visible;
+  animation: scale-in 0.5s;
+}
+
+#floating-buttons a#menu-share i{
+    animation: rotate-in 0.5s;
+}
+
+#floating-buttons a#menu-share:hover > i{
+    animation: rotate-out 0.5s;
+}
+
+@keyframes bot-to-top {
+    0%   {bottom:-40px}
+    50%  {bottom:40px}
+}
+
+@keyframes scale-in {
+    from {transform: scale(0);opacity: 0;}
+    to {transform: scale(1);opacity: 1;}
+}
+
+@keyframes rotate-in {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+@keyframes rotate-out {
+    from {transform: rotate(360deg);}
+    to {transform: rotate(0deg);}
+}
+
+@media (max-width: 768px) {
+    #floating-buttons .float{
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:85px;
+        right:40px;
+        background-color:black;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        /*box-shadow: 2px 2px 3px #999;*/
+        z-index:100;
+        animation: bot-to-top 2s ease-out;
+        padding-top: 11px;
+    }
+    #floating-buttons ul{
+        position:fixed;
+        right:40px;
+        padding-bottom: 46px;
+        bottom:80px;
+        z-index:100;
+    }
+    /*para hacer oscuro el color claro en moviles*/
+    #floating-buttons ul#dell li#dell-claro a{
+        background-color:#0e447c;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        width:60px;
+        height:60px;
+        display:block;
+    }
+}
+
+@media (max-width: 425px) {
+    #floating-buttons .float{
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:12px;
+        right:3px;
+        background-color:black;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        /*box-shadow: 2px 2px 3px #999;*/
+        z-index:100;
+        animation: bot-to-top 2s ease-out;
+        padding-top: 11px;
+    }
+    #floating-buttons ul{
+        position:fixed;
+        right:3px;
+        padding-bottom: 29px;
+        bottom:22px;
+        z-index:100;
+    }
+}
+/**********************************/
+
+/** INICIO MARCAS AWS ***/ 
+.marca-aws-background{
+    background-color: #1e2b3b;
+    padding: 65px 15px;
+    }
+     
+    .verticalLineContainer-aws{
+    border-left: 35px solid #fc6300;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #f9f9f9;
+    }
+
+    .cuadro-azulF-padding-aws{
+        padding: 40px;
+    }
+     
+    .cuadro-azulF-marca-aws{
+    background-color: #1e2b3b;
+    padding: 20px;
+    box-shadow: -18px -18px 0 4px #fc6300;
+    -moz-box-shadow: -18px -18px 0 4px #fc6300;
+    -webkit-box-shadow: -18px -18px 0 4px #fc6300;
+    }
+     
+    #floating-buttons ul#aws li#aws-claro a{
+    background-color:#fc6300;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    /*box-shadow: 2px 2px 3px #999;*/
+    width:60px;
+    height:60px;
+    display:block;
+    }
+     
+    #floating-buttons ul#aws li#aws-oscuro a{
+    background-color: #030404;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    width:60px;
+    height:60px;
+    display:block;
+    }
+     
+    @media (max-width: 768px) {
+    /*para hacer oscuro el color claro en moviles*/
+    #floating-buttons ul#aws li#aws-claro a{
+    background-color:#030404;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    width:60px;
+    height:60px;
+    display:block;
+     }
+}
+/** FIN MARCAS AWS ***/ 
+
+/** INICIO MARCAS AZURE ***/ 
+.marca-azure-background{
+    background-color: #0070db;
+    padding: 85px 15px;
+    }
+
+    .vertical-align-azure{
+        padding: 70px 0;
+        text-align: left;
+    }
+     
+    .verticalLineContainer-azure{
+    /*border-left: 35px solid #1b1920;*/
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: white;
+    }
+
+    .cuadro-azulF-padding-azure{
+        padding: 30px 40px;
+    }
+     
+    .cuadro-azulF-marca-azure{
+    background-color: #F4F4F4;
+    padding: 20px;
+    /*box-shadow: -18px -18px 0 4px #0070db;
+    -moz-box-shadow: -18px -18px 0 4px #0070db;
+    -webkit-box-shadow: -18px -18px 0 4px #0070db;*/
+    }
+     
+    #floating-buttons ul#azure li#azure-claro a{
+    background-color:#0070db;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    /*box-shadow: 2px 2px 3px #999;*/
+    width:60px;
+    height:60px;
+    display:block;
+    }
+     
+    #floating-buttons ul#azure li#azure-oscuro a{
+    background-color: #030404;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    width:60px;
+    height:60px;
+    display:block;
+    }
+     
+    @media (max-width: 768px) {
+    /*para hacer oscuro el color claro en moviles*/
+    #floating-buttons ul#azure li#azure-claro a{
+    background-color:#030404;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    width:60px;
+    height:60px;
+    display:block;
+     }
+}
+/** FIN MARCAS AZURE ***/ 
+
+/** INICIO MARCAS VEEAM ***/ 
+.marca-veeam-background{
+    background-color: white;
+    padding: 35px 15px;
+    /*position: relative;*/
+}
+
+    .vertical-align-veeam{
+        padding: 50px 0;
+        text-align: left;
+    }
+
+    .verticalLineContainer-veeam {
+        /*border-left: 35px solid #174550;*/
+        padding-left: 40px;
+        padding-right: 40px;
+        background-color: white;
+    }
+
+    .cuadro-azulF-padding-veeam{
+        padding: 30px 40px;
+    }
+     
+    .cuadro-azulF-marca-veeam{
+    background-color: #F4F4F4;
+    padding: 20px;
+    /*box-shadow: -18px -18px 0 4px #64bda7;
+    -moz-box-shadow: -18px -18px 0 4px #64bda7;
+    -webkit-box-shadow: -18px -18px 0 4px #64bda7;*/
+    }
+     
+    #floating-buttons ul#veeam li#veeam-claro a{
+    background-color:#64bda7;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    /*box-shadow: 2px 2px 3px #999;*/
+    width:60px;
+    height:60px;
+    display:block;
+    }
+     
+    #floating-buttons ul#veeam li#veeam-oscuro a{
+    background-color: #174550;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    width:60px;
+    height:60px;
+    display:block;
+    }
+     
+    @media (max-width: 768px) {
+    /*para hacer oscuro el color claro en moviles*/
+    #floating-buttons ul#veeam li#veeam-claro a{
+    background-color:#174550;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    width:60px;
+    height:60px;
+    display:block;
+     }
+}
+/** FIN MARCAS VEEAM ***/
+
+/** MARCAS HARDWARE HPE ***/
+
+.marca-hpe-background{
+    background-color: #5fb789;
+    padding: 85px 15px;
+}
+
+.verticalLineContainer-hpe{
+    border-left: 35px solid #030404;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #f9f9f9;
+}
+
+.link-oport-hpe{
+    color: #262626;
+}
+
+.link-oport-hpe:hover{
+    text-decoration: none;
+    color: #262626;
+}
+
+.cuadro-verdeN-marca-hpe{
+    background-color: #030404;
+    padding: 20px;
+    box-shadow: -18px -18px 0 4px #5fb789;
+    -moz-box-shadow: -18px -18px 0 4px #5fb789;
+    -webkit-box-shadow: -18px -18px 0 4px #5fb789;
+}
+
+#floating-buttons ul#hpe li#hpe-claro a{
+    background-color:#5fb789;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    /*box-shadow: 2px 2px 3px #999;*/
+    width:60px;
+    height:60px;
+    display:block;
+}
+
+#floating-buttons ul#hpe li#hpe-oscuro a{
+    background-color: #030404;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    width:60px;
+    height:60px;
+    display:block;
+}
+
+@media (max-width: 768px) {
+    /*para hacer oscuro el color claro en moviles*/
+    #floating-buttons ul#hpe li#hpe-claro a{
+        background-color:#030404;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        width:60px;
+        height:60px;
+        display:block;
+    }
+}
+/** FIN MARCAS HPE ***/
+
+/** MARCAS CYBERC JUMBLEDB ***/
+
+.marca-cyberc-background{
+    background-color: #465e76;
+    padding: 85px 15px;
+}
+
+.verticalLineContainer-cyberc{
+    border-left: 35px solid #87a7c1;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #f9f9f9;
+}
+
+.cuadro-grisN-marca-cyberc{
+    background-color: #5a595b;
+    padding: 20px;
+    box-shadow: -18px -18px 0 4px #87a7c1;
+    -moz-box-shadow: -18px -18px 0 4px #87a7c1;
+    -webkit-box-shadow: -18px -18px 0 4px #87a7c1;
+}
+
+.p-marcas-benefi-center{
+    color: white;
+    text-align: center;
+    padding-top: 14px;
+}
+
+.vertical-align-cynared{
+    padding: 90px 0;
+    text-align: center;
+}
+
+#floating-buttons ul#cyberc li#cyberc-claro a{
+    background-color:#87a7c1;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    /*box-shadow: 2px 2px 3px #999;*/
+    width:60px;
+    height:60px;
+    display:block;
+}
+
+#floating-buttons ul#cyberc li#cyberc-oscuro a{
+    background-color: #465e76;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    width:60px;
+    height:60px;
+    display:block;
+}
+
+@media (max-width: 768px) {
+    /*para hacer oscuro el color claro en moviles*/
+    #floating-buttons ul#cyberc li#cyberc-oscuro a{
+        background-color: #87a7c1;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        width:60px;
+        height:60px;
+        display:block;
+    }
+}
+/** FIN CYBERC JUMBLEDB ***/
+
+/** MARCAS NAUDIT ***/
+
+.marca-naudit-background{
+    background-color: #304860;
+    padding: 48px 15px;
+}
+
+.verticalLineContainer-naudit{
+    border-left: 35px solid #91c1bf;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #f9f9f9;
+}
+
+.cuadro-azulF-marca-naudit{
+    background-color: #304860;
+    padding: 20px;
+    box-shadow: -18px -18px 0 4px #91c1bf;
+    -moz-box-shadow: -18px -18px 0 4px #91c1bf;
+    -webkit-box-shadow: -18px -18px 0 4px #91c1bf;
+}
+
+.vertical-align-naud{
+    padding: 120px 0;
+    text-align: center;
+}
+
+#floating-buttons ul#naudit li#naudit-claro a{
+    background-color:#91c1bf;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    /*box-shadow: 2px 2px 3px #999;*/
+    width:60px;
+    height:60px;
+    display:block;
+}
+
+#floating-buttons ul#naudit li#naudit-oscuro a{
+    background-color: #304860;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    width:60px;
+    height:60px;
+    display:block;
+}
+
+@media (max-width: 768px) {
+    /*para hacer oscuro el color claro en moviles*/
+    #floating-buttons ul#naudit li#naudit-oscuro a{
+        background-color: #91c1bf;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        width:60px;
+        height:60px;
+        display:block;
+    }
+}
+/** FIN NAUDIT ***/
+
+/** MARCAS REDHAT ***/
+
+.marca-redhat-background{
+    background-color: #161616;
+    padding: 70px 15px;
+}
+
+.vertical-align-redhat{
+    padding: 110px 0;
+    text-align: center;
+}
+
+.verticalLineContainer-redhat{
+    border-left: 35px solid #ba2020;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #f9f9f9;
+}
+
+.cuadro-rojoB-marca-redhat{
+    background-color: #161616;
+    padding: 20px;
+    box-shadow: -18px -18px 0 4px #f95f5f;
+    -moz-box-shadow: -18px -18px 0 4px #f95f5f;
+    -webkit-box-shadow: -18px -18px 0 4px #f95f5fbf;
+}
+
+#floating-buttons ul#redhat li#redhat-claro a{
+    background-color:#f95f5f;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    /*box-shadow: 2px 2px 3px #999;*/
+    width:60px;
+    height:60px;
+    display:block;
+}
+
+#floating-buttons ul#redhat li#redhat-oscuro a{
+    background-color: #ba2020;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    width:60px;
+    height:60px;
+    display:block;
+}
+/** FIN REDHAT ***/
+
+/** MARCAS BLANCCO ***/
+.marca-blancco-background{
+    background-color: #3965ae;
+    padding: 38px 15px;
+}
+
+.verticalLineContainer-blancco{
+    border-left: 35px solid #c4c4c4;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #f9f9f9;
+}
+
+.cuadro-azulF-padding-blancco{
+    padding: 40px;
+}
+
+.cuadro-azulF-marca-blancco{
+    background-color: #3965ae;
+    padding: 20px;
+    box-shadow: -18px -18px 0 4px #c4c4c4;
+    -moz-box-shadow: -18px -18px 0 4px #c4c4c4;
+    -webkit-box-shadow: -18px -18px 0 4px #c4c4c4;
+}
+
+.vertical-align-blancco{
+    padding: 100px 0;
+    text-align: left;
+}
+
+#floating-buttons ul#blancco li#blancco-claro a{
+    background-color:#c4c4c4;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    /*box-shadow: 2px 2px 3px #999;*/
+    width:60px;
+    height:60px;
+    display:block;
+}
+
+#floating-buttons ul#blancco li#blancco-oscuro a{
+    background-color: #3965ae;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    width:60px;
+    height:60px;
+    display:block;
+}
+
+@media (max-width: 768px) {
+    /*para hacer oscuro el color claro en moviles*/
+    #floating-buttons ul#blancco li#blancco-oscuro a{
+        background-color: #c4c4c4;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        width:60px;
+        height:60px;
+        display:block;
+    }
+}
+
+/** FIN BLANCCO ***/
+
+/** MARCAS QLIK ***/
+.marca-qlik-background{
+    background-color: #122440;
+    padding: 70px 15px;
+}
+
+.verticalLineContainer-qlik{
+    border-left: 35px solid #1aa01a;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #f9f9f9;
+}
+
+.cuadro-azulF-padding-qlik{
+    padding: 40px;
+}
+
+.cuadro-azulF-marca-qlik{
+    background-color: #122440;
+    padding: 20px;
+    box-shadow: -18px -18px 0 4px #1aa01a;
+    -moz-box-shadow: -18px -18px 0 4px #1aa01a;
+    -webkit-box-shadow: -18px -18px 0 4px #1aa01a;
+}
+
+.vertical-align-qlik{
+    padding: 120px 0;
+    text-align: center;
+}
+
+#floating-buttons ul#qlik li#qlik-claro a{
+    background-color:#1aa01a;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    /*box-shadow: 2px 2px 3px #999;*/
+    width:60px;
+    height:60px;
+    display:block;
+}
+
+#floating-buttons ul#qlik li#qlik-oscuro a{
+    background-color: #122440;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    width:60px;
+    height:60px;
+    display:block;
+}
+
+@media (max-width: 768px) {
+    /*para hacer oscuro el color claro en moviles*/
+    #floating-buttons ul#qlik li#qlik-oscuro a{
+        background-color: #1aa01a;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        width:60px;
+        height:60px;
+        display:block;
+    }
+}
+
+.imageQLIK{
+    height: 480px;
+}
+
+@media (max-width: 991px) {
+    .imageQLIK{
+        height: 320px;
+    }
+}
+
+@media (max-width: 725px) {
+    .imageQLIK{
+        height: 250px;
+    }
+}
+
+@media (max-width: 425px) {
+    .imageQLIK{
+        height: 180px;
+    }
+}
+
+/** FIN QLIK ***/
+
+/** MARCAS SERVICENOW ***/
+.marca-servicenow-background{
+    background-color: #293e40;
+    padding: 85px 15px;
+}
+
+.verticalLineContainer-servicenow{
+    border-left: 35px solid #a7d4df;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #f9f9f9;
+}
+
+.cuadro-verde-marca-servicenow{
+    background-color: #293e40;
+    padding: 20px;
+    box-shadow: -18px -18px 0 4px #a7d4df;
+    -moz-box-shadow: -18px -18px 0 4px #a7d4df;
+    -webkit-box-shadow: -18px -18px 0 4px #a7d4df;
+}
+
+#floating-buttons ul#servicenow li#servicenow-claro a{
+    background-color:#a7d4df;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    /*box-shadow: 2px 2px 3px #999;*/
+    width:60px;
+    height:60px;
+    display:block;
+}
+
+#floating-buttons ul#servicenow li#servicenow-oscuro a{
+    background-color: #293e40;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    width:60px;
+    height:60px;
+    display:block;
+}
+
+@media (max-width: 768px) {
+    /*para hacer oscuro el color claro en moviles*/
+    #floating-buttons ul#servicenow li#servicenow-oscuro a{
+        background-color: #a7d4df;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        width:60px;
+        height:60px;
+        display:block;
+    }
+}
+
+/** FIN SERVICENOW ***/
+
+
+/** MARCAS APPLE ***/
+.cuadro-azulF-padding-apple{
+    padding: 40px;
+}
+
+.marca-apple-background{
+    background-color: #0c0c0c;
+    padding: 85px 15px;
+}
+
+.verticalLineContainer-apple{
+    border-left: 35px solid #0c0c0c;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #f9f9f9;
+}
+
+.cuadro-grisN-marca-apple{
+    background-color: transparent;
+    border:2px solid #8c8c8c;
+    padding: 20px;
+    box-shadow: -18px -18px 0 4px #eae9ea;
+    -moz-box-shadow: -18px -18px 0 4px #eae9ea;
+    -webkit-box-shadow: -18px -18px 0 4px #eae9ea; /*8c8c8c*/
+}
+
+.p-marcas-benefi-center-apple{
+    color: #0c0c0c;
+    text-align: center;
+    padding-top: 14px;
+}
+
+.vertical-align-apple{
+    padding: 90px 0;
+    text-align: center;
+}
+
+#floating-buttons ul#apple li#apple-claro a{
+    background-color:#8c8c8c;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    /*box-shadow: 2px 2px 3px #999;*/
+    width:60px;
+    height:60px;
+    display:block;
+}
+
+#floating-buttons ul#apple li#apple-oscuro a{
+    background-color: #0c0c0c;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    width:60px;
+    height:60px;
+    display:block;
+}
+
+@media (max-width: 768px) {
+    /*para hacer oscuro el color claro en moviles*/
+    #floating-buttons ul#apple li#apple-oscuro a{
+        background-color: #8c8c8c;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        width:60px;
+        height:60px;
+        display:block;
+    }
+}
+/** FIN APPLE ***/
+
+/** MARCAS ARUBA ***/
+.marca-aruba-background{
+    background-color: #103350;
+    padding: 38px 15px;
+}
+
+.verticalLineContainer-aruba{
+    border-left: 35px solid #f1823b;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #f9f9f9;
+}
+
+.cuadro-azulF-padding-aruba{
+    padding: 40px;
+}
+
+.cuadro-azulF-marca-aruba{
+    background-color: #103350;
+    padding: 20px;
+    box-shadow: -18px -18px 0 4px #f1823b;
+    -moz-box-shadow: -18px -18px 0 4px #f1823b;
+    -webkit-box-shadow: -18px -18px 0 4px #f1823b;
+}
+
+.vertical-align-aruba{
+    padding: 100px 0;
+    text-align: left;
+}
+
+#floating-buttons ul#aruba li#aruba-claro a{
+    background-color:#f1823b;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    /*box-shadow: 2px 2px 3px #999;*/
+    width:60px;
+    height:60px;
+    display:block;
+}
+
+#floating-buttons ul#aruba li#aruba-oscuro a{
+    background-color: #103350;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    width:60px;
+    height:60px;
+    display:block;
+}
+
+@media (max-width: 768px) {
+    /*para hacer oscuro el color claro en moviles*/
+    #floating-buttons ul#aruba li#aruba-oscuro a{
+        background-color: #f1823b;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        width:60px;
+        height:60px;
+        display:block;
+    }
+}
+
+/** FIN ARUBA ***/
+
+/** MARCAS JAMF ***/
+.marca-jamf-background{
+    background-color: #424a55;
+    padding: 85px 15px;
+}
+
+.vertical-align-jamf{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.verticalLineContainer-jamf{
+    border-left: 35px solid #00c19a;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #f9f9f9;
+}
+
+.cuadro-grisV-marca-jamf{
+    background-color: #424a55;
+    padding: 20px;
+    box-shadow: -18px -18px 0 4px #9fd3c4;
+    -moz-box-shadow: -18px -18px 0 4px #9fd3c4df;
+    -webkit-box-shadow: -18px -18px 0 4px #9fd3c4;
+}
+
+#floating-buttons ul#jamf li#jamf-claro a{
+    background-color:#00c19a;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    /*box-shadow: 2px 2px 3px #999;*/
+    width:60px;
+    height:60px;
+    display:block;
+}
+
+#floating-buttons ul#jamf li#jamf-oscuro a{
+    background-color: #424a55;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    width:60px;
+    height:60px;
+    display:block;
+}
+
+@media (max-width: 768px) {
+    /*para hacer oscuro el color claro en moviles*/
+    #floating-buttons ul#jamf li#jamf-oscuro a{
+        background-color: #00c19a;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        width:60px;
+        height:60px;
+        display:block;
+    }
+}
+
+/** FIN JAMF ***/
+
+/** MARCAS HP INC ***/
+.cuadro-azulF-padding-hpinc{
+    padding: 40px;
+}
+
+.marca-hpinc-background{
+    background-color: #666666;
+    padding: 85px 15px;
+}
+
+.verticalLineContainer-hpinc{
+    border-left: 35px solid #2571ad;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #f9f9f9;
+}
+
+.cuadro-grisN-marca-hpinc{
+    background-color: #666666;
+    padding: 20px;
+    box-shadow: -18px -18px 0 4px #c0e4f9;
+    -moz-box-shadow: -18px -18px 0 4px #c0e4f9;
+    -webkit-box-shadow: -18px -18px 0 4px #c0e4f9;
+}
+
+.p-marcas-benefi-center-hpinc{
+    color: white;
+    text-align: center !important;
+    padding-top: 25px;
+    height: 5rem;
+}
+
+.vertical-align-hpinc{
+    padding: 90px 0;
+    text-align: center;
+}
+
+#floating-buttons ul#hpinc li#hpinc-claro a{
+    background-color:#8c8c8c;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    /*box-shadow: 2px 2px 3px #999;*/
+    width:60px;
+    height:60px;
+    display:block;
+}
+
+#floating-buttons ul#hpinc li#hpinc-oscuro a{
+    background-color: #666666;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    width:60px;
+    height:60px;
+    display:block;
+}
+
+.h1-principal-marcas-hpinc {
+    font-weight: bold;
+    font-size: 2.2rem;
+    color: #161616;
+    text-align: center !important;
+}
+
+@media (max-width: 768px) {
+    /*para hacer oscuro el color claro en moviles*/
+    #floating-buttons ul#hpinc li#hpinc-oscuro a{
+        background-color: #8c8c8c;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        width:60px;
+        height:60px;
+        display:block;
+    }
+
+    .h1-principal-marcas-hpinc {
+        font-weight: bold;
+        font-size: 2.2rem;
+        color: #161616;
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 425px) {
+    /*para hacer oscuro el color claro en moviles*/
+    #floating-buttons ul#hpinc li#hpinc-oscuro a{
+        background-color: #8c8c8c;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        width:60px;
+        height:60px;
+        display:block;
+    }
+
+    .h1-principal-marcas-hpinc {
+        font-weight: bold;
+        font-size: 2.2rem;
+        color: #161616;
+        text-align: center !important;
+    }
+}
+/** FIN HP INC ***/
+
+/** MARCAS Ivanti ***/
+.cuadro-azulF-padding-ivanti{
+    padding: 30px 40px;
+}
+
+.marca-ivanti-background{
+    background-color: white;
+    padding: 35px 15px;
+    /*position: relative;*/
+}
+
+.verticalLineContainer-ivanti{
+    /*border-left: 35px solid #e02020;*/
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: white;
+}
+
+.cuadro-grisN-marca-ivanti{
+    background-color: #F4F4F4;
+    padding: 20px;
+    /*box-shadow: -18px -18px 0 4px #cecece;
+    -moz-box-shadow: -18px -18px 0 4px #cecece;
+    -webkit-box-shadow: -18px -18px 0 4px #cecece;*/
+}
+
+.p-marcas-benefi-center-ivanti{
+    color: white;
+    text-align: center !important;
+    padding-top: 18px;
+    height: 5rem;
+}
+
+.vertical-align-ivanti{
+    padding: 50px 0;
+    text-align: left;
+}
+
+#floating-buttons ul#ivanti li#ivanti-claro a{
+    background-color:#8c8c8c;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    /*box-shadow: 2px 2px 3px #999;*/
+    width:60px;
+    height:60px;
+    display:block;
+}
+
+#floating-buttons ul#ivanti li#ivanti-oscuro a{
+    background-color: #53565a;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    width:60px;
+    height:60px;
+    display:block;
+}
+
+.h1-principal-marcas-ivanti {
+    font-weight: bold;
+    font-size: 2.2rem;
+    color: #161616;
+}
+
+@media (max-width: 768px) {
+    /*para hacer oscuro el color claro en moviles*/
+    #floating-buttons ul#ivanti li#ivanti-oscuro a{
+        background-color: #8c8c8c;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        width:60px;
+        height:60px;
+        display:block;
+    }
+
+    .h1-principal-marcas-ivanti {
+        font-weight: bold;
+        font-size: 2.0rem;
+        color: #161616;
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 425px) {
+    /*para hacer oscuro el color claro en moviles*/
+    #floating-buttons ul#ivanti li#ivanti-oscuro a{
+        background-color: #8c8c8c;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        width:60px;
+        height:60px;
+        display:block;
+    }
+
+    .h1-principal-marcas-ivanti {
+        font-weight: bold;
+        font-size: 2.0rem;
+        color: #161616;
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 370px) {
+    /*para hacer oscuro el color claro en moviles*/
+    #floating-buttons ul#ivanti li#ivanti-oscuro a{
+        background-color: #8c8c8c;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        width:60px;
+        height:60px;
+        display:block;
+    }
+
+    .h1-principal-marcas-ivanti {
+        font-weight: bold;
+        font-size: 1.8rem;
+        color: #161616;
+    }
+}
+
+/** FIN Ivanti ***/
+
+/** MARCAS NETAPP ***/
+.marca-netapp-background{
+    background-color: #666666;
+    padding: 85px 15px;
+}
+
+.vertical-align-netapp{
+    padding: 130px 0;
+    text-align: center;
+}
+
+.verticalLineContainer-netapp{
+    border-left: 35px solid #ecddfd;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #f9f9f9;
+}
+
+/* Style tab links */
+.tablink {
+    /*background-color: #555;
+    color: white;*/
+    float: left;
+    border: solid 2px #b5b5b5;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:focus {
+    outline: none;
+}
+  
+/*.tablink:hover {
+    background-color: #b5b5b5 !important;
+}*/
+  
+  /* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    display: none;
+    padding: 60px 30px;
+    height: 100%;
+    width: 100%;
+    border: solid 2px #b5b5b5;
+    border-top-style: none;
+}
+  
+#BackupR {background-color: white;}
+#SallFlash {background-color: white;}
+#Sconvergentes {background-color: white;}
+#Sflex {background-color: white;}
+
+.title-tabs{
+    color: black;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.subtitle-tabs{
+    color: black;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+}
+
+@media (max-width: 548px) {    
+    .tablink {
+        padding: 14px 13px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 385px) {    
+    .tablink {
+        padding: 14px 10px;
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 320px) {    
+    .tablink {
+        padding: 14px 8px;
+        font-size: 10px;
+    }
+}
+
+.cuadro-amarillo-marca-netapp{
+    background-color: #7a7a7a;
+    padding: 20px;
+    box-shadow: -18px -18px 0 4px #fcf9d4;
+    -moz-box-shadow: -18px -18px 0 4px #fcf9d4;
+    -webkit-box-shadow: -18px -18px 0 4px #fcf9d4;
+}
+
+.cuadro-verde-marca-netapp{
+    background-color: #7a7a7a;
+    padding: 20px;
+    box-shadow: -18px -18px 0 4px #d7fff2;
+    -moz-box-shadow: -18px -18px 0 4px #d7fff2;
+    -webkit-box-shadow: -18px -18px 0 4px #d7fff2;
+}
+
+.cuadro-azul-marca-netapp{
+    background-color: #7a7a7a;
+    padding: 20px;
+    box-shadow: -18px -18px 0 4px #d2ecf9;
+    -moz-box-shadow: -18px -18px 0 4px #d2ecf9;
+    -webkit-box-shadow: -18px -18px 0 4px #d2ecf9;
+}
+
+/** FIN NETAPP ***/
+
+/** MARCAS Anywhere ***/
+.cuadro-azulF-padding-anywhere{
+    padding: 40px;
+}
+
+.marca-anywhere-background{
+    background-color: #2571ad;
+    padding: 85px 15px;
+}
+
+.verticalLineContainer-anywhere{
+    border-left: 35px solid #fc6300;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #f9f9f9; 
+}
+
+.cuadro-grisN-marca-anywhere{
+    background-color: #2571ad;
+    padding: 20px;
+    box-shadow: -18px -18px 0 4px #cecece;
+    -moz-box-shadow: -18px -18px 0 4px #cecece;
+    -webkit-box-shadow: -18px -18px 0 4px #cecece;
+}
+
+.p-marcas-benefi-center-anywhere{
+    color: white;
+    text-align: center !important;
+    padding-top: 18px;
+    height: 5rem;
+}
+
+.vertical-align-anywhere{
+    padding: 90px 0;
+    text-align: center;
+}
+
+#floating-buttons ul#anywhere li#anywhere-claro a{
+    background-color:#8c8c8c;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    /*box-shadow: 2px 2px 3px #999;*/
+    width:60px;
+    height:60px;
+    display:block;
+}
+
+#floating-buttons ul#anywhere li#anywhere-oscuro a{
+    background-color: #53565a;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    width:60px;
+    height:60px;
+    display:block;
+}
+
+.h1-principal-marcas-anywhere {
+    font-weight: bold;
+    font-size: 2.2rem;
+    color: #161616;
+    padding-top: 40px;
+}
+
+.h4-marcas-opor-anywhere{
+    margin: auto;
+    text-align: left;
+    vertical-align: middle;
+    padding: 18px 10px;
+    color: #262626;
+}
+
+.p-marcas-opor-anywhere{
+    color: #262626;
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 10px;
+}
+
+.p-marcas-opor-anywhere-ul{
+    color: #262626;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    /*para hacer oscuro el color claro en moviles*/
+    #floating-buttons ul#anywhere li#anywhere-oscuro a{
+        background-color: #8c8c8c;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        width:60px;
+        height:60px;
+        display:block;
+    }
+
+    .h1-principal-marcas-anywhere {
+        font-weight: bold;
+        font-size: 2.0rem;
+        color: #161616;
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 559px) {
+    /*para hacer oscuro el color claro en moviles*/
+    #floating-buttons ul#anywhere li#anywhere-oscuro a{
+        background-color: #8c8c8c;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        width:60px;
+        height:60px;
+        display:block;
+    }
+
+    .h1-principal-marcas-anywhere {
+        font-weight: bold;
+        font-size: 2.0rem;
+        color: #161616;
+        text-align: center !important;
+    }
+
+    .title-marcas h2{
+        margin: auto;
+        font-weight:400;
+        font-size: 1.6rem;
+        text-align: center;
+        padding: 10px;
+        position: relative;
+        display: inline-block;
+        color: #A4A4A4 ;
+    }
+
+    .h4-marcas-opor-anywhere{
+        margin: auto;
+        text-align: center;
+        vertical-align: middle;
+        padding: 18px 10px;
+        color: #262626;
+    }
+    
+    .p-marcas-opor-anywhere{
+        color: #262626;
+        text-align: center;
+        padding-top: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 370px) {
+    /*para hacer oscuro el color claro en moviles*/
+    #floating-buttons ul#anywhere li#anywhere-oscuro a{
+        background-color: #8c8c8c;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        width:60px;
+        height:60px;
+        display:block;
+    }
+
+    .h1-principal-marcas-anywhere {
+        font-weight: bold;
+        font-size: 1.8rem;
+        color: #161616;
+    }
+}
+
+/** FIN Anywhere ***/
+
+/** MARCAS SSL ***/
+.marca-ssl-background{
+    background-color: #2B2B2B;
+    padding: 82px 15px;
+}
+
+.vertical-align-ssl{
+    padding: 140px 0;
+    text-align: center;
+}
+
+.verticalLineContainer-ssl{
+    border-left: 35px solid #88F687;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #f9f9f9;
+}
+
+#InfoConf {background-color: white;}
+#PAutenticacion {background-color: white;}
+#CUsuarios {background-color: white;}
+
+.cuadro-gris-marca-ssl{
+    background-color: #2B2B2B;
+    padding: 20px;
+    box-shadow: -18px -18px 0 4px #CDCDCD;
+    -moz-box-shadow: -18px -18px 0 4px #CDCDCD;
+    -webkit-box-shadow: -18px -18px 0 4px #CDCDCD;
+}
+
+.imageEsquemaSSL{
+    height: 600px;
+}
+
+@media (max-width: 725px) {
+    .imageEsquemaSSL{
+        height: 250px;
+    }
+}
+
+/** FIN SSL ***/
+
+/** MARCAS ASSAC ***/
+.cuadro-azulF-padding-assac{
+    padding: 40px;
+}
+
+.marca-assac-background{
+    background-color: #000000;
+    padding: 85px 15px;
+}
+
+.verticalLineContainer-assac{
+    border-left: 35px solid #7e39ea;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #f9f9f9;
+}
+
+.vertical-align-assac{
+    padding: 90px 0;
+    text-align: center;
+}
+
+/** FIN ASSAC ***/
+
+/** MARCAS CYE ***/
+.cuadro-azulF-padding-cye{
+    padding: 40px;
+}
+
+.marca-cye-background{
+    background-color: #051630;
+    padding: 85px 15px;
+}
+
+.verticalLineContainer-cye{
+    border-left: 35px solid #67e8ef;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #f9f9f9;
+}
+
+.vertical-align-cye{
+    padding: 90px 0;
+    text-align: center;
+}
+
+/** FIN CYE ***/
+
+/** MARCAS POWER BI ***/
+.marca-powerbi-background{
+    background-color: #0c0c0c;
+    padding: 82px 15px;
+}
+
+.vertical-align-powerbi{
+    padding: 145px 0;
+    text-align: center;
+}
+
+.verticalLineContainer-powebi{
+    border-left: 35px solid #fcfc65;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #f9f9f9;
+}
+
+.cuadro-gris-marca-powerbi{
+    background-color: #0c0c0c;
+    padding: 20px;
+    box-shadow: -18px -18px 0 4px #fcfab6;
+    -moz-box-shadow: -18px -18px 0 4px #fcfab6;
+    -webkit-box-shadow: -18px -18px 0 4px #fcfab6;
+}
+
+.cuadro-negroF-padding-powerbi{
+    padding: 40px 120px;
+}
+
+@media (max-width: 650px) {
+    .cuadro-negroF-padding-powerbi{
+        padding: 40px 80px;
+    }
+}
+
+@media (max-width: 500px) {
+    .cuadro-negroF-padding-powerbi{
+        padding: 40px 20px;
+    }
+}
+
+/** FIN POWER BI ***/
+
+/** MARCAS Hitachi ***/
+.cuadro-azulF-padding-hitachi{
+    padding: 40px;
+}
+
+.marca-hitachi-background{
+    background-color: #000000;
+    padding: 85px 15px;
+}
+
+.verticalLineContainer-hitachi{
+    border-left: 35px solid #e81332;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #f9f9f9;
+}
+
+.cuadro-grisN-marca-hitachi{
+    background-color: #000000;
+    padding: 20px;
+    box-shadow: -18px -18px 0 4px #cdcdcd;
+    -moz-box-shadow: -18px -18px 0 4px #cdcdcd;
+    -webkit-box-shadow: -18px -18px 0 4px #cdcdcd;
+}
+
+.p-marcas-benefi-center-hitachi{
+    color: white;
+    text-align: center !important;
+    padding-top: 18px;
+    
+}
+
+.vertical-align-hitachi{
+    padding: 90px 0;
+    text-align: center;
+}
+
+#floating-buttons ul#hitachi li#hitachi-claro a{
+    background-color:#8c8c8c;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    /*box-shadow: 2px 2px 3px #999;*/
+    width:60px;
+    height:60px;
+    display:block;
+}
+
+#floating-buttons ul#hitachi li#hitachi-oscuro a{
+    background-color: #53565a;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    width:60px;
+    height:60px;
+    display:block;
+}
+
+.h1-principal-marcas-hitachi {
+    font-weight: bold;
+    font-size: 2.2rem;
+    color: #161616;
+}
+
+@media (max-width: 768px) {
+    /*para hacer oscuro el color claro en moviles*/
+    #floating-buttons ul#hitachi li#hitachi-oscuro a{
+        background-color: #8c8c8c;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        width:60px;
+        height:60px;
+        display:block;
+    }
+
+    .h1-principal-marcas-hitachi {
+        font-weight: bold;
+        font-size: 2.0rem;
+        color: #161616;
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 425px) {
+    /*para hacer oscuro el color claro en moviles*/
+    #floating-buttons ul#hitachi li#hitachi-oscuro a{
+        background-color: #8c8c8c;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        width:60px;
+        height:60px;
+        display:block;
+    }
+
+    .h1-principal-marcas-hitachi {
+        font-weight: bold;
+        font-size: 2.0rem;
+        color: #161616;
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 370px) {
+    /*para hacer oscuro el color claro en moviles*/
+    #floating-buttons ul#hitachi li#hitachi-oscuro a{
+        background-color: #8c8c8c;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        width:60px;
+        height:60px;
+        display:block;
+    }
+
+    .h1-principal-marcas-hitachi {
+        font-weight: bold;
+        font-size: 1.8rem;
+        color: #161616;
+    }
+}
+
+/** FIN Hitachi ***/
+
+/** MARCAS NUTANIX ***/
+.marca-nutanix-background{
+    background-color: #0044a6;
+    padding: 82px 15px;
+}
+
+.vertical-align-nutanix{
+    padding: 145px 0;
+    text-align: center;
+}
+
+.verticalLineContainer-nutanix{
+    border-left: 35px solid #a3d900;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #f9f9f9;
+}
+
+#acropolisT {background-color: white;}
+#beamT {background-color: white;}
+#calmT {background-color: white;}
+#frameT {background-color: white;}
+#filesT {background-color: white;}
+
+.title-tabs-nutanix{
+    color: black;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cuadro-azul-marca-nutanix{
+    background-color: #0044a6;
+    padding: 20px;
+    box-shadow: -18px -18px 0 4px #cdcdcd;
+    -moz-box-shadow: -18px -18px 0 4px #cdcdcd;
+    -webkit-box-shadow: -18px -18px 0 4px #cdcdcd;
+}
+/** FIN MARCAS NUTANIX ***/
+
+/** MARCAS VMWARE ***/
+.marca-vmware-background{
+    background-color: #0f81ba;
+    padding: 125px 15px;
+}
+
+.vertical-align-vmware{
+    padding: 120px 0;
+    text-align: center;
+}
+
+.verticalLineContainer-vmware{
+    border-left: 35px solid #32b228;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #f9f9f9;
+}
+
+.cuadro-azul-marca-vmware{
+    background-color: #0f81ba;
+    padding: 20px;
+    box-shadow: -18px -18px 0 4px #cdcdcd;
+    -moz-box-shadow: -18px -18px 0 4px #cdcdcd;
+    -webkit-box-shadow: -18px -18px 0 4px #cdcdcd;
+}
+
+.h1-principal-marcas-vmware {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #161616;
+}
+
+@media (max-width: 500px) {
+    .h1-principal-marcas-vmware {
+        font-weight: bold;
+        font-size: 1.8rem;
+        color: #161616;
+    }
+}
+/** FIN MARCAS VMWARE ***/
+
+/** LANDING INTEL: VPRO, PROEMA Y AMT **/
+
+.div-container-color-vpro{
+    padding: 60px 40px;
+    background-color: #36718e;
+ }
+
+ .h1-title-intels{
+    color: white;
+    font-weight: 700;
+    font-size: 3.5rem;
+    padding: 18px 0 18px 0;
+    text-align: center;
+ }
+
+ .p-text-intels{
+    text-align: justify;
+    color: white;
+    font-weight: 300;
+    font-size: 1.2rem;
+ }
+
+ .padding-segrendetc{
+     padding:40px;
+ }
+
+ @media (max-width: 425px) {
+    .padding-segrendetc{
+        padding:16px;
+    }
+}
+
+ .p-text-segrendetc {
+    color: #262626;
+    text-align: justify;
+    padding-top: 14px;
+}
+
+.div-container-color-proEma{
+    padding: 60px 40px;
+    background-color: #043b6e;
+ }
+
+ .div-container-color-amt{
+    padding: 60px 40px;
+    background-color: #00458b;
+ }
+
+ /****************************/
+
+/** Inicia Collapse Nueva landing Intel**/
+.titulo-intel{
+    color:#000000;
+    font-size:32px;
+}
+.texto-intel{
+    color:#000000;
+    padding: 0 30px;
+}
+.intelmas1{
+    color: #000000;
+    text-align: center;
+    line-height: 1;
+    padding-left: 1px;
+    font-size: 30px;
+
+}
+.intelmenos1{    
+    display: none;
+    color: #000000;    
+    text-align: center;
+    padding-left: 7px;
+    font-size: 30px;
+}
+
+.intelmas2{
+    color: #000000;
+    text-align: center;
+    line-height: 1;
+    padding-left: 1px;
+    font-size: 30px;
+
+}
+.intelmenos2{    
+    display: none;
+    color: #000000;    
+    text-align: center;
+    padding-left: 7px;
+    font-size: 30px;
+}
+
+.intelmas3{
+    color: #000000;
+    text-align: center;
+    line-height: 1;
+    padding-left: 1px;
+    font-size: 30px;
+
+}
+.intelmenos3{    
+    display: none;
+    color: #000000;    
+    text-align: center;
+    padding-left: 7px;
+    font-size: 30px;
+}
+
+/** Finaliza Collapse Nueva landing Intel**/
+/*FALTA LO DE FERIA VIRTUAL ENTRE ESTAS DOS**
+/* LANDING APPLE*/
+
+.text-landingapple{
+    padding-top: 15px;
+    text-align: justify;
+    color: #161616;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+@media screen and (min-width:1900px) {
+    #img-firma-apple{
+        width: 10%;
+    }
+}
+
+@media screen and (max-width:1899px) {
+    #img-firma-apple{
+        width: 15%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    #img-firma-apple{
+        width: 18%;
+    }
+}
+
+@media screen and (max-width:575px) {
+    #img-firma-apple {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    #img-firma-apple {
+        width: 36%;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .text-landingapple{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+/****************/
+
+/*VIDEO BACGROUUND*/
+.video-background-holder {
+    position: relative;
+    background-color: black;
+    height: calc(100vh - -28px);
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+  
+.video-background-holder video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 140vw; /*100vw*/
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+@media screen and (min-width:1439px) {
+    .video-background-holder video {
+        width: 104vw;
+    }
+}
+
+@media screen and (max-width:606px) {
+    .video-background-holder video {
+        width: 190vh; /*100vw*/
+    }
+    .text-title-newVid{
+        font-size: 1.5rem !important;
+        margin-top: 125% !important;
+    }
+}
+
+.text-title-newVid{
+    font-weight: 400;
+    color: white;
+}
+
+.text-width-newVid{
+    width: 50%;
+}
+
+.margin-text-title-newVid{
+    margin-right: 12px;
+}
+
+.justify-content-flexnewVid{
+    justify-content: flex-end;
+    text-align: right;
+}
+
+@media screen and (max-width:768px) {
+    .margin-text-title-newVid{
+        margin-right: auto;
+    }
+    .justify-content-flexnewVid{
+        justify-content:center;
+        text-align: center;
+    }
+    .text-title-newVid{
+        font-size: 1.9rem;
+        margin-top: 50%;
+    }
+    .text-width-newVid{
+        width: 100%;
+    }
+}
+  
+.video-background-content {
+    position: relative;
+    z-index: 2;
+}
+  
+/*.video-background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}*/
+/*VIDEO BACKGROUND*/
+
+/*NEW CARDS HOVER VERTICALES*/
+@media screen and (min-width:1440px) {
+    .background-conteiner-vert{
+        background-color: white;
+        padding:0px 280px;
+    }
+}
+
+@media screen and (max-width:1439px) {
+    .background-conteiner-vert{
+        background-color: white;
+        padding:0px 195px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .background-conteiner-vert{
+        background-color: white;
+        padding:0px 175px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .background-conteiner-vert{
+        background-color: white;
+        padding:0px 145px;
+    }
+}
+
+@media screen and (max-width:570px) {
+    .background-conteiner-vert{
+        background-color: white;
+        padding:0px 138px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .background-conteiner-vert{
+        background-color: white;
+        padding:0px 100px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .background-conteiner-vert{
+        background-color: white;
+        padding:0px 80px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .background-conteiner-vert{
+        background-color: white;
+        padding:0px 60px;
+    }
+}
+
+.paddingCards{
+    background: transparent;
+    padding-top: 18px;
+    position: relative;
+    margin-top: -56px;
+}
+.borderCards{
+    border: 2px solid white;
+    border-radius: 0;
+}
+.paddingImages{
+    padding: 10px;
+}
+.marginTopColCards{
+    margin-top: 10px;
+}
+
+.new-card-titles{
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.new-cardoverlay-imgs{
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 178px;
+    left: 10px;
+    right: 10px;
+    top: unset;
+    padding: 0.25rem;
+    /* border-radius: calc(0.25rem - 1px);*/
+}
+
+.new-cardoverlay-imgs-security{
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 130px;
+    left: 10px;
+    right: 10px;
+    top: unset;
+    padding: 0.25rem;
+    /* border-radius: calc(0.25rem - 1px);*/
+}
+
+.new-cardoverlay-imgs-userEnd{
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 154px;
+    left: 10px;
+    right: 10px;
+    top: unset;
+    padding: 0.25rem;
+    /* border-radius: calc(0.25rem - 1px);*/
+}
+
+.new-cardoverlay-imgs-data{
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 154px;
+    left: 10px;
+    right: 10px;
+    top: unset;
+    padding: 0.25rem;
+    /* border-radius: calc(0.25rem - 1px);*/
+}
+
+.new-cardoverlay-imgs-cloud{
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 154px;
+    left: 10px;
+    right: 10px;
+    top: unset;
+    padding: 0.25rem;
+    /* border-radius: calc(0.25rem - 1px);*/
+}
+
+.new-cardoverlay-imgs-network{
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 154px;
+    left: 10px;
+    right: 10px;
+    top: unset;
+    padding: 0.25rem;
+    /* border-radius: calc(0.25rem - 1px);*/
+}
+
+.new-cardoverlay-imgs-monitoring{
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 154px;
+    left: 10px;
+    right: 10px;
+    top: unset;
+    padding: 0.25rem;
+    /* border-radius: calc(0.25rem - 1px);*/
+}
+
+.new-card-text{
+    padding: 0 12px;
+}
+
+@media screen and (min-width:1367px) {
+    .new-card-text{
+        font-size: .85em;
+    }
+}
+
+@media screen and (max-width:1366px) {
+    .new-cardoverlay-imgs-data, .new-cardoverlay-imgs-network,
+    .new-cardoverlay-imgs-monitoring{
+        bottom: 178px;
+    }
+    .new-cardoverlay-imgs-cloud{
+        bottom: 154px;
+    }
+    .new-cardoverlay-imgs-security{
+        bottom: 154px;
+    }
+    .new-cardoverlay-imgs, .new-cardoverlay-imgs-userEnd{
+        bottom: 202px;
+    }
+}
+
+@media screen and (max-width:1112px) {
+    .new-card-text{
+        font-size: 13px;
+    }
+    .new-cardoverlay-imgs-data, .new-cardoverlay-imgs-monitoring{
+        bottom: 202px;
+    }
+    .new-cardoverlay-imgs-cloud{
+        bottom: 178px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .new-card-text{
+        font-size: 12px;
+    }
+    .new-cardoverlay-imgs-data, .new-cardoverlay-imgs-monitoring,
+    .new-cardoverlay-imgs-userEnd{
+        bottom: 178px;
+    }
+    .new-cardoverlay-imgs-cloud{
+        bottom: 154px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .new-card-text{
+        font-size: 10px;
+    }
+    .new-cardoverlay-imgs-data, .new-cardoverlay-imgs-network,
+    .new-cardoverlay-imgs-monitoring, .new-cardoverlay-imgs-userEnd{
+        bottom: 154px;
+    }
+    .new-cardoverlay-imgs-security{
+        bottom: 130px;
+    }
+    .new-cardoverlay-imgs{
+        bottom: 178px;
+    }
+}
+
+#imagenHCISPDC:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/NVerticales/HCIc.png');
+    display: block;
+    height: auto;
+    margin: auto;
+}
+
+#imagenSeguridad:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/NVerticales/Seguridadc.png');
+    display: block;
+    height: auto;
+    margin: auto;
+}
+
+#imagenUsuarioF:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/NVerticales/UsuarioFc.png');
+    display: block;
+    height: auto;
+    margin: auto;
+}
+
+#imagenDatos:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/NVerticales/Datosc.png');
+    display: block;
+    height: auto;
+    margin: auto;
+}
+
+#imagenProcesos:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/NVerticales/Procesoc.png');
+    display: block;
+    height: auto;
+    margin: auto;
+}
+
+#imagenNube:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/NVerticales/Nubec.png');
+    display: block;
+    height: auto;
+    margin: auto;
+}
+
+#imagenRedes:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/NVerticales/Redesc.png');
+    display: block;
+    height: auto;
+    margin: auto;
+}
+
+#imagenMonitoreo:hover {
+    content: url('../PaginaSellcom/Assets/Images/Home/NVerticales/Monitoreoc.png');
+    display: block;
+    height: auto;
+    margin: auto;
+}
+/*cardsHover*/
+
+.hrNew {
+    border: none;
+    height: 2px;
+    /* Set the hr color */
+    background: #9580AA; /* Modern Browsers */
+    position: relative;
+}
+
+/*3seccitons new*/
+@media screen and (min-width:768px) {
+    #ThreeSectionsSellcom{
+        padding: 25px 105px;
+        background-color: white;
+    }
+}
+
+@media screen and (max-width:767px) {
+    #ThreeSectionsSellcom{
+        padding: 25px 85px;
+    }
+}
+
+@media screen and (max-width:680px) {
+    #ThreeSectionsSellcom{
+        padding: 25px 75px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    #ThreeSectionsSellcom{
+        padding: 25px 55px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    #ThreeSectionsSellcom{
+        padding: 25px 45px;
+    }
+}
+
+@media screen and (max-width:385px) {
+    #ThreeSectionsSellcom{
+        padding: 25px 35px;
+    }
+}
+
+.backgroundImagesSPC{
+    background-image: url('../PaginaSellcom/Assets/Images/Home/Zoom/SobreSellcomN.jpg');
+    height: 500px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+@media screen and (max-width:1000px) {
+    .backgroundImagesSPC{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .backgroundImagesSPC{
+        height: 350px;
+    }
+}
+
+@media screen and (max-width:570px) {
+    .backgroundImagesSPC{
+        height: 320px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .backgroundImagesSPC{
+        height: 290px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .backgroundImagesSPC{
+        height: 260px;
+    }
+}
+
+#divSobreSellcomNew:hover {
+    opacity: 0.60;
+    background-color: black;
+}
+
+#divPremiosNew:hover{
+    opacity: 0.60;
+    background-color: black;
+}
+
+#divContactanosNew:hover{
+    opacity: 0.60;
+    background-color: black;
+}
+
+#backgroundImagesSPCId a {
+    /*display: none;*/
+    font-size: 27px;
+    color: #ffffff !important;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+     /*change to down title 767 change desing top: 0;*/
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+/*3seccitons*/
+
+/*Parallax effect new*/
+.center-image-Sell{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-parallax-wipe{
+    padding:0px 30px;
+    background-image: url('../PaginaSellcom/Assets/Images/Home/s-23.png');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+.panel{
+    height: 100vh;
+    width: 100%;
+}
+
+#sellcomMotion img {
+    transform: translate(-110%, 0%);
+    transition: all 3s ease-out;
+}
+
+#sellcomMotion.moveRightS img {
+    transition-delay: 1s;
+    transform: translate(0%, 0%);
+}
+
+.smallLogoSellcom{
+    /*padding: 10px 0 0 25px;*/
+    display: inline-block;
+    height: 120px;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+/*NUEVO MENU **/
+.menu-wrap {
+    background-color: white;
+    padding: 40px 0;
+    overflow: hidden;
+    transition: all 0.3s;
+    position: fixed;
+    width: 350px;
+    top: 0;
+    right: -350px;
+    bottom: 0;
+    z-index: 910;
+}
+@media screen and (max-width: 420px){
+    .menu-wrap {
+        width: 300px;
+        right: -300px;
+    }
+    .icon-menu2-close{
+        font-size: 25px !important;
+    }
+}
+.menu-overlay {
+    background: rgba(0, 0, 0, 0.65);
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: -8px;
+    z-index: 900;
+}
+.menu-close {
+    position: absolute;
+    top: 26px;
+    right: 20px;
+    width: 40px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 10;
+    /*text-indent: -9999px;*/
+    transition: all 0.3s;
+}
+.icon-menu2-close{
+    font-size: 30px;
+    color: black;
+}
+.icon-menu2-close:hover{
+    color: #545454;
+}
+.menu-close:hover {
+    /*background-color: rgba(236, 69, 69, 1);*/
+    cursor: pointer;
+}
+.menu-wrap:hover .menu-close {
+    opacity: 1;
+}
+.menu-toggle {
+    display: none;
+}
+.menu-toggle:checked + .menu-wrap {
+    right: 0;
+}
+.menu-toggle:checked ~ .menu-overlay {
+    display: block;
+}
+.menu-title {
+    color: #FFF;
+    padding-left: 40px;
+    font-weight: 300;
+}
+.menu-list {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: inherit;
+    display: block;
+    overflow: hidden;
+}
+.menu-wrap:hover .menu-list {
+    overflow-y: auto;
+}
+.menu-list ul {
+    list-style-type: none;
+}
+.menu-list li {
+    display: block;
+}
+.menu-list li:first-child {
+    border-top: medium none;
+}
+.menu-list li a {
+    display: inline; /*block*/
+    padding: 10px 35px;
+    font-size: 18px;    
+    /*color: #FFF;*/
+    text-decoration: none;
+}
+.new-arrow-right-i{
+    padding: 0px !important;
+    font-size: 23px !important;
+    color: #545554 !important;
+}
+.menu-list li a:hover {
+   /* background: red;*/
+}
+.menu-list li a:active {
+    /*background: #666;*/
+}
+/*.menu-button {
+    display: inline-block;
+    margin: 4px;
+    padding: 7px 20px;
+    color: #FFF;
+    background: #67B5D1;    
+}*/
+
+/*boton hamburguer*/
+#menu__toggle {
+    opacity: 0;
+  }
+  #menu__toggle:checked + .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    left: 0 !important;
+  }
+  .menu__btn {
+    position: absolute; /*fixed*/
+    top: 37px;
+    right: 20px;
+    width: 40px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 10;
+  }
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transition-duration: .25s;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  @media screen and (max-width: 500px) {
+    .menu__btn {
+        width: 30px;
+        top: 31px;
+      }
+    .menu__btn > span::before {
+        top: -7px;
+      }
+      .menu__btn > span::after {
+        top: 7px;
+      }
+  }
+
+.logo-bottom-menu2{
+    padding: 20px 0 0 0px;
+    display: inline-block;
+    height: 80px;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+/*CHANGE PAGES JUN 2022*/
+
+/*New general*/
+.new-backgroundLine{
+    height: 60px; 
+    background-color: #F4F4F4;
+}
+
+.new-backgroundLine-middle{
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-headingInside{
+    padding:14px 70px; 
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+@media (max-width: 500px) {
+    .div-headingInside{
+        padding:14px 50px;
+    }
+    .new-card-padding-beneficios{
+        padding: 10px 15px !important;
+        color: black;
+    }
+}
+
+.newMarcas-principal-texto {
+    color: black;
+    text-align: justify;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.card-beneficios-marcas{
+    background-color: transparent;
+    border: none;
+}
+
+.new-card-padding-beneficios{
+    padding: 10px 18px;
+    color: black;
+}
+
+.new-cuadro-card-padding{
+    padding: 10px;
+    background-color: #F4F4F4;
+}
+
+.child-gen {
+    position: absolute;
+    top: 0;
+    right: 0;
+    /*background-image: url('https://picsum.photos/200');*/
+    width: 500px;
+    height: 300px;
+    /*background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+@media (max-width: 991px) {
+    .child-gen{
+        width: 410px;
+    }
+}
+
+@media (max-width: 858px) {
+    .child-gen{
+        width: 320px;
+    }
+}
+
+@media (max-width: 767px) {
+    .child-gen{
+        width: 410px;
+    }
+}
+
+@media (max-width: 414px) {
+    .child-gen{
+        width: 400px;
+    }
+}
+
+@media (max-width: 400px) {
+    .child-gen{
+        width: 360px;
+    }
+}
+
+/*New child esfera general*/
+.child-second-veeam {
+    position: absolute;
+    top: -75px;
+    right: 60px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Veeam/esfera.png');
+    width: 300px;
+    height: 320px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-second-ivanti {
+    position: absolute;
+    top: -35px;
+    right: 50px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Ivanti/esfera.png');
+    width: 320px;
+    height: 270px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-second-azure {
+    position: absolute;
+    top: -70px;
+    right: 50px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Azure/explosion.png');
+    width: 320px;
+    height: 270px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-second-hci {
+    position: absolute;
+    top: -60px;
+    right: 50px;
+    background-image: url('../PaginaSellcom/Assets/Images/Verticales/HCI/explosion.png');
+    width: 320px;
+    height: 320px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-second-nube {
+    position: absolute;
+    top: -65px;
+    right: 50px;
+    background-image: url('../PaginaSellcom/Assets/Images/Verticales/Nube/explosion.png');
+    width: 320px;
+    height: 280px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-second-seguridad {
+    position: absolute;
+    top: -55px;
+    right: 50px;
+    background-image: url('../PaginaSellcom/Assets/Images/Verticales/Seguridad/esfera.png');
+    width: 310px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-second-usuario {
+    position: absolute;
+    top: -75px;
+    right: 40px;
+    background-image: url('../PaginaSellcom/Assets/Images/Verticales/Usuario/explosion.png');
+    width: 310px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-second-servicenow {
+    position: absolute;
+    top: -25px;
+    right: 50px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Servicenow/esfera.png');
+    width: 300px;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-second-anywhere {
+    position: absolute;
+    top: -55px;
+    right: 50px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Anywhere/esfera.png');
+    width: 300px;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-second-aws {
+    position: absolute;
+    top: -35px;
+    right: 50px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/AWS/explosion.png');
+    width: 350px;
+    height: 265px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-second-netapp {
+    position: absolute;
+    top: -45px;
+    right: 50px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/NetApp/esfera.png');
+    width: 300px;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-second-dell {
+    position: absolute;
+    top: -48px;
+    right: 50px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Dell/esfera.png');
+    width: 300px;
+    height: 280px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-second-nutanix {
+    position: absolute;
+    top: -40px;
+    right: 50px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Nutanix/esfera.png');
+    width: 270px;
+    height: 220px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-second-qlik {
+    position: absolute;
+    top: -54px;
+    right: 50px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Qlik/esfera.png');
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-second-powerbi {
+    position: absolute;
+    top: -22px;
+    right: 50px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/PowerBi/esfera.png');
+    width: 315px;
+    height: 275px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-second-aruba {
+    position: absolute;
+    top: -45px;
+    right: 50px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Aruba/esfera.png');
+    width: 250px;
+    height: 240px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-second-naudit {
+    position: absolute;
+    top: -20px;
+    right: 50px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Naudit/esfera.png');
+    width: 280px;
+    height: 245px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-second-vmware {
+    position: absolute;
+    top: -25px;
+    right: 45px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/VMware/esfera.png');
+    width: 280px;
+    height: 280px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-second-jamf {
+    position: absolute;
+    top: -28px;
+    right: 50px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Jamf/esfera.png');
+    width: 240px;
+    height: 190px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-second-blancco {
+    position: absolute;
+    top: -22px;
+    right: 50px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Blancco/esfera.png');
+    width: 255px;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-second-ssl {
+    position: absolute;
+    top: -22px;
+    right: 50px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/SSL/esfera.png');
+    width: 320px;
+    height: 320px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-second-sobreSellcom {
+    position: absolute;
+    top: -43px;
+    right: 50px;
+    background-image: url('../PaginaSellcom/Assets/Images/Secciones/SobreSellcom/esfera.png');
+    width: 285px;
+    height: 270px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 1100px) {
+    .child-second-veeam {
+        top: -70px;
+        right: 20px;
+    }
+    .child-second-ivanti {
+        top: -40px;
+        right: 18px;
+    }
+    .child-second-hci{
+        top: -40px;
+        right: 15px;
+    }
+    .child-second-hci{
+        top: -40px;
+        right: 15px;
+    }
+    .child-second-seguridad{
+        right: 25px;
+    }
+    .child-second-usuario{
+        right: 20px;
+    }
+    .child-second-servicenow{
+        right: -15px;
+    }
+    .child-second-anywhere{
+        top: -28px;
+    }
+    .child-second-aws{
+        right: 10px;
+    }
+    .child-second-dell{
+        top: -40px;
+        right: 30px;
+    }
+    .child-second-qlik{
+        top: -45px;
+        right: 20px;
+    }
+    .child-second-powerbi{
+        top: -12px;
+        right: 15px;
+    }
+    .child-second-naudit{
+        right: 20px;
+    }
+    .child-second-vmware{
+        top: 0px;
+        right: 5px;
+        width: 250px;
+        height: 250px;
+    }
+    .child-second-jamf{
+        top: -15px;
+        right: 30px;
+    }
+    .child-second-blancco{
+        right: 25px;
+    }
+    .child-second-ssl{
+        top: 0px;
+        right: 10px;
+    }
+    .child-second-sobreSellcom{
+        top: -16px;
+        right: 15px;
+    }
+}
+
+@media (max-width: 930px) {
+    .child-second-veeam {
+        top: -70px;
+        right: -15px;
+    }
+    .child-second-azure{
+        right: -10px;
+    }
+    .child-second-hci{
+        right: 0px;
+    }
+    .child-second-nube{
+        right: 18px;
+    }
+    .child-second-seguridad{
+        top: -30px;
+        right: 0px;
+    }
+    .child-second-usuario{
+        top: -70px;
+        right: -15px;
+    }
+    .child-second-servicenow{
+        top: -18px;
+        right: -25px;
+    }
+    .child-second-anywhere{
+        top: -16px;
+        right: 10px;
+    }
+    .child-second-aws{
+        top: -15px;
+        right: -10px;
+    }
+    .child-second-netapp{
+        right: 10px;
+    }
+    .child-second-dell{
+        top: -30px;
+        right: 0px;
+    }
+    .child-second-nutanix{
+        top: -30px;
+        right: 10px;
+    }
+    .child-second-qlik{
+        top: -40px;
+        right: -5px;
+    }
+    .child-second-powerbi{
+        right: -20px;
+    }
+    .child-second-naudit{
+        top: -2px;
+        right: -5px;
+    }
+    .child-second-vmware{
+        top: 5px;
+        right: -40px;
+    }
+    .child-second-jamf{
+        top: -3px;
+        right: 15px;
+    }
+    .child-second-blancco{
+        top: 0;
+        right: 5px;
+    }
+    .child-second-ssl{
+        top: 10px;
+        right: -28px;
+    }
+    .child-second-sobreSellcom{
+        top: -10px;
+        right: 0px;
+    }
+}
+
+@media (max-width: 820px) {
+    .child-second-veeam {
+        top: -70px;
+        right: -35px;
+    }
+    .child-second-ivanti {
+        top: -40px;
+        right: -30px;
+    }
+    .child-second-hci{
+        right: -40px;
+    }
+    .child-second-nube{
+        right: -15px;
+    }
+    .child-second-seguridad{
+        right: -25px;
+    }
+    .child-second-servicenow{
+        top: 5px;
+        right: -40px;
+        width: 280px;
+        height: 235px;
+    }
+    .child-second-anywhere{
+        top: -10px;
+        right: -6px;
+    }
+    .child-second-aws{
+        right: -35px;
+    }
+    .child-second-netapp{
+        top: -35px;
+        right: -10px;
+    }
+    .child-second-dell{
+        right: -30px;
+    }
+    .child-second-nutanix{
+        right: -15px;
+    }
+    .child-second-qlik{
+        top: -20px;
+        right: -30px;
+    }
+    .child-second-powerbi{
+        top: 20px;
+        right: -50px;
+    }
+    .child-second-aruba{
+        top: -35px;
+        right: 5px;
+    }
+    .child-second-naudit{
+        top: 5px;
+        right: -30px;
+    }
+    .child-second-vmware{
+        top: 15px;
+        right: -55px;
+    }
+    .child-second-jamf{
+        top: 5px;
+    }
+    .child-second-blancco{
+        top: 15px;
+        right: -5px;
+    }
+    .child-second-ssl{
+        top: 35px;
+        right: -35px;
+        width: 290px;
+        height: 280px;
+    }
+    .child-second-sobreSellcom{
+        right: -20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .child-second-veeam {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0px;
+        margin: auto;
+    }
+    .marca-veeam-background-child{
+        height: 200px !important;
+    }
+    .marca-veeam-background{
+        padding: 35px 0px;
+    }
+    .child-gen {
+        position: initial;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0px;
+        margin: auto;
+    }
+    .child-second-ivanti {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0px;
+        margin: auto;
+    }
+    .child-second-azure {
+        top: -50px;
+        bottom: 0;
+        left: 0;
+        right: 0px;
+        margin: auto;
+    }
+    .child-second-hci{
+        top: -35px;
+        bottom: 0;
+        left: 0;
+        right: 0px;
+        margin: auto;
+    }
+    .child-second-nube{
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0px;
+        margin: auto;
+    }
+    .marca-ivanti-background-child{
+        height: 200px !important;
+    }
+    .marca-azure-background-child{
+        height: 200px !important;
+    }
+    .vert-hci-background-child{
+        height: 200px !important;
+    }
+    .vert-nube-background-child{
+        height: 200px !important;
+    }
+    .vert-seguridad-background-child{
+        height: 200px !important;
+    }
+    .child-second-seguridad{
+        top: -40px;
+        bottom: 0;
+        left: 0;
+        right: 0px;
+        margin: auto;
+    }
+    .vert-usuario-background-child{
+        height: 200px !important;
+    }
+    .child-second-usuario{
+        top: -40px;
+        bottom: 0;
+        left: 0;
+        right: 0px;
+        margin: auto;
+    }
+    .vert-servicenow-background-child{
+        height: 200px !important;
+    }
+    .child-second-servicenow{
+        top: 5px;
+        bottom: 0;
+        left: 0;
+        right: 0px;
+        margin: auto;
+    }
+    .vert-anywhere-background-child{
+        height: 200px !important;
+    }
+    .child-second-anywhere{
+        top: 0px;
+        bottom: 0;
+        left: 0;
+        right: 0px;
+        margin: auto;
+    }
+    .marca-aws-background-child{
+        height: 200px !important;
+    }
+    .child-second-aws{
+        top: 0px;
+        bottom: 0;
+        left: 0;
+        right: 0px;
+        margin: auto;
+        width:320px;
+    }
+    .marca-netapp-background-child{
+        height: 200px !important;
+    }
+    .child-second-netapp{
+        top: 0px;
+        bottom: 0;
+        left: 0;
+        right: 0px;
+        margin: auto;
+    }
+    .vert-dell-background-child{
+        height: 200px !important;
+    }
+    .child-second-dell{
+        top: 0px;
+        bottom: 0;
+        left: 0;
+        right: 0px;
+        margin: auto;
+    }
+    .vert-nutanix-background-child{
+        height: 200px !important;
+    }
+    .child-second-nutanix{
+        top: 0px;
+        bottom: 0;
+        left: 0;
+        right: 0px;
+        margin: auto;
+    }
+    .vert-qlik-background-child{
+        height: 200px !important;
+    }
+    .child-second-qlik{
+        top: 0px;
+        bottom: 0;
+        left: 0;
+        right: 0px;
+        margin: auto;
+    }
+    .vert-powerbi-background-child{
+        height: 200px !important;
+    }
+    .child-second-powerbi{
+        top: -5px;
+        bottom: 0;
+        left: 0;
+        right: 0px;
+        margin: auto;
+    }
+    .vert-aruba-background-child{
+        height: 200px !important;
+    }
+    .child-second-aruba{
+        top: 0px;
+        bottom: 0;
+        left: 0;
+        right: 0px;
+        margin: auto;
+    }
+    .vert-naudit-background-child{
+        height: 200px !important;
+    }
+    .child-second-naudit{
+        top: 0px;
+        bottom: 0;
+        left: 0;
+        right: 0px;
+        margin: auto;
+    }
+    .marca-vmware-background-child{
+        height: 200px !important;
+    }
+    .child-second-vmware{
+        top: 0px;
+        bottom: 0;
+        left: 0;
+        right: 0px;
+        margin: auto;
+    }
+    .vert-jamf-background-child{
+        height: 200px !important;
+    }
+    .child-second-jamf{
+        top: 0px;
+        bottom: 0;
+        left: 0;
+        right: 0px;
+        margin: auto;
+    }
+    .vert-blancco-background-child{
+        height: 200px !important;
+    }
+    .child-second-blancco{
+        top: 0px;
+        bottom: 0;
+        left: 0;
+        right: 0px;
+        margin: auto;
+    }
+    .vert-ssl-background-child{
+        height: 200px !important;
+    }
+    .child-second-ssl{
+        top: -32px;
+        bottom: 0;
+        left: 0;
+        right: 0px;
+        margin: auto;
+    }
+    .vert-sobreSellcom-background-child{
+        height: 200px !important;
+    }
+    .child-second-sobreSellcom{
+        top: -25px;
+        bottom: 0;
+        left: 0;
+        right: 0px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 375px) {
+    .child-second-veeam {
+        left: -25px;
+    }
+}
+
+/*New veeam*/
+.title-beneficios-black{
+    color: black;
+    font-weight: 500;
+    padding-top: 14px;
+}
+
+.text-beneficios-black{
+    color: black;
+    font-weight: 400;
+}
+
+.title-beneficios-white{
+    color: white;
+    font-weight: 500;
+    padding-top: 14px;
+}
+
+.text-beneficios-white{
+    color: white;
+    font-weight: 400;
+}
+
+.padding-benefi-gen{
+    padding: 0px 30px;
+}
+
+.padding-benefi-gen-tresIco{
+    padding: 0px 60px;
+}
+
+@media (max-width: 500px) {
+    .padding-benefi-gen{
+        padding: 0px 10px;
+    }
+    .padding-benefi-gen-tresIco{
+        padding: 0px 10px;
+    }
+}
+
+.cuadro-azulF-padding-veeam .cuadro-azulF-marca-veeam:hover{
+    background-color: #D1D1D1;
+}
+
+.background-color-marcas-veeam-large {
+    background-color: #023435;
+    margin: 0 auto;
+    text-align: left;
+    vertical-align: middle;
+    padding: 25px 12px;
+}
+
+.cuadro-marca-large{
+    background-color: transparent;
+    padding: 20px;
+}
+
+.marca-veeam-background-child{
+    background-color: #023435;
+    height: auto;
+}
+/**********************************/
+
+/*Parallax Image*/
+.parallax-img-bg-fixed {
+    width: 100%;
+    height: 80vh;
+    /* Important */
+    position: relative;
+}
+
+.parallax-img-bg-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.img-pallx-general { 
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    transform: translateZ(0);
+    will-change: transform;
+}
+
+.img-pallx-veeam {
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Veeam/avion.png');
+}
+
+.img-pallx-ivanti {
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Ivanti/edificios.png');
+}
+
+.img-pallx-azure {
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Azure/pasillo.png');
+}
+
+.img-pallx-hci {
+    background-image: url('../PaginaSellcom/Assets/Images/Verticales/HCI/vias.png');
+}
+
+.img-pallx-nube {
+    background-image: url('../PaginaSellcom/Assets/Images/Verticales/Nube/cuadro.png');
+}
+
+.img-pallx-datos {
+    background-image: url('../PaginaSellcom/Assets/Images/Verticales/Datos/digitalMont.png');
+}
+
+.img-pallx-redes {
+    background-image: url('../PaginaSellcom/Assets/Images/Verticales/Redes/vias.png');
+}
+
+.img-pallx-procesos {
+    background-image: url('../PaginaSellcom/Assets/Images/Verticales/Procesos/caracol.png');
+}
+
+.img-pallx-monitoreo {
+    background-image: url('../PaginaSellcom/Assets/Images/Verticales/Monitoreo/faroMar.png');
+}
+
+.img-pallx-seguridad {
+    background-image: url('../PaginaSellcom/Assets/Images/Verticales/Seguridad/candado.png');
+}
+
+.img-pallx-usuario {
+    background-image: url('../PaginaSellcom/Assets/Images/Verticales/Usuario/mujer.png');
+}
+
+.img-pallx-servicenow {
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Servicenow/paris.png');
+}
+
+.img-pallx-anywhere {
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Anywhere/aparato.png');
+}
+
+.img-pallx-aws {
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/AWS/maquinas.png');
+}
+
+.img-pallx-netapp {
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/NetApp/libros.png');
+}
+
+.img-pallx-dell {
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Dell/techo.png');
+}
+
+.img-pallx-nutanix {
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Nutanix/circulo.png');
+}
+
+.img-pallx-hpe {
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Hpe/edificios.png');
+}
+
+.img-pallx-hitachi {
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Hitachi/servidores.png');
+}
+
+.img-pallx-qlik {
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Qlik/archiveros.png');
+}
+
+.img-pallx-powerbi {
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/PowerBi/graficos.png');
+}
+
+.img-pallx-aruba {
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Aruba/lago.png');
+}
+
+.img-pallx-naudit {
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Naudit/servidores.png');
+}
+
+.img-pallx-vmware {
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/VMware/oficina.png');
+}
+
+.img-pallx-jamf {
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Jamf/apple.png');
+}
+
+.img-pallx-hpinc {
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/HPinc/cartucho.png');
+}
+
+.img-pallx-blancco {
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Blancco/cajas.png');
+}
+
+.img-pallx-cye {
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Cye/pasillo.png');
+}
+
+.img-pallx-ssl {
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/SSL/code.png');
+}
+
+.img-pallx-assac {
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Assac/person.png');
+}
+
+.img-pallx-redhat {
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/RedHat/contenedores.png');
+}
+
+.img-pallx-sobreSellcom {
+    background-image: url('../PaginaSellcom/Assets/Images/Secciones/SobreSellcom/mapa.png');
+}
+
+/*.parallax-img-mv {
+    Set a specific height
+    height: 80vh;
+    Create the parallax scrolling effect
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+  .animate__animated.animate__pulse {
+    --animate-duration: 2s;
+  }
+
+/*CIRCLE CURSOR all*/
+#circle {
+    position: fixed;
+    border-radius: 50%;
+    z-index: 5;
+    height: 40px;
+    width: 40px;
+    pointer-events: none;
+    transition:
+        background ease-in 10ms,
+        box-shadow ease-in 150ms,
+        transform ease-in 150ms;
+
+    /* Promote it to its own layer to enable  hardware accelerated rendering: */
+    transform: translate3d(0, 0, 0);
+}
+
+#circleVeeam:hover~#circle {
+    background-color: #023435;
+    opacity: 0.80;
+    /*box-shadow: 0 0 0 0 transparent, inset 0em -0.3em 0.4em 0.2em #ca9e03a6;*/
+}
+
+#circleIvanti:hover~#circle {
+    background-color: #CE372E;
+    opacity: 0.80;
+    /*box-shadow: 0 0 0 0 transparent, inset 0em -0.3em 0.4em 0.2em #ca9e03a6;*/
+}
+
+#circleAzure:hover~#circle {
+    background-color: #19A2D8;
+    opacity: 0.80;
+    /*box-shadow: 0 0 0 0 transparent, inset 0em -0.3em 0.4em 0.2em #ca9e03a6;*/
+}
+
+#circleServicenow:hover~#circle {
+    background-color: #293e40;
+    opacity: 0.80;
+    /*box-shadow: 0 0 0 0 transparent, inset 0em -0.3em 0.4em 0.2em #ca9e03a6;*/
+}
+
+#circleAnywhere:hover~#circle {
+    background-color: #E15A32;
+    opacity: 0.80;
+}
+
+#circleAws:hover~#circle {
+    background-color: #F29E3F;
+    opacity: 0.80;
+}
+
+#circleNetapp:hover~#circle {
+    background-color: #1667C5;
+    opacity: 0.80;
+}
+
+#circleDell:hover~#circle {
+    background-color: #2e73b8;
+    opacity: 0.80;
+}
+
+  /*new hover general*
+  /* Zoom In #1 */
+.figure-icons-zoom {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+.hoverIcons .figure-icons-zoom img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.hoverIcons .figure-icons-zoom:hover img {
+    -webkit-transform: scale(1.25);
+    transform: scale(1.25);
+}
+
+.card-img-top {
+    width: 60%;
+}
+
+/*Nuestra solución new*/
+
+.container-background-solu-veeam{
+    background-color: #023435;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.new-cuadro-solu-padding{
+    padding: 10px;
+}
+
+.title-soluciones{
+    color: white;
+    font-weight: 400;
+    padding: 12px 0;
+}
+
+.p-marcas-solu-w{
+    text-align: justify;
+    color: white;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+.new-padding-soluciones{
+    padding: 10px 15px;
+}
+
+.child-puertas-soluimg-veeam{
+    position: absolute;
+    top: -25px;
+    right: 10px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Veeam/puertas.png');
+    height: 320px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-puertas-soluimg-ivanti{
+    position: absolute;
+    top: -22px;
+    right: 10px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Ivanti/puertasIv.png');
+    height: 390px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-puertas-soluimg-azure{
+    position: absolute;
+    top: -23px;
+    right: 10px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Azure/puertasAz.png');
+    height: 345px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-puertas-soluimg-hci{
+    position: absolute;
+    top: -22px;
+    right: 10px;
+    background-image: url('../PaginaSellcom/Assets/Images/Verticales/HCI/puertasHci.png');
+    height: 405px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-puertas-soluimg-nube{
+    position: absolute;
+    top: -40px;
+    right: 10px;
+    background-image: url('../PaginaSellcom/Assets/Images/Verticales/Nube/puertasNu.png');
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-puertas-soluimg-datos{
+    position: absolute;
+    top: -28px;
+    right: 10px;
+    background-image: url('../PaginaSellcom/Assets/Images/Verticales/Datos/puertaDa.png');
+    height: 320px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-puertas-soluimg-redes{
+    position: absolute;
+    top: -32px;
+    right: 10px;
+    background-image: url('../PaginaSellcom/Assets/Images/Verticales/Redes/puertasRe.png');
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-puertas-soluimg-procesos{
+    position: absolute;
+    top: -22px;
+    right: 10px;
+    background-image: url('../PaginaSellcom/Assets/Images/Verticales/Procesos/puertasPro.png');
+    height: 355px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-puertas-soluimg-monitoreo{
+    position: absolute;
+    top: -32px;
+    right: 10px;
+    background-image: url('../PaginaSellcom/Assets/Images/Verticales/Monitoreo/puertasMon.png');
+    height: 280px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-puertas-soluimg-seguridad{
+    position: absolute;
+    top: -22px;
+    right: 10px;
+    background-image: url('../PaginaSellcom/Assets/Images/Verticales/Seguridad/puertasSe.png');
+    height: 320px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-puertas-soluimg-usuario{
+    position: absolute;
+    top: -29px;
+    right: 10px;
+    background-image: url('../PaginaSellcom/Assets/Images/Verticales/Usuario/puertasUser.png');
+    height: 330px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-puertas-soluimg-servicenow{
+    position: absolute;
+    top: -22px;
+    right: 10px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Servicenow/puertaServ.png');
+    height: 355px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-puertas-soluimg-anywhere{
+    position: absolute;
+    top: -22px;
+    right: 10px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Anywhere/puertasAny.png');
+    height: 335px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-puertas-soluimg-aws{
+    position: absolute;
+    top: -22px;
+    right: 10px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/AWS/puertasAws.png');
+    height: 355px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-puertas-soluimg-netapp{
+    position: absolute;
+    top: -20px;
+    right: 10px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/NetApp/puertasNet.png');
+    height: 375px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-puertas-soluimg-dell{
+    position: absolute;
+    top: -27px;
+    right: 10px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Dell/puertasDell.png');
+    height: 290px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-puertas-soluimg-nutanix{
+    position: absolute;
+    top: -28px;
+    right: 10px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Nutanix/puertasNut.png');
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-puertas-soluimg-hpe{
+    position: absolute;
+    top: -28px;
+    right: 10px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Hpe/puertasHpe.png');
+    height: 320px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-puertas-soluimg-hitachi{
+    position: absolute;
+    top: -24px;
+    right: 10px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Hitachi/puertasHit.png');
+    height: 410px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-puertas-soluimg-qlik{
+    position: absolute;
+    top: -24px;
+    right: 10px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Qlik/puertaQli.png');
+    height: 330px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-puertas-soluimg-aruba{
+    position: absolute;
+    top: -28px;
+    right: 10px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Aruba/puertasAru.png');
+    height: 320px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-puertas-soluimg-naudit{
+    position: absolute;
+    top: -22px;
+    right: 10px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Naudit/puertasNau.png');
+    height: 345px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-puertas-soluimg-jamf{
+    position: absolute;
+    top: -22px;
+    right: 10px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Jamf/puertasJmf.png');
+    height: 355px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-puertas-soluimg-hpinc{
+    position: absolute;
+    top: -22px;
+    right: 10px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/HPinc/puertasHpi.png');
+    height: 330px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-puertas-soluimg-blancco{
+    position: absolute;
+    top: -22px;
+    right: 10px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Blancco/puertasBla.png');
+    height: 365px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-puertas-soluimg-ssl{
+    position: absolute;
+    top: -22px;
+    right: 10px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/SSL/puertasSsl.png');
+    height: 333px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-puertas-soluimg-redhat{
+    position: absolute;
+    top: -22px;
+    right: 10px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/RedHat/puertasRH.png');
+    height: 382px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 1024px) {
+    .child-puertas-soluimg-veeam, .child-puertas-soluimg-ivanti, .child-puertas-soluimg-azure,
+    .child-puertas-soluimg-hci, .child-puertas-soluimg-nube, .child-puertas-soluimg-datos,
+    .child-puertas-soluimg-redes, .child-puertas-soluimg-procesos, .child-puertas-soluimg-monitoreo,
+    .child-puertas-soluimg-seguridad, .child-puertas-soluimg-usuario, .child-puertas-soluimg-servicenow,
+    .child-puertas-soluimg-anywhere, .child-puertas-soluimg-aws, .child-puertas-soluimg-netapp,
+    .child-puertas-soluimg-dell, .child-puertas-soluimg-nutanix, .child-puertas-soluimg-hpe,
+    .child-puertas-soluimg-hitachi, .child-puertas-soluimg-qlik, .child-puertas-soluimg-aruba,
+    .child-puertas-soluimg-naudit, .child-puertas-soluimg-jamf, .child-puertas-soluimg-hpinc,
+    .child-puertas-soluimg-blancco, .child-puertas-soluimg-ssl, .child-puertas-soluimg-redhat{
+        position: initial;
+    }
+}
+
+@media (max-width: 768px) {
+    .child-puertas-soluimg-ivanti{
+        height: 320px;
+    }
+    .child-puertas-soluimg-azure{
+        height: 320px;
+    }
+    .child-puertas-soluimg-hci{
+        height: 320px;
+    }
+    .child-puertas-soluimg-hitachi{
+        height: 320px;
+    }
+}
+
+@media (max-width: 500px) {
+    .new-padding-soluciones{
+        padding: 10px 0px;
+    }
+    .padding-zero-soluciones{
+        padding: 0;
+    }
+}
+
+/*fin new soluciones**/
+
+/*New Ivanti*/
+
+.background-color-marcas-ivanti-large {
+    background-color: #CE372E;
+    margin: 0 auto;
+    text-align: left;
+    vertical-align: middle;
+    padding: 25px 12px;
+}
+
+.marca-ivanti-background-child{
+    background-color: #CE372E;
+    height: auto;
+}
+
+.container-background-solu-ivanti{
+    background-color: #CE372E;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.cuadro-azulF-padding-ivanti .cuadro-grisN-marca-ivanti:hover{
+    background-color: #D1D1D1;
+}
+
+.video-background-holder-ivantimano {
+    position: relative;
+    /*background-color: #140D44;*/
+    height: calc(55vh);
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+  
+.video-background-holder-ivantimano video {
+    position: absolute;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%; /*100vw*/
+    height: 100%;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.img-background-overlay-ivanti {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    margin: 0 auto;
+    text-align: left;
+    vertical-align: middle;
+    padding: 10px 70px;
+    background-image: url('../PaginaSellcom/Assets/Images/Marcas/Ivanti/ivanti-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/**********************/
+
+/*New Azure*/
+
+.background-color-marcas-azure-large {
+    background-color: #19A2D8;
+    margin: 0 auto;
+    text-align: left;
+    vertical-align: middle;
+    padding: 25px 12px;
+}
+
+.marca-azure-background-child{
+    background-color: #19A2D8;
+    height: auto;
+}
+
+.container-background-solu-azure{
+    background-color: #19A2D8;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.cuadro-azulF-padding-azure .cuadro-azulF-marca-azure:hover{
+    background-color: #D1D1D1;
+}
+
+/*VIDEO BACGROUUND*/
+.video-background-holder-azure {
+    position: relative;
+    background-color: black;
+    height: calc(40vh);
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+  
+.video-background-holder-azure video {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto; /*100vw*/
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+  
+.video-background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    margin: 0 auto;
+    text-align: left;
+    vertical-align: middle;
+    padding: 10px 70px;
+}
+
+@media (max-width: 500px) {
+    .video-background-overlay{
+        padding: 20px 30px !important;
+    }
+    .video-background-overlay-hci{
+        padding: 20px 30px !important;
+    }
+    .video-background-overlay-nube{
+        padding: 20px 30px !important;
+    }
+    .video-background-overlay-datos{
+        padding: 20px 30px !important;
+    }
+    .video-background-overlay-redes{
+        padding: 20px 30px !important;
+    }
+    .video-background-overlay-procesos{
+        padding: 20px 30px !important;
+    }
+    .img-background-overlay-ivanti{
+        padding: 20px 30px !important;
+    }
+    .video-background-overlay-monitoreo{
+        padding: 20px 30px !important;
+    }
+    .video-background-overlay-seguridad{
+        padding: 20px 30px !important;
+    }
+    .video-background-overlay-usuario{
+        padding: 20px 30px !important;
+    }
+    .img-background-overlay-servicenow{
+        padding: 20px 30px !important;
+    }
+    .img-background-overlay-aws{
+        padding: 20px 30px !important;
+    }
+    .img-background-overlay-netapp{
+        padding: 20px 30px !important;
+    }
+    .img-background-overlay-dell{
+        padding: 20px 30px !important;
+    }
+    .video-background-overlay-hpe{
+        padding: 20px 30px !important;;
+    }
+    .video-background-overlay-qlik{
+        padding: 20px 30px !important;;
+    }
+    .video-background-overlay-powerbi{
+        padding: 20px 30px !important;
+    }
+    .video-background-overlay-aruba{
+        padding: 20px 30px !important;
+    }
+    .video-background-overlay-naudit{
+        padding: 20px 30px !important;
+    }
+    .video-background-overlay-vmware{
+        padding: 20px 30px !important;
+    }
+    .video-background-overlay-jamf{
+        padding: 20px 30px !important;
+    }
+    .video-background-overlay-hpinc{
+        padding: 20px 30px !important;
+    }
+    .video-background-overlay-blancco{
+        padding: 20px 30px !important;
+    }
+    .video-background-overlay-cye{
+        padding: 20px 30px !important;
+    }
+    .video-background-overlay-ssl{
+        padding: 20px 30px !important;
+    }
+    .video-background-overlay-assac{
+        padding: 20px 30px !important;
+    }
+    .video-background-overlay-redhat{
+        padding: 20px 30px !important;
+    }
+    .video-background-overlay-premios{
+        padding: 20px 30px !important;
+    }
+    .video-background-overlay-sobreSellcom{
+        padding: 20px 30px !important;
+    }
+    .video-background-overlay-contactanos{
+        padding: 20px 30px !important;
+    }
+}
+/*VIDEO BACKGROUND*/
+/**********************/
+
+/*NEW HCI+SDDC*/
+.cuadro-SDDC-padding-gen{
+    padding: 10px 35px;
+}
+
+.verticalLineContainer-hci{
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: white;
+}
+
+.background-color-vert-hci-large {
+    background-color: #5407A5;
+    margin: 0 auto;
+    text-align: left;
+    vertical-align: middle;
+    padding: 12px 12px;
+}
+
+.vert-hci-background-child{
+    background-color: #5407A5;
+    height: auto;
+}
+
+.line-between-hci{
+    background-color: #5407A5;
+    height: 15px;
+    width: 80px;
+}
+
+.container-background-solu-hci{
+    background-color: #5407A5;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.cuadro-azulF-padding-hciN{
+    padding: 30px 40px;
+}
+
+.cuadro-grisN-marca-hciN{
+    background-color: #F4F4F4;
+    padding: 20px;
+}
+
+.cuadro-azulF-padding-hciN .cuadro-grisN-marca-hciN:hover{
+    background-color: #D1D1D1;
+}
+
+.cuadro-azulF-padding-hciN .cuadro-grisN-marca-hciN img:hover,
+.cuadro-azulF-padding-hciN div img:hover{
+    opacity: 0.8;
+    z-index: 1;
+}
+
+/*VIDEO BACGROUUND*/
+.video-background-holder-hci {
+    position: relative;
+    /*background-color: #140D44;*/
+    height: calc(40vh);
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+  
+.video-background-holder-hci video {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto; /*100vw*/
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+  
+.video-background-overlay-hci {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    margin: 0 auto;
+    text-align: left;
+    vertical-align: middle;
+    padding: 25px 70px;
+    background-image:
+    linear-gradient(to right, rgba(20, 13, 68, 1), rgba(0, 0, 0, 0));
+}
+
+.vertical-align-hci{
+    padding: 70px 0;
+    text-align: left;
+}
+
+.title-SDDC-hci{
+    line-height: normal;
+    color: #626262;
+    padding: 50px 0px;
+}
+
+@media (max-width: 1024px) {
+    .title-SDDC-hci{
+        padding: 50px 0px;
+        font-size: 48px;
+    }
+}
+
+.new-title-produc-middle{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+/*VIDEO BACKGROUND*/
+/**********************/
+
+/*NEW CAROUSEL + 4 BEFENICIOS GENERAL*/
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/*NEW Banner moving left */
+/*keyframe animations*/
+.first-icon-banner {
+    -webkit-animation: bannermove 50s linear infinite;
+    -moz-animation: bannermove 50s linear infinite;
+    -ms-animation: bannermove 50s linear infinite;
+    -o-animation: bannermove 50s linear infinite;
+    animation: bannermove 50s linear infinite;
+}
+
+@media screen and (min-width:501px) {
+    @keyframes bannermove {
+        0% {
+            margin-left: 30px;
+        }
+
+        100% {
+            margin-left: -4945px;
+        }
+
+    }
+
+    @-moz-keyframes bannermove {
+        0% {
+            margin-left: 30px;
+        }
+
+        100% {
+            margin-left: -4945px;
+        }
+
+    }
+
+    @-webkit-keyframes bannermove {
+        0% {
+            margin-left: 30px;
+        }
+
+        100% {
+            margin-left: -4945px;
+        }
+
+    }
+
+    @-ms-keyframes bannermove {
+        0% {
+            margin-left: 30px;
+        }
+
+        100% {
+            margin-left: -4945px;
+        }
+
+    }
+
+    @-o-keyframes bannermove {
+        0% {
+            margin-left: 30px;
+        }
+
+        100% {
+            margin-left: -4945px;
+        }
+
+    }
+
+
+}
+
+@media screen and (max-width:500px) {
+    @keyframes bannermove {
+        0% {
+            margin-left: 30px;
+        }
+
+        100% {
+            margin-left: -3700px;
+        }
+
+    }
+
+    @-moz-keyframes bannermove {
+        0% {
+            margin-left: 30px;
+        }
+
+        100% {
+            margin-left: -3700px;
+        }
+
+    }
+
+    @-webkit-keyframes bannermove {
+        0% {
+            margin-left: 30px;
+        }
+
+        100% {
+            margin-left: -3700px;
+        }
+
+    }
+
+    @-ms-keyframes bannermove {
+        0% {
+            margin-left: 30px;
+        }
+
+        100% {
+            margin-left: -3700px;
+        }
+
+    }
+
+    @-o-keyframes bannermove {
+        0% {
+            margin-left: 30px;
+        }
+
+        100% {
+            margin-left: -3700px;
+        }
+
+    }
+}
+
+.socios_logo img {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+/**********************/
+
+.container-socios {
+    width: 85%;
+    max-width: 1560px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.div-title-socios{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (max-width:991px) {
+    .div-socios{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .lista-socios{
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .socios_logo{
+        width: 25%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .socios_logo{
+        width: 33%;
+        min-height: 130px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .socios_logo{
+        width: 50%;
+        min-height: 105px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .socios_logo{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:768px) {
+    h2.card-title{
+        font-size: 1.9rem;
+        text-align: center;
+        color: black;
+        font-weight: 600;
+        margin: 10px;
+    }
+    h2.card-title-2{
+        font-size: 1.4rem;
+        text-align: center;
+        color: black;
+        font-weight: 400;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    h2.card-title{
+        font-size: 1.5rem;
+        text-align: center;
+        color: black;
+        font-weight: 600;
+        margin: 10px;
+    }
+    h2.card-title-2{
+        font-size: 1rem;
+        text-align: center;
+        color: black;
+        font-weight: 400;
+        margin: 10px;
+    }
+}

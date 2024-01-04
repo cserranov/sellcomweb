@@ -1,0 +1,1485 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Sellcom - Soluciones que Transforman</title>
+		<link rel="stylesheet" type="text/css" href="../PaginaSellcom/bootstrap-4.5.3-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="/PaginaSellcom/css/style.css">
+        <link rel="shortcut icon" href="images/global/favicon.ico" type="image/x-icon">
+		<!--<link rel="stylesheet" href="css estilos/font-awesome.css">
+		<link rel="shortcut icon" href="imagenes/logodos.png">
+		<link rel="stylesheet" type="text/css" href="../animatecss/animate.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+		<script src="../PaginaSellcom/javascript/jquery-3.1.0.min.js"></script>
+		<script src="../PaginaSellcom/javascript/javascript.js"></script>
+        <script type="text/javascript" src="../PaginaSellcom/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+        
+        <!-- Library to use owl carousel marcas-->
+        <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css" rel="stylesheet"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js"></script>-->
+        <!---->
+
+</head>
+<script>
+$(function(){
+  $("#mainHeader").load("Header.html");
+  $("#main-footer").load("Footer.html");
+  //And run the script. Note that the script tag needs to be run after HTML so where you place it is important. 
+  //BrowserDetection();
+
+  /*check if element is hovered to change logo sellcom - black to white*/
+    const isHover = e => e.parentElement.querySelector(':hover') === e; //get hover element to inspect
+
+    const homeHoverSlide = document.getElementById('new'); //get div to inspect its hover
+    document.addEventListener('mousemove', function checkHover() {
+        const hovered = isHover(homeHoverSlide); // check if its hover of not
+        if (hovered !== checkHover.hovered) {
+            hovered ? changeLogo(true) : changeLogo(false);
+            //console.log(hovered ? 'hovered' : 'not hovered');
+            checkHover.hovered = hovered;
+        }
+    });
+    /**/
+});
+</script>
+<body>
+<!---------------------------------------------------------->
+<!---------------   ↓   HEADER    ↓    -------------->
+<div id="mainHeader"></div>
+<!---------------     ↑    FIN    ↑     -------------->
+<!---------------------------------------------------------->
+
+
+<!---------------------------------------------------------->
+<!---------------   ↓   NEW SLIDER HOME   ↓    -------------->
+<div class="conteiner top-carousel" style="position:relative" id="new">
+    <div id="overlayVideo" class="overlayHomeTitle">
+        <p id="topTextVideo" style="transform: scale(1);transition: all 0.3s ease-in-out 0.1s;">Creamos soluciones de valor, mediante<!--<sup class="supClass">1</sup>--> <br><br class="d-none d-md-block">
+            <span id="spanHomeColor" style="transform: scale(1);transition: all 0.3s ease-in-out 0.1s; font-style: normal; font-weight: 300;">la transformación digital</span> 
+        </p>
+    </div>
+
+    <div id="carouselHome" class="carousel slide carousel-fade overlaySliderHome" data-ride="carousel" data-pause="false">
+        <div class="carousel-inner">
+            
+            <!--1-->
+            <div class="carousel-item active">
+                <a style="display:block; text-decoration:none" href="https://sellcom-solutions.com.mx/sections/cloud.html">
+                <img class="d-block w-100" src="PaginaSellcom/Assets/Images/Home/HomeSlider/Cloud.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block captationClass">
+                    <h1>Nube</h1>
+                    <p>Libramos a nuestros clientes de la complejidad y el costo de la TI tradicional mediante el poder de la nube híbrida o total.</p>
+                  </div>
+                </a>
+            </div>
+            <!--2-->
+            <div class="carousel-item">
+                <a style="display:block; text-decoration:none" href="https://sellcom-solutions.com.mx/sections/business.html">
+                    <img class="d-block w-100" src="PaginaSellcom/Assets/Images/Home/HomeSlider/Process.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block captationClass">
+                        <h1>Proceso</h1>
+                        <p>Detrás de cada experiencia de trabajo existe un gran proceso. Desarrollamos Flujos de Trabajo Digitales, conectamos personas, funciones y sistemas en todas las áreas de negocio.</p>
+                      </div>
+                </a>
+            </div>
+            <!--3-->
+            <div class="carousel-item">
+                <a style="display:block; text-decoration:none" href="https://sellcom-solutions.com.mx/sections/hci.html">
+                    <img class="d-block w-100" src="PaginaSellcom/Assets/Images/Home/HomeSlider/HCI+SPDC.jpg" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block captationClass">
+                        <h1>HCI + SPDC</h1>
+                        <p>Con nuestras soluciones en tecnología ayudamos a la simplicidad de TI, transformamos la infraestructura de la TI a que sea definida por software, que virtualiza todos los elementos de los sistemas convencionales definidos por hardware.</p>
+                      </div>
+                </a>
+            </div>
+            <!--4-->
+            <div class="carousel-item">
+                <a style="display:block; text-decoration:none" href="https://sellcom-solutions.com.mx/sections/framework.html">
+                    <img class="d-block w-100" src="PaginaSellcom/Assets/Images/Home/HomeSlider/Data.jpg" alt="fourth slide">
+                    <div class="carousel-caption d-none d-md-block captationClass">
+                        <h1>Datos</h1>
+                        <p>Mediante la administración de datos empresariales podemos conectar a los creadores y consumidores de datos sin dificultades para encontrar datos de manera rápida y aprovechar todo el valor que ofrecen. Las operaciones de datos no son un producto, servicio o solución sino una metodología, un cambio tecnológico y cultural para optimizar el uso de datos mediante una mejor colaboración y automatización.</p>
+                      </div>
+                </a>
+            </div>
+            <!--5-->
+            <div class="carousel-item">
+                <a style="display:block; text-decoration:none" href="https://sellcom-solutions.com.mx/sections/networking.html">
+                    <img class="d-block w-100" src="PaginaSellcom/Assets/Images/Home/HomeSlider/Networking.jpg" alt="fifth slide">
+                    <div class="carousel-caption d-none d-md-block captationClass">
+                        <h1 class="h1-networking-home">Redes</h1>
+                        <p class="p-networking-home">Creamos nuevas formas de interactuar con los usuarios mediante un mayor aprovechamiento de las redes tecnológicas y monitoreo e interpretación de datos, abriendo camino con indicaciones focalizados a generar negocio para nuestros clientes.</p>
+                      </div>
+                </a>
+            </div>
+            <!--6-->
+            <div class="carousel-item">
+                <a style="display:block; text-decoration:none" href="https://sellcom-solutions.com.mx/sections/mobility.html">
+                    <img class="d-block w-100" src="PaginaSellcom/Assets/Images/Home/HomeSlider/End-UserComputing.jpg" alt="sixth slide">
+                    <div class="carousel-caption d-none d-md-block captationClass">
+                        <h1 class="h1-end-user-home">Usuario final</h1>
+                        <p class="p-end-user-home">Con base en nuestras soluciones tecnológicas nos aseguramos que los usuarios, con distintos dispositivos, puedan acceder a sus aplicaciones y datos desde cualquier lugar y en cualquier momento.</p>
+                      </div>
+                </a>
+            </div>
+            <!--7-->
+            <div class="carousel-item">
+                <a style="display:block; text-decoration:none" href="https://sellcom-solutions.com.mx/sections/security.html">
+                    <img class="d-block w-100" src="PaginaSellcom/Assets/Images/Home/HomeSlider/Security.jpg" alt="seventh slide">
+                    <div class="carousel-caption d-none d-md-block captationClass">
+                        <h1>Seguridad</h1>
+                        <p>Habilitamos y apoyamos en cada momento crítico sobre las amenazas cibernéticas, antes y durante los eventos; mientras le permitimos adaptarse continuamente y mantenerse a la vanguardia de la próxima amenaza.</p>
+                      </div>
+                </a>
+            </div>
+            <!--8-->
+            <div class="carousel-item">
+                <a style="display:block; text-decoration:none" href="https://sellcom-solutions.com.mx/sections/monitor.html">
+                    <img class="d-block w-100" src="PaginaSellcom/Assets/Images/Home/HomeSlider/Monitoring.jpg" alt="eight slide">
+                    <div class="carousel-caption d-none d-md-block captationClass">
+                        <h1 class="h1-monitoring-home">Monitoreo</h1>
+                        <p class="p-monitoring-home">Brindamos visibilidad total de redes, aplicaciones, sistemas y personas en tiempo real, además de la interpretación proactiva de los datos recolectados, buscando optimizaciones.</p>
+                      </div>
+                </a>
+            </div>
+        
+        </div>
+    </div>
+ </div>
+<!---------------     ↑    FIN    ↑     -------------->
+<!---------------------------------------------------------->
+
+<br>
+<br class="d-none d-md-block">
+<br class="d-none d-md-block">
+<br class="d-none d-md-block">
+<!---------------------------------------------------------->
+<!---------------   ↓   Title Verticales    ↓    -------------->
+<!--<div class="conteiner">
+    <div id="div-title-verticales">
+        <p id="title-verticales"> <span id="title-verticales-span">VERTICALES</span> DE NEGOCIO</p>
+    </div>
+ </div>-->
+<!---------------     ↑    FIN    ↑     -------------->
+<!---------------------------------------------------------->
+
+<!---------------------------------------------------------->
+<!---------------   ↓   Close verticales    ↓    -------------->
+<!--<div class="conteiner d-none d-lg-block" id="close-verticals">
+    <div id="div-close-verticales">
+        <a id="close_icon-verticales" onclick="showRectangleVerticals()">
+            <img id="icon_verticales" src="Assets/Images/Home/close.png" alt="">
+        </a>
+    </div>
+ </div>-->
+<!---------------     ↑    FIN    ↑     -------------->
+<!---------------------------------------------------------->
+
+<!---------------------------------------------------------->
+<!---------------   ↓   INICIO - CARDS   ↓   -------------->
+<!--<section style="padding-top: 120px;"></section>-->
+<div class="container d-none d-lg-block" id="cards">
+    <div class="w-layout-grid w__3-col-grid">
+        <div class="card" style="border:0px;">
+            <img class="card-img-top imagen-cards" style="border-radius: 2%;" src="PaginaSellcom/Assets/Images/Home/Carousel/HCI2N.png" alt="">
+            <div class="card-body">
+                <h1 class="card-title titulo-cards"><a href="https://sellcom-solutions.com.mx/sections/hci.html">HCI + SPDC</a></h1>
+                <p class="card-text descripcion-cards">
+                    Con nuestras soluciones en tecnología ayudamos a la simplicidad de TI, transformamos la infraestructura de la TI a que sea definida por software, que virtualiza todos los elementos de los sistemas convencionales definidos por hardware.
+                </p>
+            </div>
+        </div>
+        <div class="card" style="padding-top: 45%; border:0px;">
+            <img class="card-img-top imagen-cards" style="border-radius: 2%;" src="PaginaSellcom/Assets/Images/Home/Carousel/Nube2N.png" alt="">
+            <div class="card-body">
+                <h1 class="card-title titulo-cards"><a href="https://sellcom-solutions.com.mx/sections/cloud.html">Nube</a></h1>
+                <p class="card-text descripcion-cards">
+                    Libramos a nuestros clientes de la complejidad y el costo de la TI tradicional mediante el poder de la nube híbrida o total.
+                </p>
+            </div>
+        </div>
+        <div class="card" style="border:0px;">
+            <img class="card-img-top imagen-cards" style="border-radius: 2%;" src="PaginaSellcom/Assets/Images/Home/Carousel/SecurityN.png" alt="">
+            <div class="card-body">
+                <h1 class="card-title titulo-cards"><a href="https://sellcom-solutions.com.mx/sections/security.html">Seguridad</a></h1>
+                <p class="card-text descripcion-cards">                        
+                    Habilitamos y apoyamos en cada momento crítico sobre las amenazas cibernéticas, antes y durante los eventos; mientras le permitimos adaptarse continuamente y mantenerse a la vanguardia de la próxima amenaza.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Segunda sección -->
+<div class="container d-none d-lg-block" id="cards">
+    <div class="w-layout-grid w__3-col-grid">
+        <div class="card" style="border:0px;">
+            <img class="card-img-top imagen-cards" style="border-radius: 2%;" src="PaginaSellcom/Assets/Images/Home/Carousel/Procesos1N.png" alt="">
+            <div class="card-body">
+                <h1 class="card-title titulo-cards"><a href="https://sellcom-solutions.com.mx/sections/business.html">Proceso</a></h1>
+                <p class="card-text descripcion-cards">
+                    Detrás de cada experiencia de trabajo existe un gran proceso. Desarrollamos Flujos de Trabajo Digitales, conectamos personas, funciones y sistemas en todas las áreas de negocio.
+                </p>
+            </div>
+        </div>
+        <div class="card" style="padding-top: 45%; border:0px;">
+            <img class="card-img-top imagen-cards" style="border-radius: 2%;" src="PaginaSellcom/Assets/Images/Home/Carousel/EndUser2N.png" alt="">
+            <div class="card-body">
+                <h1 class="card-title titulo-cards"><a href="https://sellcom-solutions.com.mx/sections/mobility.html">Usuario final</a></h1>
+                <p class="card-text descripcion-cards">
+                    Con base en nuestras soluciones tecnológicas nos aseguramos que los usuarios, con distintos dispositivos, puedan acceder a sus aplicaciones y datos desde cualquier lugar y en cualquier momento.
+                </p>
+            </div>
+        </div>
+        <div class="card" style="border:0px;">
+            <img class="card-img-top imagen-cards" style="border-radius: 2%;" src="PaginaSellcom/Assets/Images/Home/Carousel/Monitoreo2N.png" alt="">
+            <div class="card-body">
+                <h1 class="card-title titulo-cards"><a href="https://sellcom-solutions.com.mx/sections/monitor.html">Monitoreo</a></h1>
+                <p class="card-text descripcion-cards">                        
+                    Brindamos visibilidad total de redes, aplicaciones, sistemas y personas en tiempo real, además de la interpretación proactiva de los datos recolectados, buscando optimizaciones.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Tercera sección -->
+<div class="container d-none d-lg-block" id="cards">
+    <div class="w-layout-grid w__3-col-grid">
+        <div class="card" style="border:0px;">
+            <img class="card-img-top imagen-cards" style="border-radius: 2%;" src="PaginaSellcom/Assets/Images/Home/Carousel/Data1N.png" alt="">
+            <div class="card-body">
+                <h1 class="card-title titulo-cards"><a href="https://sellcom-solutions.com.mx/sections/framework.html">Datos</a></h1>
+                <p class="card-text descripcion-cards">
+                    A través de la administración de datos empresariales conectamos a los creadores y consumidores de datos para encontrar datos ágilmente y aprovechar el valor que ofrecen. Las operaciones, más que una solución, son una metodología innovadora que optimiza el uso de datos mediante una mejor colaboración y automatización.
+                </p>
+            </div>
+        </div>
+        <div class="card" style="padding-top: 45%; border:0px;">
+            <img class="card-img-top imagen-cards" style="border-radius: 2%;" src="PaginaSellcom/Assets/Images/Home/Carousel/Networking1N.png" alt="">
+            <div class="card-body">
+                <h1 class="card-title titulo-cards"><a href="https://sellcom-solutions.com.mx/sections/networking.html">Redes</a></h1>
+                <p class="card-text descripcion-cards">
+                    Creamos nuevas formas de interactuar con los usuarios mediante un mayor aprovechamiento de las redes tecnológicas y monitoreo e interpretación de datos, abriendo camino con indicaciones focalizados a generar negocio para nuestros clientes.
+                </p>
+            </div>
+        </div>
+        <div class="card" style="border:0px;">
+            <img class="card-img-top imagen-cards" style="border-radius: 2%;" src="" alt="">
+            <div class="card-body">
+                <h1 class="card-title titulo-cards"><a href=""></a></h1>
+                <p class="card-text descripcion-cards">                    
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------     ↑    FIN    ↑     -------------->
+<!---------------------------------------------------------->
+
+<!---------------------------------------------------------->
+<!---------------   ↓   INICIO - CARDS VERTICALES  ↓   -------------->
+<!--<section style="padding-top: 120px;"></section>-->
+<div class="container d-block d-lg-none" id="cards-vertical" style="text-align: center;">
+    <div class="row">
+        <div class="card" style="width: 18rem; border:0px;">
+            <img class="card-img-top imagen-cards" style="border-radius: 2%;" src="PaginaSellcom/Assets/Images/Home/Carousel/HCI2N.png" alt="">
+            <div class="card-body">
+                <h1 class="card-title titulo-cards"><a href="https://sellcom-solutions.com.mx/sections/hci.html">HCI + SPDC</a></h1>
+                <p class="card-text descripcion-cards">
+                    Con nuestras soluciones en tecnología ayudamos a la simplicidad de TI, transformamos la infraestructura de la TI a que sea definida por software, que virtualiza todos los elementos de los sistemas convencionales definidos por hardware.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="card" style="width: 18rem; padding-top: 5%; border:0px;">
+            <img class="card-img-top imagen-cards" style="border-radius: 2%;" src="PaginaSellcom/Assets/Images/Home/Carousel/Nube2N.png" alt="">
+            <div class="card-body">
+                <h1 class="card-title titulo-cards"><a href="https://sellcom-solutions.com.mx/sections/cloud.html">Nube</a></h1>
+                <p class="card-text descripcion-cards">
+                    Libramos a nuestros clientes de la complejidad y el costo de la TI tradicional mediante el poder de la nube híbrida o total.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="card" style="width: 18rem; padding-top: 5%; border:0px;">
+            <img class="card-img-top imagen-cards" style="border-radius: 2%;" src="PaginaSellcom/Assets/Images/Home/Carousel/SecurityN.png" alt="">
+            <div class="card-body">
+                <h1 class="card-title titulo-cards"><a href="https://sellcom-solutions.com.mx/sections/security.html">Seguridad</a></h1>
+                <p class="card-text descripcion-cards">                        
+                    Habilitamos y apoyamos en cada momento crítico sobre las amenazas cibernéticas, antes y durante los eventos; mientras le permitimos adaptarse continuamente y mantenerse a la vanguardia de la próxima amenaza.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="card" style="width: 18rem; padding-top: 5%; border:0px;">
+            <img class="card-img-top imagen-cards" style="border-radius: 2%;" src="PaginaSellcom/Assets/Images/Home/Carousel/Procesos1N.png" alt="">
+            <div class="card-body">
+                <h1 class="card-title titulo-cards"><a href="https://sellcom-solutions.com.mx/sections/business.html">Proceso</a></h1>
+                <p class="card-text descripcion-cards">                        
+                    Detrás de cada experiencia de trabajo existe un gran proceso. Desarrollamos Flujos de Trabajo Digitales, conectamos personas, funciones y sistemas en todas las áreas de negocio.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="card" style="width: 18rem; padding-top: 5%; border:0px;">
+            <img class="card-img-top imagen-cards" style="border-radius: 2%;" src="PaginaSellcom/Assets/Images/Home/Carousel/EndUser2N.png" alt="">
+            <div class="card-body">
+                <h1 class="card-title titulo-cards"><a href="https://sellcom-solutions.com.mx/sections/mobility.html">Usuario final</a></h1>
+                <p class="card-text descripcion-cards">                        
+                    Con base en nuestras soluciones tecnológicas nos aseguramos que los usuarios, con distintos dispositivos, puedan acceder a sus aplicaciones y datos desde cualquier lugar y en cualquier momento.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="card" style="width: 18rem; padding-top: 5%; border:0px;">
+            <img class="card-img-top imagen-cards" style="border-radius: 2%;" src="PaginaSellcom/Assets/Images/Home/Carousel/Monitoreo2N.png" alt="">
+            <div class="card-body">s
+                <h1 class="card-title titulo-cards"><a href="https://sellcom-solutions.com.mx/sections/monitor.html">Monitoreo</a></h1>
+                <p class="card-text descripcion-cards">                        
+                    Brindamos visibilidad total de redes, aplicaciones, sistemas y personas en tiempo real, además de la interpretación proactiva de los datos recolectados, buscando optimizaciones.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="card" style="width: 18rem; padding-top: 5%; border:0px;">
+            <img class="card-img-top imagen-cards" style="border-radius: 2%;" src="PaginaSellcom/Assets/Images/Home/Carousel/Data1N.png" alt="">
+            <div class="card-body">s
+                <h1 class="card-title titulo-cards"><a href="https://sellcom-solutions.com.mx/sections/framework.html">Datos</a></h1>
+                <p class="card-text descripcion-cards">                        
+                    A través de la administración de datos empresariales conectamos a los creadores y consumidores de datos para encontrar datos ágilmente y aprovechar el valor que ofrecen. Las operaciones, más que una solución, son una metodología innovadora que optimiza el uso de datos mediante una mejor colaboración y automatización.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="card" style="width: 18rem; padding-top: 5%; border:0px;">
+            <img class="card-img-top imagen-cards" style="border-radius: 2%;" src="PaginaSellcom/Assets/Images/Home/Carousel/Networking1N.png" alt="">
+            <div class="card-body">s
+                <h1 class="card-title titulo-cards"><a href="https://sellcom-solutions.com.mx/sections/networking.html">Redes</a></h1>
+                <p class="card-text descripcion-cards">                        
+                    Creamos nuevas formas de interactuar con los usuarios mediante un mayor aprovechamiento de las redes tecnológicas y monitoreo e interpretación de datos, abriendo camino con indicaciones focalizados a generar negocio para nuestros clientes.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------     ↑    FIN    ↑     -------------->
+<!---------------------------------------------------------->
+
+<!---------------------------------------------------------->
+<!---------------   ↓   CAROUSEL   ↓  data-interval="false" d-none d-md-block -------------->
+<!--
+<div class="conteiner d-none d-md-block" id="carousel-verticals">
+    <div id="carouselExampleIndicators" class="carousel slide" data-interval="false" >
+        <div class="row">
+            <ol class="carousel-indicators" id="Indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+              </ol>
+        </div>
+                
+        <div class="carousel-inner">            
+            -->
+            <!--1-->
+            <!--
+            <div class="carousel-item active" style="background-color: #000000;">
+                    <div class="conteiner" style="padding-right: 15px; padding-left: 15px;">    
+                        <br>
+                        <br>
+                        <div style="display:block">                            
+                                <div class="row">
+                                    <div class="col-lg-2 col-md-2 col-sm-2 col-lg-offset-1 visible-lg">
+                                    </div>                                    
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-lg-offset-1 visible-xs paddingTopCarouselHorizontal">
+                                        <a style="display:block; text-decoration:none; background-image: none;" href="https://sellcom-solutions.com.mx/sections/hci.html">
+                                            <h1 class="title-sliders-vertical d-none d-md-block">HCI + SPDC</h1>
+                                            <h4 class="title-sliders-vertical d-block d-md-none">HCI + SPDC</h4>
+                                        </a>
+                                        <br>
+                                        <p class="description-sliders">
+                                            Con nuestras soluciones en tecnología ayudamos a la simplicidad de TI, transformamos la infraestructura de la TI a que sea definida por software, que virtualiza todos los elementos de los sistemas convencionales definidos por hardware.
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="col-lg-5 col-md-5 col-sm-5" style="text-align: center;">
+                                        <div class="about-card-wrapper about-card-1">
+                                            <div class="ratio-120">
+                                                <img src="Assets/Images/Home/Carousel/HCI1.png" class="slider-image-item" style="cursor: pointer;" alt="" id="HCI1"  style="z-index:11">
+                                            </div>                 
+                                        </div>                                                       
+                                        <div class="about-card-wrapper about-card-2">
+                                            <div class="ratio-120">
+                                                <img src="Assets/Images/Home/Carousel/HCI2.png" class="slider-image-item" style="cursor: pointer;" alt="" id="HCI2" style="z-index:12">
+                                            </div>                 
+                                        </div>                                       
+                                        <div class="about-card-wrapper about-card-3">
+                                            <div class="ratio-120">
+                                                <img src="Assets/Images/Home/Carousel/HCI3.png" class="slider-image-item" style="cursor: pointer;" alt="" id="HCI3"  style="z-index:13">
+                                            </div>                 
+                                        </div>                                          
+                                    </div>      
+                                    
+                                    <div class="col-lg-2 col-md-2 d-none d-md-block">
+                                    </div>
+                                    
+                                </div>                            
+                        </div>
+                        
+                    </div>
+            </div>
+          -->
+            <!--2-->
+            <!--
+            <div class="carousel-item" style="background-color: #000000;">
+            
+                <div class="conteiner" style="padding-right: 15px; padding-left: 15px;">    
+                    <br>
+                    <br>
+                    <div style="display: block;">                        
+                        <div class="row">
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-lg-offset-1 visible-lg">
+                            </div>                                
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-lg-offset-1 visible-xs paddingTopCarouselHorizontal">
+                                <a style="display:block; text-decoration:none; background-image: none;" href="https://sellcom-solutions.com.mx/sections/cloud.html">
+                                    <h1 class="title-sliders-vertical d-none d-md-block">Cloud</h1>
+                                    <h4 class="title-sliders-vertical d-block d-md-none">Cloud</h4>
+                                </a>
+                                <br>
+                                <p class="description-sliders">Libramos a nuestros clientes de la complejidad y el costo de la TI tradicional mediante el poder de la nube híbrida o total.</p>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-5" style="text-align: center;">
+                                <div class="about-card-wrapper about-card-1">
+                                    <div class="ratio-120">
+                                        <img src="Assets/Images/Home/Carousel/Nube1.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Nube1" style="z-index:11" >
+                                    </div>                 
+                                </div>
+                                <div class="about-card-wrapper about-card-2">
+                                    <div class="ratio-120">
+                                        <img src="Assets/Images/Home/Carousel/Nube2.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Nube2" style="z-index:12" >
+                                    </div>                 
+                                </div>                                                    
+                                <div class="about-card-wrapper about-card-3">
+                                    <div class="ratio-120">
+                                        <img src="Assets/Images/Home/Carousel/Nube3.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Nube3" style="z-index:13" >
+                                    </div>                 
+                                </div>                                          
+                            </div>      
+                            
+                            <div class="col-lg-2 col-md-2 d-none d-md-block">
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+        </div>
+-->
+        <!--3-->
+        <!--
+        <div class="carousel-item" style="background-color: #000000;">
+            
+            <div class="conteiner" style="padding-right: 15px; padding-left: 15px;">    
+                <br>
+                <br>
+                <div style="display:block;">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-lg-offset-1 visible-lg">
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-lg-offset-1 visible-xs paddingTopCarouselHorizontal">
+                            <a style="display:block; text-decoration:none; background-image: none;" href="https://sellcom-solutions.com.mx/sections/security.html">
+                                <h1 class="title-sliders-vertical d-none d-md-block">Seguridad</h1>
+                                <h4 class="title-sliders-vertical d-block d-md-none">Seguridad</h4>
+                            </a>                            
+                            <br>
+                            <p class="description-sliders">Habilitamos y apoyamos en cada momento crítico sobre las amenazas cibernéticas, antes y durante los eventos; mientras le permitimos adaptarse continuamente y mantenerse a la vanguardia de la próxima amenaza.</p>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-5" style="text-align: center;">
+                            <div class="about-card-wrapper about-card-1">
+                                <div class="ratio-120">
+                                    <img src="Assets/Images/Home/Carousel/Security1.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Security1" style="z-index:11" >
+                                </div>                 
+                            </div>                              
+                            <div class="about-card-wrapper about-card-2">
+                                <div class="ratio-120">
+                                    <img src="Assets/Images/Home/Carousel/Security2.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Security2" style="z-index:12" >
+                                </div>                 
+                            </div> 
+                            <div class="about-card-wrapper about-card-3">
+                                <div class="ratio-120">
+                                    <img src="Assets/Images/Home/Carousel/Security3.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Security3" style="z-index:13" >
+                                </div>                 
+                            </div>                                                              
+                        </div>     
+                        
+                        <div class="col-lg-2 col-md-2 d-none d-md-block">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+-->
+          <!--4-->
+          <!--
+        <div class="carousel-item" style="background-color: #000000;">
+            
+            <div class="conteiner" style="padding-right: 15px; padding-left: 15px;">    
+                <br>
+                <br>
+                <div style="display: block;">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-lg-offset-1 visible-lg">
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-lg-offset-1 visible-xs paddingTopCarouselHorizontal">
+                            <a style="display:block; text-decoration:none; background-image: none;" href="http://dev.sellcom-solutions.com.mx/sections/business.html">
+                                <h1 class="title-sliders-vertical d-none d-md-block">Procesos</h1>
+                                <h4 class="title-sliders-vertical d-block d-md-none">Procesos</h4>
+                            </a>                            
+                            <br>
+                            <p class="description-sliders">Detrás de cada experiencia de trabajo existe un gran proceso. Desarrollamos Flujos de Trabajo Digitales, conectamos personas, funciones y sistemas en todas las áreas de negocio.</p>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-5" style="text-align: center;">
+                            <div class="about-card-wrapper about-card-1">
+                                <div class="ratio-120">
+                                    <img src="Assets/Images/Home/Carousel/Procesos1.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Procesos1" style="z-index:11" >
+                                </div>                 
+                            </div> 
+                            <div class="about-card-wrapper about-card-2">
+                                <div class="ratio-120">
+                                    <img src="Assets/Images/Home/Carousel/Procesos2.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Procesos2" style="z-index:12" >
+                                </div>                 
+                            </div>                                                                    
+                            <div class="about-card-wrapper about-card-3">
+                                <div class="ratio-120">
+                                    <img src="Assets/Images/Home/Carousel/Procesos3.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Procesos3" style="z-index:13" >
+                                </div>                 
+                            </div>                                                                                                                           
+                        </div>     
+                        
+                        <div class="col-lg-2 col-md-2 d-none d-md-block">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+-->
+         <!--5-->
+         <!--
+         <div class="carousel-item" style="background-color: #000000;">
+            
+            <div class="conteiner" style="padding-right: 15px; padding-left: 15px;">    
+                <br>
+                <br>
+                <div style="display: block;">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-lg-offset-1 visible-lg">
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-lg-offset-1 visible-xs paddingTopCarouselHorizontal">
+                            <a style="display:block; text-decoration:none; background-image: none;" href="https://sellcom-solutions.com.mx/sections/mobility.html">
+                                <h1 class="title-sliders-vertical d-none d-md-block">End User Comuting</h1>
+                                <h4 class="title-sliders-vertical d-block d-md-none">End User Comuting</h4>
+                            </a>                            
+                            <br>
+                            <p class="description-sliders">Con base en nuestras soluciones tecnológicas nos aseguramos que los usuarios, con distintos dispositivos, puedan acceder a sus aplicaciones y datos desde cualquier lugar y en cualquier momento.</p>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-5" style="text-align: center;">
+                            <div class="about-card-wrapper about-card-1">
+                                <div class="ratio-120">
+                                    <img src="Assets/Images/Home/Carousel/EndUser1.png" class="slider-image-item" style="cursor: pointer;" alt="" id="EndUser1" style="z-index:11" >
+                                </div>                 
+                            </div> 
+                            <div class="about-card-wrapper about-card-2">
+                                <div class="ratio-120">
+                                    <img src="Assets/Images/Home/Carousel/EndUser2.png" class="slider-image-item" style="cursor: pointer;" alt="" id="EndUser2" style="z-index:12" >
+                                </div>                 
+                            </div> 
+                            <div class="about-card-wrapper about-card-3">
+                                <div class="ratio-120">
+                                    <img src="Assets/Images/Home/Carousel/EndUser3.png" class="slider-image-item" style="cursor: pointer;" alt="" id="EndUser3" style="z-index:13" >
+                                </div>                 
+                            </div>                                                      
+                        </div>     
+                        
+                        <div class="col-lg-2 col-md-2 d-none d-md-block">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+-->
+        <!--6-->
+        <!--
+        <div class="carousel-item" style="background-color: #000000;">
+            
+            <div class="conteiner" style="padding-right: 15px; padding-left: 15px;">    
+                <br>
+                <br>
+                <div style="display: block;">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-lg-offset-1 visible-lg">
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-lg-offset-1 visible-xs paddingTopCarouselHorizontal">
+                            <a style="display:block; text-decoration:none; background-image: none;" href="https://sellcom-solutions.com.mx/sections/monitor.html">
+                                <h1 class="title-sliders-vertical d-none d-md-block">Monitoreo</h1>
+                                <h4 class="title-sliders-vertical d-block d-md-none">Monitoreo</h4>
+                            </a>
+                            
+                            <br>
+                            <p class="description-sliders">Brindamos visibilidad total de redes, aplicaciones, sistemas y personas en tiempo real, además de la interpretación proactiva de los datos recolectados, buscando optimizaciones.</p>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-5" style="text-align: center;">
+                            <div class="about-card-wrapper about-card-1">
+                                <div class="ratio-120">
+                                    <img src="Assets/Images/Home/Carousel/Monitoreo1.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Monitoreo1" style="z-index:11" >
+                                </div>                 
+                            </div>                                       
+                            <div class="about-card-wrapper about-card-2">
+                                <div class="ratio-120">
+                                    <img src="Assets/Images/Home/Carousel/Monitoreo2.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Monitoreo2" style="z-index:12" >
+                                </div>                 
+                            </div> 
+                            <div class="about-card-wrapper about-card-3">
+                                <div class="ratio-120">
+                                    <img src="Assets/Images/Home/Carousel/Monitoreo3.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Monitoreo3" style="z-index:13" >
+                                </div>                 
+                            </div>                                                       
+                        </div>
+                        
+                        <div class="col-lg-2 col-md-2 d-none d-md-block">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+-->
+        <!--7-->
+        <!--
+        <div class="carousel-item" style="background-color: #000000;">
+            
+            <div class="conteiner" style="padding-right: 15px; padding-left: 15px;">    
+                <br>
+                <br>
+                <div style="display: block;">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-lg-offset-1 visible-lg">
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-lg-offset-1 visible-xs paddingTopCarouselHorizontal">
+                            <a style="display:block; text-decoration:none; background-image: none;" href="http://dev.sellcom-solutions.com.mx/sections/framework.html">
+                                <h1 class="title-sliders-vertical d-none d-md-block">Datos</h1>
+                                <h4 class="title-sliders-vertical d-block d-md-none">Datos</h4>
+                            </a>                            
+                            <br>
+                            <p class="description-sliders">Mediante la administración de datos empresariales podemos conectar a los creadores y consumidores de datos sin dificultades para encontrar datos de manera rápida y aprovechar todo el valor que ofrecen. Las operaciones de datos no son un producto, servicio o solución sino una metodología, un cambio tecnológico y cultural para optimizar el uso de datos mediante una mejor colaboración y automatización.</p>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-5" style="text-align: center;">                                                                      
+                            <div class="about-card-wrapper about-card-1">
+                                <div class="ratio-120">
+                                    <img src="Assets/Images/Home/Carousel/Data1.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Data1" style="z-index:11" >
+                                </div>                 
+                            </div>
+                            <div class="about-card-wrapper about-card-2">
+                                <div class="ratio-120">
+                                    <img src="Assets/Images/Home/Carousel/Data2.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Data2" style="z-index:12" >
+                                </div>                 
+                            </div>                                                                                                                          
+                            <div class="about-card-wrapper about-card-3">
+                                <div class="ratio-120">
+                                    <img src="Assets/Images/Home/Carousel/Data3.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Data3" style="z-index:13" >
+                                </div>                 
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-2 col-md-2 d-none d-md-block">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+-->
+        <!--8-->
+        <!--
+        <div class="carousel-item" style="background-color: #000000;">
+            
+            <div class="conteiner" style="padding-right: 15px; padding-left: 15px;">    
+                <br>
+                <br>
+                <div style="display: block;">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-lg-offset-1 visible-lg">
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-lg-offset-1 visible-xs paddingTopCarouselHorizontal">
+                            <a style="display:block; text-decoration:none; background-image: none;" href="https://sellcom-solutions.com.mx/sections/networking.html">
+                                <h1 class="title-sliders-vertical d-none d-md-block">Networking</h1>
+                                <h4 class="title-sliders-vertical d-block d-md-none">Networking</h4>
+                            </a>                            
+                            <br>
+                            <p class="description-sliders">Creamos nuevas formas de interactuar con los usuarios mediante un mayor aprovechamiento de las redes tecnológicas y monitoreo e interpretación de datos, abriendo camino con indicaciones focalizados a generar negocio para nuestros clientes.</p>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-5" style="text-align: center;">
+                            <div class="about-card-wrapper about-card-1">
+                                <div class="ratio-120">
+                                    <img src="Assets/Images/Home/Carousel/Network1.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Network1" style="z-index:11" >
+                                </div>                 
+                            </div>                                 
+                            <div class="about-card-wrapper about-card-2">
+                                <div class="ratio-120">
+                                    <img src="Assets/Images/Home/Carousel/Network2.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Network2" style="z-index:12" >
+                                </div>                 
+                            </div>                                       
+                            <div class="about-card-wrapper about-card-3">
+                                <div class="ratio-120">
+                                    <img src="Assets/Images/Home/Carousel/Network3.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Network3" style="z-index:13" >
+                                </div>                 
+                            </div>                                                                                    
+                        </div>
+                        
+                        <div class="col-lg-2 col-md-2 d-none d-md-block">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        </div>
+        <a class="carousel-control-prev carousel-control-hidde" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next carousel-control-hidde" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    
+ </div>
+ -->
+<!---------------     ↑    FIN    ↑     -------------->
+<!---------------------------------------------------------->
+
+
+<!--------------------CARRUSEL VERTICAL-------------------->
+<!---------------------------------------------------------->
+<!---------------   ↓   CAROUSEL   ↓  data-interval="false" d-none d-md-block -------------->
+<!--
+<div class="conteiner d-block d-md-none " id="carousel-verticals">
+    <div id="carouselExampleIndicatorsVertical" class="carousel slide" data-interval="false" >
+        <div class="row">
+            <ol class="carousel-indicators"  id="Indicators">
+                <li data-target="#carouselExampleIndicatorsVertical" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicatorsVertical" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicatorsVertical" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicatorsVertical" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicatorsVertical" data-slide-to="4"></li>
+                <li data-target="#carouselExampleIndicatorsVertical" data-slide-to="5"></li>
+                <li data-target="#carouselExampleIndicatorsVertical" data-slide-to="6"></li>
+                <li data-target="#carouselExampleIndicatorsVertical" data-slide-to="7"></li>
+              </ol>
+        </div>
+        
+        
+        <div class="carousel-inner">            
+            -->
+            <!--1-->
+            <!--
+            <div class="carousel-item active" style="background-color: #000000;">
+                    <div class="conteiner" style="padding-right: 15px; padding-left: 15px;">    
+                        <br>
+                        <br>
+                        <div style="display:block">                            
+                            <div class="row">
+                                <div class="col-lg-2 col-md-2 col-sm-2 col-lg-offset-1 visible-lg">
+                                </div>              
+                                <div class="col-lg-8 col-md-8 col-sm-8 col-lg-offset-1 visible-xs paddingTopCarouselVertical">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-lg-offset-1 visible-xs paddingTop">
+                                            <a style="display:block; text-decoration:none; background-image: none;" href="https://sellcom-solutions.com.mx/sections/hci.html">
+                                                <h1 class="title-sliders-vertical d-none d-md-block">HCI + SPDC</h1>
+                                                <h4 class="title-sliders-vertical d-block d-md-none">HCI + SPDC</h4>
+                                            </a>
+                                            <br>
+                                            <p class="description-sliders">
+                                                Con nuestras soluciones en tecnología ayudamos a la simplicidad de TI, transformamos la infraestructura de la TI a que sea definida por software, que virtualiza todos los elementos de los sistemas convencionales definidos por hardware.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="row" style="height: 100%;">                                        
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-lg-offset-1 visible-xs paddingTop">
+                                            <div class="about-card-wrapper-vertical about-card-1-vertical">
+                                                <div class="ratio-120-vertical">
+                                                    <img src="Assets/Images/Home/Carousel/HCI1.png" class="slider-image-item-vertical" style="cursor: pointer;" alt="" id="HCI1V"  style="z-index:11">
+                                                </div>                 
+                                            </div>                                      
+                                            <div class="about-card-wrapper-vertical about-card-2-vertical">
+                                                <div class="ratio-120-vertical">
+                                                    <img src="Assets/Images/Home/Carousel/HCI2.png" class="slider-image-item-vertical" style="cursor: pointer;" alt="" id="HCI2V" style="z-index:12">
+                                                </div>                 
+                                            </div>  
+                                            <div class="about-card-wrapper-vertical about-card-3-vertical">
+                                                <div class="ratio-120-vertical">
+                                                    <img src="Assets/Images/Home/Carousel/HCI3.png" class="slider-image-item-vertical" style="cursor: pointer;" alt="" id="HCI3V"  style="z-index:13">
+                                                </div>                 
+                                            </div>                                                      
+                                        </div>
+                                    </div>
+                                </div>                      
+                                <div class="col-lg-2 col-md-2 d-none d-md-block">
+                                </div>                                    
+                            </div>                           
+                        </div>                        
+                    </div>
+            </div>
+          -->
+            <!--2-->
+            <!--
+            <div class="carousel-item" style="background-color: #000000;">            
+                <div class="conteiner" style="padding-right: 15px; padding-left: 15px;">    
+                    <br>
+                    <br>
+                    <div style="display: block;">                        
+                        <div class="row">
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-lg-offset-1 visible-lg">
+                            </div>                                
+                            <div class="col-lg-8 col-md-8 col-sm-8 col-lg-offset-1 visible-xs paddingTopCarouselVertical">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-lg-offset-1 visible-xs paddingTop">
+                                        <a style="display:block; text-decoration:none; background-image: none;" href="https://sellcom-solutions.com.mx/sections/cloud.html">
+                                            <h1 class="title-sliders-vertical d-none d-md-block">Cloud</h1>
+                                            <h4 class="title-sliders-vertical d-block d-md-none">Cloud</h4>
+                                        </a>
+                                        <br>
+                                        <p class="description-sliders">Libramos a nuestros clientes de la complejidad y el costo de la TI tradicional mediante el poder de la nube híbrida o total.
+                                        </p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row" style="height: 100%;">                                        
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-lg-offset-1 visible-xs paddingTop">
+                                        <div class="about-card-wrapper-vertical about-card-1-vertical">
+                                            <div class="ratio-120-vertical">
+                                                <img src="Assets/Images/Home/Carousel/Nube1.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Nube1V" style="z-index:11" >
+                                            </div>                 
+                                        </div>                                           
+                                        <div class="about-card-wrapper-vertical about-card-2-vertical">
+                                            <div class="ratio-120-vertical">
+                                                <img src="Assets/Images/Home/Carousel/Nube2.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Nube2V" style="z-index:12" >
+                                            </div>                 
+                                        </div>                                       
+                                        <div class="about-card-wrapper-vertical about-card-3-vertical">
+                                            <div class="ratio-120-vertical">
+                                                <img src="Assets/Images/Home/Carousel/Nube3.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Nube3V" style="z-index:13" >
+                                            </div>                 
+                                        </div>                                                                                         
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-2 d-none d-md-block">
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+        </div>
+-->
+        <!--3-->
+        <!--
+        <div class="carousel-item" style="background-color: #000000;">            
+            <div class="conteiner" style="padding-right: 15px; padding-left: 15px;">    
+                <br>
+                <br>
+                <div style="display:block;">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-lg-offset-1 visible-lg">
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-8 col-lg-offset-1 visible-xs paddingTopCarouselVertical">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-lg-offset-1 visible-xs paddingTop">
+                                    <a style="display:block; text-decoration:none; background-image: none;" href="https://sellcom-solutions.com.mx/sections/security.html">
+                                        <h1 class="title-sliders-vertical d-none d-md-block">Seguridad</h1>
+                                        <h4 class="title-sliders-vertical d-block d-md-none">Seguridad</h4>
+                                    </a>                            
+                                    <br>
+                                    <p class="description-sliders">Habilitamos y apoyamos en cada momento crítico sobre las amenazas cibernéticas, antes y durante los eventos; mientras le permitimos adaptarse continuamente y mantenerse a la vanguardia de la próxima amenaza.</p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row" style="height: 100%;">                                        
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-lg-offset-1 visible-xs paddingTop">
+                                    <div class="about-card-wrapper-vertical about-card-1-vertical">
+                                        <div class="ratio-120-vertical">
+                                            <img src="Assets/Images/Home/Carousel/Security1.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Security1V" style="z-index:11" >
+                                        </div>                 
+                                    </div>                                           
+                                    <div class="about-card-wrapper-vertical about-card-2-vertical">
+                                        <div class="ratio-120-vertical">
+                                            <img src="Assets/Images/Home/Carousel/Security2.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Security2V" style="z-index:12" >
+                                        </div>                 
+                                    </div>                                       
+                                    <div class="about-card-wrapper-vertical about-card-3-vertical">
+                                        <div class="ratio-120-vertical">
+                                            <img src="Assets/Images/Home/Carousel/Security3.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Security3V" style="z-index:13" >
+                                        </div>                 
+                                    </div>                                                                                         
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 d-none d-md-block">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+-->
+          <!--4-->
+          <!--
+        <div class="carousel-item" style="background-color: #000000;">            
+            <div class="conteiner" style="padding-right: 15px; padding-left: 15px;">    
+                <br>
+                <br>
+                <div style="display: block;">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-lg-offset-1 visible-lg">
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-8 col-lg-offset-1 visible-xs paddingTopCarouselVertical">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-lg-offset-1 visible-xs paddingTop">
+                                    <a style="display:block; text-decoration:none; background-image: none;" href="http://dev.sellcom-solutions.com.mx/sections/business.html">
+                                        <h1 class="title-sliders-vertical d-none d-md-block">Procesos</h1>
+                                        <h4 class="title-sliders-vertical d-block d-md-none">Procesos</h4>
+                                    </a>                            
+                                    <br>
+                                    <p class="description-sliders">Detrás de cada experiencia de trabajo existe un gran proceso. Desarrollamos Flujos de Trabajo Digitales, conectamos personas, funciones y sistemas en todas las áreas de negocio.</p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row" style="height: 100%;">                                        
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-lg-offset-1 visible-xs paddingTop">
+                                    <div class="about-card-wrapper-vertical about-card-1-vertical">
+                                        <div class="ratio-120-vertical">
+                                            <img src="Assets/Images/Home/Carousel/Procesos1.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Procesos1V" style="z-index:11" >
+                                        </div>                 
+                                    </div>                                           
+                                    <div class="about-card-wrapper-vertical about-card-2-vertical">
+                                        <div class="ratio-120-vertical">
+                                            <img src="Assets/Images/Home/Carousel/Procesos2.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Procesos2V" style="z-index:12" >
+                                        </div>                 
+                                    </div>                                       
+                                    <div class="about-card-wrapper-vertical about-card-3-vertical">
+                                        <div class="ratio-120-vertical">
+                                            <img src="Assets/Images/Home/Carousel/Procesos3.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Procesos3V" style="z-index:13" >
+                                        </div>                 
+                                    </div>                                                                                         
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 d-none d-md-block">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+-->
+         <!--5-->
+         <!--
+         <div class="carousel-item" style="background-color: #000000;">            
+            <div class="conteiner" style="padding-right: 15px; padding-left: 15px;">    
+                <br>
+                <br>
+                <div style="display: block;">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-lg-offset-1 visible-lg">
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-8 col-lg-offset-1 visible-xs paddingTopCarouselVertical">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-lg-offset-1 visible-xs paddingTop">
+                                    <a style="display:block; text-decoration:none; background-image: none;" href="https://sellcom-solutions.com.mx/sections/mobility.html">
+                                        <h1 class="title-sliders-vertical d-none d-md-block">End User Comuting</h1>
+                                        <h4 class="title-sliders-vertical d-block d-md-none">End User Comuting</h4>
+                                    </a>                            
+                                    <br>
+                                    <p class="description-sliders">Con base en nuestras soluciones tecnológicas nos aseguramos que los usuarios, con distintos dispositivos, puedan acceder a sus aplicaciones y datos desde cualquier lugar y en cualquier momento.</p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row" style="height: 100%;">                                        
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-lg-offset-1 visible-xs paddingTop">
+                                    <div class="about-card-wrapper-vertical about-card-1-vertical">
+                                        <div class="ratio-120-vertical">
+                                            <img src="Assets/Images/Home/Carousel/EndUser1.png" class="slider-image-item" style="cursor: pointer;" alt="" id="EndUser1V" style="z-index:11" >
+                                        </div>                 
+                                    </div>                                           
+                                    <div class="about-card-wrapper-vertical about-card-2-vertical">
+                                        <div class="ratio-120-vertical">
+                                            <img src="Assets/Images/Home/Carousel/EndUser2.png" class="slider-image-item" style="cursor: pointer;" alt="" id="EndUser2V" style="z-index:12" >
+                                        </div>                 
+                                    </div>                                       
+                                    <div class="about-card-wrapper-vertical about-card-3-vertical">
+                                        <div class="ratio-120-vertical">
+                                            <img src="Assets/Images/Home/Carousel/EndUser3.png" class="slider-image-item" style="cursor: pointer;" alt="" id="EndUser3V" style="z-index:13" >
+                                        </div>                 
+                                    </div>                                                                                         
+                                </div>
+                            </div>
+                        </div>                        
+                        <div class="col-lg-2 col-md-2 d-none d-md-block">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+-->
+        <!--6-->
+        <!--
+        <div class="carousel-item" style="background-color: #000000;">            
+            <div class="conteiner" style="padding-right: 15px; padding-left: 15px;">    
+                <br>
+                <br>
+                <div style="display: block;">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-lg-offset-1 visible-lg">
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-8 col-lg-offset-1 visible-xs paddingTopCarouselVertical">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-lg-offset-1 visible-xs paddingTop">
+                                    <a style="display:block; text-decoration:none; background-image: none;" href="https://sellcom-solutions.com.mx/sections/monitor.html">
+                                        <h1 class="title-sliders-vertical d-none d-md-block">Monitoreo</h1>
+                                        <h4 class="title-sliders-vertical d-block d-md-none">Monitoreo</h4>
+                                    </a>
+                                    
+                                    <br>
+                                    <p class="description-sliders">Brindamos visibilidad total de redes, aplicaciones, sistemas y personas en tiempo real, además de la interpretación proactiva de los datos recolectados, buscando optimizaciones.</p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row" style="height: 100%;">                                        
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-lg-offset-1 visible-xs paddingTop">
+                                    <div class="about-card-wrapper-vertical about-card-1-vertical">
+                                        <div class="ratio-120-vertical">
+                                            <img src="Assets/Images/Home/Carousel/Monitoreo1.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Monitoreo1V" style="z-index:11" >
+                                        </div>                 
+                                    </div>                                           
+                                    <div class="about-card-wrapper-vertical about-card-2-vertical">
+                                        <div class="ratio-120-vertical">
+                                            <img src="Assets/Images/Home/Carousel/Monitoreo2.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Monitoreo2V" style="z-index:12" >
+                                        </div>                 
+                                    </div>                                       
+                                    <div class="about-card-wrapper-vertical about-card-3-vertical">
+                                        <div class="ratio-120-vertical">
+                                            <img src="Assets/Images/Home/Carousel/Monitoreo3.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Monitoreo3V" style="z-index:13" >
+                                        </div>                 
+                                    </div>                                                                                         
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 d-none d-md-block">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+-->
+        <!--7-->
+        <!--
+        <div class="carousel-item" style="background-color: #000000;">            
+            <div class="conteiner" style="padding-right: 15px; padding-left: 15px;">    
+                <br>
+                <br>
+                <div style="display: block;">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-lg-offset-1 visible-lg">
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-8 col-lg-offset-1 visible-xs paddingTopCarouselVertical">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-lg-offset-1 visible-xs paddingTop">
+                                    <a style="display:block; text-decoration:none; background-image: none;" href="http://dev.sellcom-solutions.com.mx/sections/framework.html">
+                                        <h1 class="title-sliders-vertical d-none d-md-block">Datos</h1>
+                                        <h4 class="title-sliders-vertical d-block d-md-none">Datos</h4>
+                                    </a>                            
+                                    <br>
+                                    <p class="description-sliders">Mediante la administración de datos empresariales podemos conectar a los creadores y consumidores de datos sin dificultades para encontrar datos de manera rápida y aprovechar todo el valor que ofrecen. Las operaciones de datos no son un producto, servicio o solución sino una metodología, un cambio tecnológico y cultural para optimizar el uso de datos mediante una mejor colaboración y automatización.</p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row" style="height: 100%;">                                        
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-lg-offset-1 visible-xs paddingTop">
+                                    <div class="about-card-wrapper-vertical about-card-1-vertical">
+                                        <div class="ratio-120-vertical">
+                                            <img src="Assets/Images/Home/Carousel/Data1.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Data1V" style="z-index:11" >
+                                        </div>                 
+                                    </div>                                           
+                                    <div class="about-card-wrapper-vertical about-card-2-vertical">
+                                        <div class="ratio-120-vertical">
+                                            <img src="Assets/Images/Home/Carousel/Data2.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Data2V" style="z-index:12" >
+                                        </div>                 
+                                    </div>                                       
+                                    <div class="about-card-wrapper-vertical about-card-3-vertical">
+                                        <div class="ratio-120-vertical">
+                                            <img src="Assets/Images/Home/Carousel/Data3.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Data3V" style="z-index:13" >
+                                        </div>                 
+                                    </div>                                                                                         
+                                </div>
+                            </div>
+                        </div>                        
+                        <div class="col-lg-2 col-md-2 d-none d-md-block">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+-->
+        <!--8-->
+        <!--
+        <div class="carousel-item" style="background-color: #000000;">
+            
+            <div class="conteiner" style="padding-right: 15px; padding-left: 15px;">    
+                <br>
+                <br>
+                <div style="display: block;">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-lg-offset-1 visible-lg">
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-8 col-lg-offset-1 visible-xs paddingTopCarouselVertical">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-lg-offset-1 visible-xs paddingTop">
+                                    <a style="display:block; text-decoration:none; background-image: none;" href="https://sellcom-solutions.com.mx/sections/networking.html">
+                                        <h1 class="title-sliders-vertical d-none d-md-block">Networking</h1>
+                                        <h4 class="title-sliders-vertical d-block d-md-none">Networking</h4>
+                                    </a>                            
+                                    <br>
+                                    <p class="description-sliders">Creamos nuevas formas de interactuar con los usuarios mediante un mayor aprovechamiento de las redes tecnológicas y monitoreo e interpretación de datos, abriendo camino con indicaciones focalizados a generar negocio para nuestros clientes.</p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row" style="height: 100%;">                                        
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-lg-offset-1 visible-xs paddingTop">
+                                    <div class="about-card-wrapper-vertical about-card-1-vertical">
+                                        <div class="ratio-120-vertical">
+                                            <img src="Assets/Images/Home/Carousel/Network1.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Network1V" style="z-index:11" >
+                                        </div>                 
+                                    </div>                                           
+                                    <div class="about-card-wrapper-vertical about-card-2-vertical">
+                                        <div class="ratio-120-vertical">
+                                            <img src="Assets/Images/Home/Carousel/Network2.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Network2V" style="z-index:12" >
+                                        </div>                 
+                                    </div>                                       
+                                    <div class="about-card-wrapper-vertical about-card-3-vertical">
+                                        <div class="ratio-120-vertical">
+                                            <img src="Assets/Images/Home/Carousel/Network3.png" class="slider-image-item" style="cursor: pointer;" alt="" id="Network3V" style="z-index:13" >
+                                        </div>                 
+                                    </div>                                                                                         
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 d-none d-md-block">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        </div>
+        -->
+        <!--
+        <a class="carousel-control-prev carousel-control-hidde" href="#carouselExampleIndicatorsVertical" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next carousel-control-hidde" href="#carouselExampleIndicatorsVertical" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        -->
+        <!--
+      </div>
+    
+ </div>
+ -->
+<!---------------     ↑    FIN    ↑     -------------->
+<!---------------------------------------------------------->
+
+
+
+
+<!---------------------------------------------------------->
+<!---------------   ↓   Cuadros Verticales   ↓    -------------->
+<!--
+<div id="rectangle-verticals" class="conteiner d-block d-lg-none" style="margin: 0px; padding: 0px; display: none;">     
+    <div class="row cuadro-verticals-link" style="margin: 0px; padding-left: 25px; padding-right: 25px;">
+        -->
+         <!--1-->
+         <!--
+        <div class="col-xs-3 col-sm-3 col-md-3 div-vertical-1">
+            <a style="text-decoration:none; background-image: none;" href="https://sellcom-solutions.com.mx/sections/hci.html">
+                <br>HCI + Soluciones para Data<br><br>
+                <img src="Assets/Images/Home/Carousel/HCI.gif" class="img-fluid" alt=""><br><br>
+            </a>            
+            
+        </div>
+        -->
+         <!--2-->
+         <!--
+        <div class="col-xs-3 col-sm-3 col-md-3 div-vertical-2">
+            <a style="text-decoration:none; background-image: none;" href="https://sellcom-solutions.com.mx/sections/cloud.html">
+                <br>Cloud<br><br>
+                <img src="Assets/Images/Home/Carousel/Cloud.gif" class="img-fluid" alt=""><br><br>
+            </a>
+        </div>
+        -->
+         <!--3-->
+         <!--
+        <div class="col-xs-3 col-sm-3 col-md-3 div-vertical-3">
+            <a style="text-decoration:none; background-image: none;" href="https://sellcom-solutions.com.mx/sections/security.html">
+                <br>Seguridad<br><br>
+                <img src="Assets/Images/Home/Carousel/Security.gif" class="img-fluid" alt=""><br><br> 
+            </a>             
+        </div>    
+        -->
+         <!--4-->  
+         <!--
+        <div class="col-xs-3 col-sm-3 col-md-3 div-vertical-4">
+            <a style="text-decoration:none; background-image: none;" href="http://dev.sellcom-solutions.com.mx/sections/business.html">
+                <br>Procesos<br><br>
+                <img src="Assets/Images/Home/Carousel/process.gif" class="img-fluid" alt=""><br><br>
+            </a>               
+        </div>
+        -->
+         <!--5-->
+         <!--
+        <div class="col-xs-3 col-sm-3 col-md-3 div-vertical-5">
+            <a style="text-decoration:none; background-image: none;" href="https://sellcom-solutions.com.mx/sections/mobility.html">
+                <br>Mobility & End User Comuting
+                <img src="Assets/Images/Home/Carousel/Communication.gif" class="img-fluid" alt=""><br><br>   
+            </a>             
+        </div>
+        -->
+         <!--6-->
+         <!--
+        <div class="col-xs-3 col-sm-3 col-md-3 div-vertical-6">
+            <a style="text-decoration:none; background-image: none;" href="https://sellcom-solutions.com.mx/sections/monitor.html">
+                <br>Monitoreo<br><br>
+                <img src="Assets/Images/Home/Carousel/Monitor.gif" class="img-fluid" alt=""><br><br> 
+            </a>              
+        </div>
+        -->
+         <!--7-->         
+         <!--
+        <div class="col-xs-3 col-sm-3 col-md-3 div-vertical-7">
+            <a style="text-decoration:none; background-image: none;" href="http://dev.sellcom-solutions.com.mx/sections/framework.html">
+                <br>Datos<br><br>
+                <img src="Assets/Images/Home/Carousel/Data.gif" class="img-fluid" alt=""><br><br>
+            </a>           
+        </div>
+        -->
+         <!--8-->         
+         <!--
+        <div class="col-xs-3 col-sm-3 col-md-3 div-vertical-8">
+            <a style="text-decoration:none; background-image: none;" href="https://sellcom-solutions.com.mx/sections/networking.html">
+                <br>Networking<br><br>
+                <img src="Assets/Images/Home/Carousel/Network.gif" class="img-fluid" alt=""><br><br>
+            </a>               
+        </div>
+            
+    </div>  
+
+  </div> 
+  -->
+<!---------------     ↑    FIN    ↑     -------------->
+<!---------------------------------------------------------->
+
+
+<br>
+<br>
+<br>
+<br>
+
+<!---------------------------------------------------------->
+<!---------------   ↓   Sellcom ZOOM  ↓    -------------->
+
+<div class="row" id="sellcomZoom">
+    <div class="col-xs-4 col-sm-4 col-md-4" style="padding: 0px;">
+
+        <div class="parent-zoom" onclick="location.href='https://sellcom-solutions.com.mx/sections/sellcom-solutions.html'">
+            <div class="child-zoom bg-sobreSellcom">
+              <a href="https://sellcom-solutions.com.mx/sections/sellcom-solutions.html">Sobre Sellcom</a>
+            </div>
+          </div>
+
+    </div>
+    <div class="col-xs-4 col-sm-4 col-md-4" style="padding: 0px;">
+
+        <div class="parent-zoom right" onclick="location.href='https://sellcom-solutions.com.mx/sections/awards.html'">
+            <div class="child-zoom bg-Premios">
+              <a href="https://sellcom-solutions.com.mx/sections/awards.html">Premios</a>
+            </div>
+          </div>
+
+    </div>
+    <div class="col-xs-4 col-sm-4 col-md-4" style="padding: 0px;">
+
+        <div class="parent-zoom" onclick="location.href='https://sellcom-solutions.com.mx/sections/sellcom-about.html'">
+            <div class="child-zoom bg-Contactanos">
+              <a href="https://sellcom-solutions.com.mx/sections/sellcom-about.html">Contáctanos</a>
+            </div>
+          </div>
+
+    </div>
+</div>
+<!---------------     ↑    FIN    ↑     -------------->
+<!---------------------------------------------------------->
+
+<br>
+<br>
+<br>
+<br>
+
+<!---------------------------------------------------------->
+<!---------------   ↓   BANNER CAMPAÑAS    ↓    -------------->
+<!--<div id="bannerCampanas" class="carousel slide" data-ride="carousel" data-interval="5000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+          <a style="text-decoration:none" href="https://sellcom-solutions.com.mx/sections/intel-microsoft.html">
+            <img src="PaginaSellcom/Assets/Images/Home/Banner/bannerintel1.jpg" class="d-block w-100" alt="bannerMicrosoft">
+          </a> 
+      </div>-->
+      <!--<div class="carousel-item">
+        <img src="Assets/Images/Home/Logo-Sellcom.png" class="d-block w-100" alt="...">
+      </div>-->
+   <!-- </div>
+</div>-->
+<!---------------     ↑    FIN    ↑     -------------->
+<!---------------------------------------------------------->
+
+<!---------------------------------------------------------->
+<!--------------- ↓ Title Socios ↓ -------------->
+<!--<div class="conteiner">
+ <div id="div-title-verticales">
+ <p id="title-verticales"> <span id="title-verticales-span">SOCIOS</span></p>
+ </div>
+ </div>-->
+<!---------------     ↑    FIN    ↑     -------------->
+<!---------------------------------------------------------->
+
+<!---------------------------------------------------------->
+<!---------------   ↓   LISTADO Socios    ↓    -------------->
+<div class="container-socios">
+    <!--Titulo-->
+    <div class="div-title-socios">
+        <h2 class="card-title">Son una parte importante de nuestro éxito.</h2>
+        <h2 class="card-title-2">Contribuyen con sus servicios a generar alianzas estratégicas</h2>
+        <h2 class="card-title-2">que nos permiten ofrecer mejores soluciones.</h2>
+    </div>
+    <!--filas-->
+    <div class="div-socios">
+        <div class="lista-socios">
+            <div role="list" class="lista-socios lista-items">
+                <!--1 fila-->
+                <div role="listitem" class="socios_logo">
+                    <img id="hpeImage" src="PaginaSellcom/Assets/Images/Home/Marcas/hpe_BCO.png" alt="hpe">
+                </div>
+                <div role="listitem" class="socios_logo">
+                    <img id="ivantiImage" src="PaginaSellcom/Assets/Images/Home/Marcas/Ivanti.png" alt="ivanti">
+                </div>
+                <div role="listitem" class="socios_logo">
+                    <img id="appleImage" src="PaginaSellcom/Assets/Images/Home/Marcas/Apple BCO.png" alt="apple">
+                </div>
+                <div role="listitem" class="socios_logo">
+                    <img id="anywhereImage" src="PaginaSellcom/Assets/Images/Home/Marcas/automation-anywhere.png" alt="anywhere">
+                </div>
+                <!--2 fila-->
+                <div role="listitem" class="socios_logo">
+                    <img img id="azureImage" src="PaginaSellcom/Assets/Images/Home/Marcas/Azure BCO.png" alt="azure">
+                </div>
+                <div role="listitem" class="socios_logo">
+                    <img id="cybercImage" src="PaginaSellcom/Assets/Images/Home/Marcas/cyber c.png" alt="cyber">
+                </div>
+                <div role="listitem" class="socios_logo">
+                    <img id="hitachiImage" src="PaginaSellcom/Assets/Images/Home/Marcas/Hitachi-05.png" alt="hitachi">
+                </div>
+                <div role="listitem" class="socios_logo">
+                    <img id="intelImage" src="PaginaSellcom/Assets/Images/Home/Marcas/Intel.png" alt="intel">
+                </div>
+                <!--3 fila-->
+                <div role="listitem" class="socios_logo">
+                    <img id="jamfImage" src="PaginaSellcom/Assets/Images/Home/Marcas/jamf.png" alt="jamf">
+                </div>
+                <div role="listitem" class="socios_logo">
+                    <img id="qlikImage" src="PaginaSellcom/Assets/Images/Home/Marcas/logo-qlik_bn.png" alt="qlik">
+                </div>
+                <div role="listitem" class="socios_logo">
+                    <img id="netappImage" src="PaginaSellcom/Assets/Images/Home/Marcas/NetApp_BCO.png" alt="netapp">
+                </div>
+                <div role="listitem" class="socios_logo">
+                    <img id="nutanixImage" src="PaginaSellcom/Assets/Images/Home/Marcas/nutanix.png" alt="nutanix">
+                </div>
+                <!--4 fila-->
+                <div role="listitem" class="socios_logo">
+                    <img id="powerbiImage" src="PaginaSellcom/Assets/Images/Home/Marcas/Power_bi_BCO.png" alt="power">
+                </div>
+                <div role="listitem" class="socios_logo">
+                    <img id="redhatImage" src="PaginaSellcom/Assets/Images/Home/Marcas/Red Hat.png" alt="redhat">
+                </div>
+                <div role="listitem" class="socios_logo">
+                    <img id="servicenowImage" src="PaginaSellcom/Assets/Images/Home/Marcas/ServiceNow.png" alt="servicenow">
+                </div>
+                <div role="listitem" class="socios_logo">
+                    <img id="veeamImage" src="PaginaSellcom/Assets/Images/Home/Marcas/Veeam-Logo_BCO.png" alt="veeam">
+                </div>
+                <!--5 fila-->
+                <div role="listitem" class="socios_logo">
+                    <img id="arubaImage" src="PaginaSellcom/Assets/Images/Home/Marcas/Aruba BCO.png" alt="aruba">
+                </div>
+                <div role="listitem" class="socios_logo">
+                    <img id="assacImage" src="PaginaSellcom/Assets/Images/Home/Marcas/Assac.png" alt="assac">
+                </div>
+                <div role="listitem" class="socios_logo">
+                    <img id="awsImage" src="PaginaSellcom/Assets/Images/Home/Marcas/AWS BCO.png" alt="aws">
+                </div>
+                <div role="listitem" class="socios_logo">
+                    <img id="blanccoImage" src="PaginaSellcom/Assets/Images/Home/Marcas/Blancco.png" alt="blancco">
+                </div>
+                <!--6 fila-->
+                <div role="listitem" class="socios_logo">
+                    <img id="cyeImage" src="PaginaSellcom/Assets/Images/Home/Marcas/CyE.png" alt="cye">
+                </div>
+                <div role="listitem" class="socios_logo">
+                    <img id="dellImage" src="PaginaSellcom/Assets/Images/Home/Marcas/Dell-05.png" alt="dell">
+                </div>
+                <div role="listitem" class="socios_logo">
+                    <img id="hpImage" src="PaginaSellcom/Assets/Images/Home/Marcas/hp_BCO.png" alt="hp">
+                </div>
+                <div role="listitem" class="socios_logo">
+                    <img id="hpeeImage" src="PaginaSellcom/Assets/Images/Home/Marcas/HPE.png" alt="hpee">
+                </div>
+                <!--7 fila-->
+                <div role="listitem" class="socios_logo">
+                    <img id="nauditImage" src="PaginaSellcom/Assets/Images/Home/Marcas/Naudit BCO.png" alt="naudit">
+                </div>
+                <div role="listitem" class="socios_logo">
+                    <img id="sslImage" src="PaginaSellcom/Assets/Images/Home/Marcas/ssl-logo-Gris.png" alt="ssl">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------     ↑    FIN    ↑     -------------->
+<!---------------------------------------------------------->
+
+<!---------------------------------------------------------->
+<!---------------   ↓   FOOTER    ↓    -------------->
+<div id="main-footer"></div>
+<!---------------     ↑    FIN    ↑     -------------->
+<!---------------------------------------------------------->
+
+</body>
+</html>
