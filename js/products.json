@@ -1,0 +1,64 @@
+{
+	"success":true,
+	"message":"success",
+	"data":{
+			"page": 6,
+			"total_rows":9,
+	  "list":[{
+		  "nid":"1",
+		  "image":"http://desarrollo.ingenia.com/Sellcom_Marketing_Digital/Code/front_end/dist/dev/images/products_services/sellcom-products-prod1.png",
+		  "title":"Dispositivos",
+		  "desc":"Apple HP Inc.HPE.",
+		  "link":"http://"
+		  },{
+			"nid":"2",
+			"image":"http://desarrollo.ingenia.com/Sellcom_Marketing_Digital/Code/front_end/dist/dev/images/products_services/sellcom-products-prod2.png",
+			"title":"Apps Nativas",
+			"desc":"SDK",
+			"link":"http://"
+		},{
+			"nid":"3",
+			"image":"http://desarrollo.ingenia.com/Sellcom_Marketing_Digital/Code/front_end/dist/dev/images/products_services/sellcom-products-prod3.png",
+			"title":"Programación",
+			"desc":"Swift-Apple",
+			"link":"http://"
+		},{
+		  "nid":"4",
+		  "image":"http://desarrollo.ingenia.com/Sellcom_Marketing_Digital/Code/front_end/dist/dev/images/products_services/sellcom-products-prod4.png",
+		  "title":" Service Desk",
+		  "desc":"Aranda Asset Management",
+		  "link":"http://"
+		  },{
+			"nid":"5",
+			"image":"http://desarrollo.ingenia.com/Sellcom_Marketing_Digital/Code/front_end/dist/dev/images/products_services/sellcom-products-prod5.png",
+			"title":"Asset Management",
+			"desc":"Aranda Asset Management",
+			"link":"http://"
+		},{
+			"nid":"6",
+			"image":"http://desarrollo.ingenia.com/Sellcom_Marketing_Digital/Code/front_end/dist/dev/images/products_services/sellcom-products-prod6.png",
+			"title":"Path Management",
+			"desc":"Aranda Asset Management",
+			"link":"http://"
+		},{
+			"nid":"7",
+			"image":"http://desarrollo.ingenia.com/Sellcom_Marketing_Digital/Code/front_end/dist/dev/images/products_services/sellcom-products-ser6.png",
+			"title":"Instalación, soporte e infraestructura",
+			"desc":"Obtén soluciones de servidores, almacenamiento, dispositivos de usuario y más.",
+			"link":"http://"
+		},{
+			"nid":"8",
+			"image":"http://desarrollo.ingenia.com/Sellcom_Marketing_Digital/Code/front_end/dist/dev/images/products_services/sellcom-products-ser6.png",
+			"title":"Instalación, soporte e infraestructura",
+			"desc":"Obtén soluciones de servidores, almacenamiento, dispositivos de usuario y más.",
+			"link":"http://"
+		},{
+			"nid":"9",
+			"image":"http://desarrollo.ingenia.com/Sellcom_Marketing_Digital/Code/front_end/dist/dev/images/products_services/sellcom-products-ser6.png",
+			"title":"Instalación, soporte e infraestructura",
+			"desc":"Obtén soluciones de servidores, almacenamiento, dispositivos de usuario y más.",
+			"link":"http://"
+		}
+		]
+	}
+  }

@@ -50,6 +50,13 @@
 #conocenos-mobile {
     display: none;
 }
+#conocenos-desktop2 {
+    display: block;
+}
+
+#conocenos-mobile2 {
+    display: none;
+}
 
 #partners-mobile {
     display: none;
@@ -621,6 +628,13 @@ video {
     #conocenos-mobile {
         display: block;
     }
+    #conocenos-desktop2 {
+        display: none;
+    }
+
+    #conocenos-mobile2 {
+        display: block;
+    }
 
     #carrucel-desktop {
 
@@ -700,8 +714,11 @@ video {
         font-size: 6.5px;
         padding: 0px 8px;
         height: 22px;
+         top: 25%;
+    left: 43%;
     }
 }
+
 
 
 

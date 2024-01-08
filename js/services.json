@@ -1,0 +1,73 @@
+{
+    "success":true,
+    "message":"success",
+    "data":{
+			"page": 6,
+			"total_rows":9,
+      "list":[{
+          "nid":"1",
+          "image":"http://desarrollo.ingenia.com/Sellcom_Marketing_Digital/Code/front_end/dist/dev/images/products_services/sellcom-products-ser1.png",
+          "title":"Arrendamiento",
+          "subtitle":"Solo pagas lo que necesitas",
+          "desc":"Un Service Manager se encarga del soporte y la calidad de tus servicios.",
+          "link":"http://"
+          },{
+            "nid":"2",
+            "image":"http://desarrollo.ingenia.com/Sellcom_Marketing_Digital/Code/front_end/dist/dev/images/products_services/sellcom-products-ser2.png",
+            "title":"Consultoría",
+            "subtitle":"Un análisis de lo mejor para tu negocio",
+            "desc":"Nuestros asesores se encargan de maximizar tus recursos de TI",
+            "link":"http://"
+        },{
+            "nid":"3",
+            "image":"http://desarrollo.ingenia.com/Sellcom_Marketing_Digital/Code/front_end/dist/dev/images/products_services/sellcom-products-ser3.png",
+            "title":"Financiamiento HP",
+            "subtitle":"Esquemas con base en tus posibilidades",
+            "desc":"Obtén un plan que incluye software, instalación, cableado y un seguro.",
+            "link":"http://"
+        },{
+          "nid":"4",
+          "image":"http://desarrollo.ingenia.com/Sellcom_Marketing_Digital/Code/front_end/dist/dev/images/products_services/sellcom-products-ser4.png",
+          "title":"Distribuidor HP",
+          "subtitle":"Velocidad y adaptación para el cliente",
+          "desc":"Tenemos 12 años de experiencia; esto genera un alto nivel de confianza.",
+          "link":"http://"
+          },{
+            "nid":"5",
+            "image":"http://desarrollo.ingenia.com/Sellcom_Marketing_Digital/Code/front_end/dist/dev/images/products_services/sellcom-products-ser5.png",
+            "title":"Redes",
+            "subtitle":"Automatiza tus tareas de administración",
+            "desc":"Comparte tus recursos entre varios equipos con un sistema instalado en tus servidores.",
+            "link":"http://"
+        },{
+            "nid":"6",
+            "image":"http://desarrollo.ingenia.com/Sellcom_Marketing_Digital/Code/front_end/dist/dev/images/products_services/sellcom-products-ser6.png",
+            "title":"Instalación, soporte e infraestructura",
+            "subtitle":"La calidad es nuestro objetivo principal",
+            "desc":"Obtén soluciones de servidores, almacenamiento, dispositivos de usuario y más.",
+            "link":"http://"
+        },{
+					"nid":"7",
+					"image":"http://desarrollo.ingenia.com/Sellcom_Marketing_Digital/Code/front_end/dist/dev/images/products_services/sellcom-products-ser6.png",
+					"title":"Instalación, soporte e infraestructura",
+					"subtitle":"La calidad es nuestro objetivo principal",
+					"desc":"Obtén soluciones de servidores, almacenamiento, dispositivos de usuario y más.",
+					"link":"http://"
+				},{
+					"nid":"8",
+					"image":"http://desarrollo.ingenia.com/Sellcom_Marketing_Digital/Code/front_end/dist/dev/images/products_services/sellcom-products-ser6.png",
+					"title":"Instalación, soporte e infraestructura",
+					"subtitle":"La calidad es nuestro objetivo principal",
+					"desc":"Obtén soluciones de servidores, almacenamiento, dispositivos de usuario y más.",
+					"link":"http://"
+				},{
+					"nid":"9",
+					"image":"http://desarrollo.ingenia.com/Sellcom_Marketing_Digital/Code/front_end/dist/dev/images/products_services/sellcom-products-ser6.png",
+					"title":"Instalación, soporte e infraestructura",
+					"subtitle":"La calidad es nuestro objetivo principal",
+					"desc":"Obtén soluciones de servidores, almacenamiento, dispositivos de usuario y más.",
+					"link":"http://"
+				}
+				]
+    }
+  }
