@@ -69,6 +69,12 @@
 #footer-mobile {
     display: none;
 }
+h6{
+    color: black;
+}
+#footer-mobile2 {
+    display: none;
+}
 
 #footer-desktop {
     display: block;
@@ -668,6 +674,28 @@ video {
     #footer-mobile {
         display: block;
     }
+    h6{
+        color: white;
+        font-size: 18px;
+    }
+    #project-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  color: white;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  -webkit-transition: ease-in-out 0.2s;
+  -moz-transition: ease-in-out 0.2s;
+  -ms-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
+}
 
     #footer-desktop {
         display: none;
@@ -711,11 +739,11 @@ video {
 
 @media screen and (max-width:500px) {
     .btn-banner {
-        font-size: 6.5px;
+        font-size: 12px;
         padding: 0px 8px;
-        height: 22px;
-         top: 25%;
-    left: 43%;
+        height: 25px;
+         top: 38%;
+    left: 39%;
     }
 }
 

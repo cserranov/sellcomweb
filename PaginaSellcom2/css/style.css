@@ -6,6 +6,8 @@ body {
 	background: white; 
 	font-size: 1em;
 	line-height: 1.5em;
+    max-width: 100%;
+overflow-x: hidden;
 }
 #footer-mobile {
     display: none;
@@ -53,6 +55,9 @@ body {
     }
     #footer-mobile {
         display: block;
+    }
+    .tet{
+        font-size: 10px;
     }
 
     #footer-desktop {
@@ -2597,6 +2602,12 @@ img.img-fluid{
 #assacImage{
     width:40%;
 }
+#assacImage2{
+    width:40%;
+}
+#assacImage3{
+    width:40%;
+}
 
 #awsImage{
     width:40%;
@@ -2688,6 +2699,20 @@ img.img-fluid{
 
 #assacImage:hover {
     content: url('../Assets/Images/Home/Marcas/Assac_C.png');
+    display: block;
+    width: 40%;
+    height: auto;
+    margin: auto;
+}
+#assacImage2:hover {
+    content: url('../Assets/Images/Home/Marcas/plannam2.png');
+    display: block;
+    width: 40%;
+    height: auto;
+    margin: auto;
+}
+#assacImage3:hover {
+    content: url('../Assets/Images/Home/Marcas/common2.png');
     display: block;
     width: 40%;
     height: auto;
@@ -10495,7 +10520,7 @@ img.img-fluid{
 }
 
 .background-color-vert-hci-large {
-    background-color: #5407A5;
+    background-color: #7c8081;
     margin: 0 auto;
     text-align: left;
     vertical-align: middle;
@@ -10503,18 +10528,18 @@ img.img-fluid{
 }
 
 .vert-hci-background-child{
-    background-color: #5407A5;
+    background-color: #7c8081;
     height: auto;
 }
 
 .line-between-hci{
-    background-color: #5407A5;
+    background-color: #7c8081;
     height: 15px;
     width: 80px;
 }
 
 .container-background-solu-hci{
-    background-color: #5407A5;
+    background-color: #7c8081;
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -10651,7 +10676,7 @@ img.img-fluid{
     vertical-align: middle;
     padding: 25px 70px;
     background-image:
-    linear-gradient(to right, rgba(20, 13, 68, 1), rgba(0, 0, 0, 0));
+    linear-gradient(to right, #7c8081, rgba(0, 0, 0, 0));
 }
 
 .vertical-align-hci{
@@ -10740,7 +10765,7 @@ img.img-fluid{
 }
 
 .background-color-vert-nube-large {
-    background-color: #46A7AB;
+    background-color: #7c8081;
     margin: 0 auto;
     text-align: left;
     vertical-align: middle;
@@ -10748,12 +10773,12 @@ img.img-fluid{
 }
 
 .vert-nube-background-child{
-    background-color: #46A7AB;
+    background-color: #7c8081;
     height: auto;
 }
 
 .line-between-nube{
-    background-color: #46A7AB;
+    background-color: #7c8081;
     height: 15px;
     width: 80px;
 }
@@ -10770,7 +10795,7 @@ img.img-fluid{
     vertical-align: middle;
     padding: 25px 70px;
     background-image:
-    linear-gradient(to right, rgba(70, 167, 171, 1), rgba(0, 0, 0, 0));
+   linear-gradient(to right, #7c8081, rgba(0, 0, 0, 0));
 }
 
 .vertical-align-nube{
@@ -10877,7 +10902,7 @@ img.img-fluid{
 }
 
 .container-bg-solu-nube{
-    background-color: #46A7AB;
+    background-color: #7c8081;
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -10907,7 +10932,8 @@ img.img-fluid{
     vertical-align: middle;
     padding: 25px 70px;
     background-image:
-    linear-gradient(to right, rgba(245, 203, 71, 1), rgba(0, 0, 0, 0));
+   linear-gradient(to right, #efefef, rgba(0, 0, 0, 0));
+
 }
 
 .vertical-align-datos{
@@ -10927,13 +10953,13 @@ img.img-fluid{
 }
 
 .line-between-datos{
-    background-color: #F5CB47;
+    background-color: #c2bfc4;
     height: 15px;
     width: 80px;
 }
 
 .container-bg-solu-datos{
-    background-color: #F5CB47;
+    background-color: #c2bfc4;
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -10978,7 +11004,7 @@ img.img-fluid{
     vertical-align: middle;
     padding: 25px 70px;
     background-image:
-    linear-gradient(to right, rgba(25, 79, 203, 1), rgba(0, 0, 0, 0));
+    linear-gradient(to right, #d29b83, rgba(0, 0, 0, 0));
 }
 
 .vertical-align-redes{
@@ -10987,7 +11013,7 @@ img.img-fluid{
 }
 
 .container-bg-solu-redes{
-    background-color: #194FCB;
+    background-color: #d29b83;
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -11015,13 +11041,13 @@ img.img-fluid{
 }
 
 .line-between-redes-delg{
-    background-color: #194FCB;
+    background-color: #d29b83;
     height: 3px;
     width: 100%;
 }
 
 .line-between-redes{
-    background-color: #194FCB;
+    background-color: #d29b83;
     height: 15px;
     width: 80px;
 }
@@ -11057,7 +11083,7 @@ img.img-fluid{
     vertical-align: middle;
     padding: 25px 70px;
     background-image:
-    linear-gradient(to right, rgba(198, 57, 134, 1), rgba(0, 0, 0, 0));
+    linear-gradient(to right, #7c8081, rgba(0, 0, 0, 0));
 }
 
 .vertical-align-procesos{
@@ -11066,19 +11092,19 @@ img.img-fluid{
 }
 
 .line-between-procesos-delg{
-    background-color: #C63986;
+    background-color: #7c8081;
     height: 3px;
     width: 100%;
 }
 
 .line-between-procesos{
-    background-color: #C63986;
+    background-color: #7c8081;
     height: 15px;
     width: 80px;
 }
 
 .container-bg-solu-procesos{
-    background-color: #C63986;
+    background-color: #7c8081;
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -11097,7 +11123,7 @@ img.img-fluid{
     vertical-align: middle;
     padding: 25px 70px;
     background-image:
-    linear-gradient(to right, rgba(44, 105, 56, 1), rgba(0, 0, 0, 0));
+    linear-gradient(to right, #7c8081, rgba(0, 0, 0, 0));
 }
 
 .vertical-align-monitoreo{
@@ -11106,13 +11132,13 @@ img.img-fluid{
 }
 
 .container-bg-solu-monitoreo{
-    background-color: #2C6938;
+    background-color: #becad3;
     padding-left: 40px;
     padding-right: 40px;
 }
 
 .line-between-monitoreo{
-    background-color: #2C6938;
+    background-color: #becad3;
     height: 15px;
     width: 80px;
 }
@@ -11131,7 +11157,7 @@ img.img-fluid{
     vertical-align: middle;
     padding: 25px 70px;
     background-image:
-    linear-gradient(to right, rgba(30, 33, 129, 1), rgba(0, 0, 0, 0));
+    linear-gradient(to right, #7c8081, rgba(0, 0, 0, 0));
 }
 
 .vertical-align-seguridad{
@@ -11146,7 +11172,7 @@ img.img-fluid{
 }
 
 .background-color-vert-seguridad-large {
-    background-color: #1E2181;
+    background-color: #c2bfc4;
     margin: 0 auto;
     text-align: left;
     vertical-align: middle;
@@ -11154,18 +11180,18 @@ img.img-fluid{
 }
 
 .vert-seguridad-background-child{
-    background-color: #1E2181;
+    background-color: #c2bfc4;
     height: auto;
 }
 
 .line-between-seguridad{
-    background-color: #1E2181;
+    background-color: #c2bfc4;
     height: 15px;
     width: 80px;
 }
 
 .container-background-solu-seguridad{
-    background-color: #1E2181;
+    background-color: #c2bfc4;
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -12460,7 +12486,7 @@ img.img-fluid{
     vertical-align: middle;
     padding: 25px 70px;
     background-image:
-    linear-gradient(to right, rgba(102, 162, 94, 1), rgba(0, 0, 0, 0));
+   linear-gradient(to right, #d29b83, rgba(0, 0, 0, 0));
 }
 
 .vertical-align-sobreSellcom{
@@ -12489,13 +12515,13 @@ img.img-fluid{
 }
 
 .h1-numeros-sobresellcomNew{
-    color: #66A25E;
+    color: #d29b83;
     font-size: 5.0rem;
     font-weight: 800;
 }
 
 .line-between-sobreSell-delg{
-    background-color: #439323;
+    background-color: #d29b83;
     height: 3px;
     width: 100%;
 }
@@ -12512,7 +12538,7 @@ img.img-fluid{
     vertical-align: middle;
     padding: 15px 25px;
     opacity: 0.8;
-    background-color: #43953A;
+    background-color: #d29b83;
 }
 
 .cuadro-gris-sobreSellcomNew{
@@ -12569,7 +12595,7 @@ img.img-fluid{
     vertical-align: middle;
     padding: 25px 90px;
     opacity: 0.8;
-    background-color: #43953A;
+    background-color: #d29b83;
 }
 
 .vertical-align-bg-solu-sobreSellcomVal{
@@ -12972,10 +12998,11 @@ img.img-fluid{
 
 @media screen and (max-width:500px) {
     .btn-banner {
-        font-size: 6.5px;
+        font-size: 12px;
         padding: 0px 8px;
-        height: 22px;
-         left: 33%;
+        height: 25px;
+         top: 38%;
+    left: 18%;
     }
 }
 
