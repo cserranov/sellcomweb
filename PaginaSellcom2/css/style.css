@@ -1293,7 +1293,7 @@ overflow-x: hidden;
 .flecha-menu-principal a{
     text-decoration: none;    
     cursor:pointer;
-    background-image: linear-gradient(#009D39, #009D39);
+    background-image: linear-gradient(#607D8B, #607D8B);
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 0% 2px;
