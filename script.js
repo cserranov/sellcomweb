@@ -39,7 +39,7 @@ function handleScrollVideo() {
                 setTimeout(function () {
                     element.style.animation = 'appearFromBottom 0.5s forwards';
 
-                }, 3000);
+                }, 1000);
             }
         } else {
             element.style.animation = '';
@@ -58,7 +58,7 @@ function handleScrollVideosub() {
                 setTimeout(function () {
                     element.style.animation = 'appearFromBottom 0.5s forwards';
 
-                }, 4000);
+                }, 1000);
             }
         } else {
             element.style.animation = '';
@@ -122,10 +122,10 @@ window.addEventListener("scroll", function () {
         isZoomed = true;
         setTimeout(function () {
             document.querySelector('.letrasConEfectoVideo').classList.add('animation');
-        }, 20000);
+        }, 10000);
 
     } else if (sectionsScrolled <= 4.9 && isZoomed) {
-        document.querySelector(".image2").style.transition = "transform 0.5s ease-out"; /* Vuelve a la duración original de la transición */
+        document.querySelector(".image2").style.transition = "transform 0.2s ease-out"; /* Vuelve a la duración original de la transición */
         document.querySelector(".image2").style.transform = "scale(1)";
         isZoomed = false;
       /*  document.querySelector('.animarTexto').classList.remove('animation');*/
