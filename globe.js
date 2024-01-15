@@ -98,9 +98,9 @@ DAT.Globe = function (container, opts) {
         shader = Shaders['earth'];
         uniforms = THREE.UniformsUtils.clone(shader.uniforms);
 
-        uniforms['texture'].value = THREE.ImageUtils.loadTexture(imgDir + 'sellcomweb.gthub.io/world_11zon.webp');
+        uniforms['texture'].value = THREE.ImageUtils.loadTexture(imgDir + 'sellcom_page-main/world_11zon.webp');
        /* uniforms['texture'].value = THREE.ImageUtils.loadTexture(imgDir + 'assets/world.png');*/
-
+       /*uniforms['texture'].value = THREE.ImageUtils.loadTexture(imgDir + 'sellcomweb.gthub.io/world_11zon.webp');*/
         material = new THREE.ShaderMaterial({
 
             uniforms: uniforms,
