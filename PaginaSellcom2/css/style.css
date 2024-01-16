@@ -11608,7 +11608,7 @@ img.img-fluid{
 }
 
 .background-color-vert-nutanix-large {
-    background-color: #7855fa;
+    background-color: #000;
     margin: 0 auto;
     text-align: left;
     vertical-align: middle;
@@ -11616,12 +11616,12 @@ img.img-fluid{
 }
 
 .vert-nutanix-background-child{
-    background-color: #7855fa;
+    background-color: #000;
     height: auto;
 }
 
 .line-between-nutanix{
-    background-color: #DBE9AD;
+    background-color: #7855fa;
     height: 15px;
     width: 80px;
 }
