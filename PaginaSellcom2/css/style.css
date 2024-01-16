@@ -8806,11 +8806,13 @@ img.img-fluid{
 .card-beneficios-marcas{
     background-color: transparent;
     border: none;
+
 }
 
 .new-card-padding-beneficios{
     padding: 10px 18px;
     color: black;
+    display: flex;
 }
 
 .new-cuadro-card-padding{
