@@ -11595,7 +11595,7 @@ img.img-fluid{
     vertical-align: middle;
     padding: 25px 70px;
     background-image:
-    linear-gradient(to right, rgba(23, 68, 137, 1), rgba(0, 0, 0, 0));
+   linear-gradient(to right, #7855fa, rgba(0, 0, 0, 0));
 }
 
 .verticalLineContainer-nutanix{
@@ -11606,7 +11606,7 @@ img.img-fluid{
 }
 
 .background-color-vert-nutanix-large {
-    background-color: #174489;
+    background-color: #7855fa;
     margin: 0 auto;
     text-align: left;
     vertical-align: middle;
@@ -11614,7 +11614,7 @@ img.img-fluid{
 }
 
 .vert-nutanix-background-child{
-    background-color: #174489;
+    background-color: #7855fa;
     height: auto;
 }
 
